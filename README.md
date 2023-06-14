@@ -48,11 +48,11 @@ has important connections with the [Gray code](https://mathworld.wolfram.com/Gra
 The purpose of this assignment is to give you practice writing programs with input and output, including standard output, standard input, and standard drawing. Here the [specifications](https://coursera.cs.princeton.edu/introcs/assignments/io/specification.php). 
 
 [**ShannonEntropy**](https://github.com/Uriel1201/HelloJava/blob/main/ShannonEntropy.java)
-> The [Shannon entropy] is a fundamental concept in information theory and data compression.
+> The [Shannon entropy](https://towardsdatascience.com/the-intuition-behind-shannons-entropy-e74820fe9800) is a fundamental concept in information theory and data compression.
 
 [**Checkerboard**](https://github.com/Uriel1201/HelloJava/blob/main/Checkerboard.java)
 
-[**WorldMap**]
+[**WorldMap**](https://github.com/Uriel1201/HelloJava/blob/main/WorldMap.java)
 
 ## Functions
 The purpose of this assignment is to give you practice writing programs with Java functions (static methods). Here the [specifications.](https://coursera.cs.princeton.edu/introcs/assignments/functions/specification.php)
