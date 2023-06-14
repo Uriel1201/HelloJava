@@ -36,7 +36,7 @@ has important connections with the [Gray code](https://mathworld.wolfram.com/Gra
 [**Minesweeper**](https://github.com/Uriel1201/HelloJava/blob/main/Minesweeper.java)
 
 [Minesweeper](https://mathworld.wolfram.com/Minesweeper.html) is a 1960s era video game played on an m-by-n grid of cells.
-> Ex. *An 5-by-12 grid of cells containing 27 mines* (*) *uniformly at random and the number of mines surrounding each cell without mines.*
+> Ex. *An 5-by-12 grid of cells containing 27 mines* (*) *uniformly at random and the number of mines surrounding each cell which doesn't contain mines.*
 ```
 * * 2 * * 3 * 3 * * * *
 * 4 3 2 3 * 3 * 4 5 * 3
