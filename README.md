@@ -45,6 +45,15 @@ has important connections with the [Gray code](https://mathworld.wolfram.com/Gra
 2 3 * * 4 * 2 2 * * 3 1
 ```
 ## Inputs and Outputs
+The purpose of this assignment is to give you practice writing programs with input and output, including standard output, standard input, and standard drawing. Here the [specifications](https://coursera.cs.princeton.edu/introcs/assignments/io/specification.php). 
+
+[**ShannonEntropy**]
+> The [Shannon entropy] is a fundamental concept in information theory and data compression.
+
+[**Checkerboard**]
+
+[**WorldMap**]
+
 ## Functions
 The purpose of this assignment is to give you practice writing programs with Java functions (static methods). Here the [specifications.](https://coursera.cs.princeton.edu/introcs/assignments/functions/specification.php)
 
