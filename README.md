@@ -7,6 +7,19 @@
 ## [Data Types](https://coursera.cs.princeton.edu/introcs/assignments/hello/specification.php)
 ## Conditionals and Loops
 The purpose of this assignment is to give you practice writing programs with loops and conditionals. [Specifications](https://coursera.cs.princeton.edu/introcs/assignments/loops/specification.php)
+
+[**GeneralizedHarmonicNumbers**](https://github.com/Uriel1201/HelloJava/blob/main/GeneralizedHarmonic.java)
+> The generalized [harmonic](https://mathworld.wolfram.com/HarmonicNumber.html) numbers are closely related to the Riemann [zeta](https://mathworld.wolfram.com/RiemannZetaFunction.html) function, which plays a central role in number theory.
+
+[**BandMatrix**](https://github.com/Uriel1201/HelloJava/blob/main/BandMatrix.java)
+> Band matrices are matrices whose nonzero entries are restricted to a diagonal band. They arise frequently in numerical linear algebra.
+
+[**RandomWalker**](https://github.com/Uriel1201/HelloJava/blob/main/RandomWalker.java)
+> This process is a discrete version of a natural phenomenon known as [Brownian motion](https://mathworld.wolfram.com/BrownianMotion.html). It serves as a scientific model for an astonishing range of physical processes from the dispersion of ink flowing in water, to the formation of polymer chains in chemistry, to cascades of neurons firing in the brain.
+
+[**RandomWalkers**](https://github.com/Uriel1201/HelloJava/blob/main/RandomWalkers.java)
+> Estimating an unknown quantity by generating random samples and aggregating the results is an example of Monte Carlo [simulation](https://mathworld.wolfram.com/MonteCarloMethod.html)—a powerful computational technique that is used widely in statistical physics, computational finance, and computer graphics.
+
 ## Arrays
 The purpose of this assignment is to give you practice writing programs with arrays. Here the [specifications](https://coursera.cs.princeton.edu/introcs/assignments/arrays/specification.php).
 
