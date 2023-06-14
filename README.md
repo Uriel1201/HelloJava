@@ -48,29 +48,29 @@ has important connections with the [Gray code](https://mathworld.wolfram.com/Gra
 ## Functions
 The purpose of this assignment is to give you practice writing programs with Java functions (static methods). Here the [specifications.](https://coursera.cs.princeton.edu/introcs/assignments/functions/specification.php)
 
-[**ActivationFunctions.**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/ActivationFunction.java)
+[**ActivationFunctions**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/ActivationFunction.java)
 > An activation function that arises in [neural networks](https://en.m.wikipedia.org/wiki/Artificial_neural_network) is a function that maps real numbers into a desired range, such as between 0 and 1 or between –1 and +1.
 
-[**Divisors.**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/Divisors.java)
+[**Divisors**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/Divisors.java)
 > 1. The greatest common divisor ([gcd](https://mathworld.wolfram.com/GreatestCommonDivisor.html)) of two integers **a** and **b**. By convention, gcd(0,0)=0.
 > 2. The least common multiple ([lcm](https://mathworld.wolfram.com/LeastCommonMultiple.html)) of two integers **a** and **b**. By convention, if either **a** or **b** is 0, then lcm(a,b)=0.
 > 3. Two integers **a** and **b** [relatively prime](https://mathworld.wolfram.com/RelativelyPrime.html).
 > 4. Euler’s totient function [ϕ(n)](https://mathworld.wolfram.com/TotientFunction.html). Note that if **n**≤0, then ϕ(n)=0.
 
-[**AudioCollage.**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/AudioCollage.java)
+[**AudioCollage**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/AudioCollage.java)
 ## Recursion 
 The purpose of this assignment is to give you practice writing programs with recursion. Here are the [specifications.](https://coursera.cs.princeton.edu/introcs/assignments/recursion/specification.php)
 
-[**TrinomialBrute.**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/TrinomialBrute.java)
+[**TrinomialBrute**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/TrinomialBrute.java)
 > [Trinomial coefficients](https://mathworld.wolfram.com/TrinomialCoefficient.html) arise in combinatorics. For example, T(n,k) is the number of permutations of n symbols, each of which is −1, 0, or +1, which sum to exactly k and T(n,k−n) is the number of different ways of randomly drawing k cards from two identical decks of n playing cards.
 
-[**TrinomialDP.**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/TrinomialDP.java)
+[**TrinomialDP**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/TrinomialDP.java)
 > The programming approach using recursion sometimes is exponentially wasteful so in some cases like this case, a good idea would be to switch to the dynamic programming approach.
 
-[**RevesPuzzle.**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/RevesPuzzle.java)
+[**RevesPuzzle**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/RevesPuzzle.java)
 > Here Reve's Puzzle is the generalized [Hanoi Game](https://mathworld.wolfram.com/TowerofHanoi.html) which uses 4 pegs instead of 3 pegs. The task is to translate the algorithm discovered by Frame and Stewart that gives a solution to the problem.
 
-[**RecursiveSquares.**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/RecursiveSquares.java)
+[**RecursiveSquares**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/RecursiveSquares.java)
 > This program was devised to draw the centered square in any x and y.
 ## Performance
 ## Abstract Data Types
