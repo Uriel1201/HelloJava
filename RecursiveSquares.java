@@ -12,10 +12,10 @@ public class RecursiveSquares {
     public static void draw(int n, double x, double y, double length) {
         if (n < 1 || length < 0) return;
         else {
-            drawSquare(x, y, length);
             double ln = length / 2.0;
             draw(n - 1, x + ln, y + ln, ln);
             draw(n - 1, x + ln, y - ln, ln);
+            drawSquare(x, y, length);
             draw(n - 1, x - ln, y + ln, ln);
             draw(n - 1, x - ln, y - ln, ln);
         }
