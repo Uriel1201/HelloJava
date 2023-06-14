@@ -6,6 +6,7 @@
 # Assignments:
 ## [Data Types](https://coursera.cs.princeton.edu/introcs/assignments/hello/specification.php)
 ## Conditionals and Loops
+The purpose of this assignment is to give you practice writing programs with loops and conditionals. [Specifications]
 ## Arrays
 The purpose of this assignment is to give you practice writing programs with arrays. Here the [specifications](https://coursera.cs.princeton.edu/introcs/assignments/arrays/specification.php).
 
