@@ -77,7 +77,7 @@ The purpose of this assignment is to give you practice writing programs with rec
 > The programming approach using recursion sometimes is exponentially wasteful so in some cases like this case, a good idea would be to switch to the dynamic programming approach.
 
 [**RevesPuzzle**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/RevesPuzzle.java)
-> Here Reve's Puzzle is the generalized [Hanoi Game](https://mathworld.wolfram.com/TowerofHanoi.html) which uses 4 pegs instead of 3 pegs. The task is to translate the algorithm discovered by Frame and Stewart that gives a solution to the problem.
+> Here Reve's Puzzle is the generalized [Hanoi Game](https://mathworld.wolfram.com/TowerofHanoi.html) which uses 4 pegs instead of 3 pegs. The task is to translate the algorithm discovered by Frame and Stewart which gives a solution to the problem.
 
 [**RecursiveSquares**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/RecursiveSquares.java)
 > This program was devised to draw the centered square in any x and y.
