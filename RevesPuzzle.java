@@ -17,7 +17,7 @@ public class RevesPuzzle {
         if (n <= k) return;
         else {
             hanoi(n - 1, k, f, to, t);
-            System.out.println("Move disc " + n + "  from " + f + "  to " + to);
+            System.out.println("Move disc " + n + " from " + f + " to " + to);
             hanoi(n - 1, k, t, f, to);
         }
     }
