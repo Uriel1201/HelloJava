@@ -47,10 +47,10 @@ has important connections with the [Gray code](https://mathworld.wolfram.com/Gra
 ## Inputs and Outputs
 The purpose of this assignment is to give you practice writing programs with input and output, including standard output, standard input, and standard drawing. Here the [specifications](https://coursera.cs.princeton.edu/introcs/assignments/io/specification.php). 
 
-[**ShannonEntropy**] https://github.com/Uriel1201/HelloJava/blob/main/ShannonEntropy.java
+[**ShannonEntropy**](https://github.com/Uriel1201/HelloJava/blob/main/ShannonEntropy.java)
 > The [Shannon entropy] is a fundamental concept in information theory and data compression.
 
-[**Checkerboard**]
+[**Checkerboard**](https://github.com/Uriel1201/HelloJava/blob/main/Checkerboard.java)
 
 [**WorldMap**]
 
