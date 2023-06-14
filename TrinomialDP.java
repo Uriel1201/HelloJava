@@ -25,6 +25,6 @@ public class TrinomialDP {
         if (n < 0)
             System.out.println("Error: n must to be no negative");
         else
-            System.out.println("trinomial(" + n + "," + k + ") = " + trinomial(n, k));
+            System.out.println(trinomial(n, k));
     }
 }
