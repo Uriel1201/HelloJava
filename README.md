@@ -23,17 +23,17 @@ The purpose of this assignment is to give you practice writing programs with loo
 ## Arrays
 The purpose of this assignment is to give you practice writing programs with arrays. Here the [specifications](https://coursera.cs.princeton.edu/introcs/assignments/arrays/specification.php).
 
-**DiscreteDistribution**
+[**DiscreteDistribution**](https://github.com/Uriel1201/HelloJava/blob/main/DiscreteDistribution.java)
 > In probability theory, this is known as [sampling](http://probcomp.csail.mit.edu/blog/programming-and-probability-sampling-from-a-discrete-distribution-over-an-infinite-set/) from a discrete distribution.
 
-**ThueMorse**
+[**ThueMorse**](https://github.com/Uriel1201/HelloJava/blob/main/ThueMorse.java)
 >[The Thue-Morse sequence](https://mathworld.wolfram.com/Thue-MorseSequence.html#:~:text=The%20Thue%2DMorse%20sequence%2C%20also,representation%20of%20the%20nonnegative%20integers.) 
 has important connections with the [Gray code](https://mathworld.wolfram.com/GrayCode.html). Kindermann generates fractal music using the self-similarity of the Thue-Morse sequence.
 
-**Birthday**
+[**Birthday**](https://github.com/Uriel1201/HelloJava/blob/main/Birthday.java)
 > [The birthday problem](https://mathworld.wolfram.com/BirthdayProblem.html) arises in many computer science applications, including hashing, cryptographic attacks, and testing random number generators.
 
-**Minesweeper**
+[**Minesweeper**](https://github.com/Uriel1201/HelloJava/blob/main/Minesweeper.java)
 
 [Minesweeper](https://mathworld.wolfram.com/Minesweeper.html) is a 1960s era video game played on an m-by-n grid of cells.
 > Ex. *An 5-by-12 grid of cells containing 27 mines* (*) *uniformly at random and the number of mines surrounding each cell without mines.*
