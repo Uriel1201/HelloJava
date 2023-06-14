@@ -74,7 +74,7 @@ The purpose of this assignment is to give you practice writing programs with rec
 > [Trinomial coefficients](https://mathworld.wolfram.com/TrinomialCoefficient.html) arise in combinatorics. For example, T(n,k) is the number of permutations of n symbols, each of which is −1, 0, or +1, which sum to exactly k and T(n,k−n) is the number of different ways of randomly drawing k cards from two identical decks of n playing cards.
 
 [**TrinomialDP**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/TrinomialDP.java)
-> The programming approach using recursion sometimes is exponentially wasteful so in some cases like this case, a good idea would be to switch to the dynamic programming approach.
+> The recursion programming approach sometimes is exponentially wasteful so in some cases like this case a good idea would be to switch to the dynamic programming approach.
 
 [**RevesPuzzle**](https://github.com/Uriel1201/HelloJava/blob/Uriel1201-patch-1/RevesPuzzle.java)
 > Here Reve's Puzzle is the generalized [Hanoi Game](https://mathworld.wolfram.com/TowerofHanoi.html) which uses 4 pegs instead of 3 pegs. The task is to translate the algorithm discovered by Frame and Stewart which gives a solution to the problem.
