@@ -13,11 +13,11 @@ public class RecursiveSquares {
         if (n < 1 || length < 0) return;
         else {
             double ln = length / 2.0;
-            draw(n - 1, x + ln, y + ln, ln);
-            draw(n - 1, x + ln, y - ln, ln);
-            drawSquare(x, y, length);
             draw(n - 1, x - ln, y + ln, ln);
+            draw(n - 1, x + ln, y + ln, ln);
+            drawSquare(x, y, length);
             draw(n - 1, x - ln, y - ln, ln);
+            draw(n - 1, x + ln, y - ln, ln);
         }
     }
 
