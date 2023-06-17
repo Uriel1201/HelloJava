@@ -1,6 +1,3 @@
-// Reve’s puzzle is identical to the towers of Hanoi problem, except that there are 4 poles (instead of 3).
-// The following it is the remarkable algorithm, discovered by Frame and Stewart in 1941.
-
 public class RevesPuzzle {
 
     private static void reves(int n, String f, String t1, String t2, String to) {
