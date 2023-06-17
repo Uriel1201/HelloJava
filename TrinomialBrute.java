@@ -1,3 +1,8 @@
+/* *****************************************************************************
+ *  Name:              Dante1201 (Carlos Uriel García)
+ *  Id:                1201
+ **************************************************************************** */
+
 public class TrinomialBrute {
 
     public static long trinomial(int n, int k) {
@@ -13,4 +18,3 @@ public class TrinomialBrute {
         System.out.println(trinomial(n, k));
     }
 }
-
