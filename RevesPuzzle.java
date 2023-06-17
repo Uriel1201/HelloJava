@@ -1,3 +1,8 @@
+/* *****************************************************************************
+ *  Name:              Dante1201 (Carlos Uriel García)
+ *  Id:                1201
+ **************************************************************************** */
+
 public class RevesPuzzle {
 
     private static void reves(int n, String f, String t1, String t2, String to) {
@@ -24,4 +29,3 @@ public class RevesPuzzle {
         reves(n, "A", "B", "C", "D");
     }
 }
-
