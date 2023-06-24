@@ -29,15 +29,20 @@ public class Inversions  {
                 i ++;
             } else {
                 int m = (int) (k - j);
+                int[] b = new int[m];
+                for (int h = 0; h < m; h++){
+                    b[h] = a[n - m - 1 + h];
+                }
                 int p = a[n - 1];
                 a[n - m - 1] = p;
                 for (int h = n - m; h < n; h++) {
-                    a[h] = h - m - 1;
-                }
+                    a[h] = b[m - n + h];
             }
-        }
+            } 
+    } 
         return a;
     }
+    
     
     public static void main (String[] args) {
         int n = Integer.parseInt(args[0]);
