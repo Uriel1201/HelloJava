@@ -49,7 +49,7 @@ public class Inversions  {
         long k = Long.parseLong(args[1]);
         int[] a = generate(n, k);
         for (int i = 0; i < n; i++) {
-            System.out.print(a[i] + " ");
+            StdOut.print(a[i] + " ");
         }
     }
 }
