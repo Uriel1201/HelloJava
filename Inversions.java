@@ -29,6 +29,7 @@ public class Inversions  {
                     a[h] = h - i;
                 }
                 int m = (int) (k - j);
+                if (m == 0) break;
                 int[] b = new int[m];
                 for (int h = 0; h < m; h++) {
                     b[h] = a[n - m - 1 + h];
