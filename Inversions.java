@@ -107,12 +107,12 @@ public class Inversions {
       long k = Long.parseLong(args[1]);
       
         if (k > n * (n - 1) / 2 || k < 0) {
-            System.out.println("Error. k doesn't tally with the limits");
+          StdOut.print("Error. k doesn't tally with the limits");
         } else {
         int[] a = generate(n, k);
           
         for (int i = 0; i < n; i++) {
-            System.out.print(a[i] + " ");
+            StdOut.print(a[i] + " ");
         }
         } 
     }
