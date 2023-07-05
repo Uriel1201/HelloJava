@@ -1,4 +1,3 @@
-
 public class Ramanujan {
     
     public static boolean isRamanujan(long n) {
