@@ -8,7 +8,7 @@ public class MaximumSquareSubmatrix {
                 except ++;
                 break;
             }
-            for (int j = 0; j < a[i].length; j++) {
+            for (int j = 0; j < a.length; j++) {
                 if (a[i][j] > 1 || a[i][j] < 0) {
                     except++;
                     break;
