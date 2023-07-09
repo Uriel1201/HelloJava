@@ -26,6 +26,7 @@ public class Minesweeper {
         }
         
         boolean[][] mines = new boolean[m + 2][n + 2];
+        
         for (int h = 1; h < m + 1; h++) {
             for (int i = 1; i < n + 1; i++) {
                 mines[h][i] = shuffle[n * (h - 1) + i - 1];
@@ -33,6 +34,7 @@ public class Minesweeper {
         }
         
         int[][] count = new int[m + 2][n + 2];
+        
         int row = 1;
         while (row < m + 1) {
             int col = 1;
