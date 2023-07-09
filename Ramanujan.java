@@ -9,7 +9,7 @@ public class Ramanujan {
             long a3 = (long) Math.pow(a,3);
             long b = (long) (Math.cbrt(n - a3));
             long b3 = (long) Math.pow (b,3);
-            if (a3 + b3 == n && b != 0) count++;
+            if (a3 + b3 == n && b > 0) count++;
         }
     return (count == 2);
     }
