@@ -3,7 +3,6 @@
  *  Id:                1201
  **************************************************************************** */
 
-
 public class Minesweeper {
     
     public static void main(String[] args) {
