@@ -27,13 +27,16 @@ public class RecursiveSquares {
     }
 
     public static void main(String[] args) {
+        
         // StdDraw.enableDoubleBuffering();
         int n = Integer.parseInt(args[0]);
+        
         // The following are the standard measures,
         // but those can be modified.
         double x = 0.5;
         double y = 0.5;
         double length = 0.5;
+        
         // Applying a generalized scale for any x and y
         // StdDraw.setXscale(x - length, x + length);
         // StdDraw.setYscale(y - length, y + length);
