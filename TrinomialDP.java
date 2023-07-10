@@ -6,8 +6,10 @@
 public class TrinomialDP {
 
     public static long trinomial(int n, int k) {
+        
         if (k < 0) k = -k;
         if (k > n) return 0;
+        
         else {
             long[][] triangle = new long[n + 1][2 * (n + 1)];
             triangle[0][1] = 1;
@@ -25,8 +27,10 @@ public class TrinomialDP {
     }
 
     public static void main(String[] args) {
+        
         int n = Integer.parseInt(args[0]);
         int k = Integer.parseInt(args[1]);
+       
         if (n < 0)
             System.out.println("Error: n must to be no negative");
         else
