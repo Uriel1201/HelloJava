@@ -1,0 +1,2490 @@
+The Largest Week-Grosse Movies from 1977 to 2023
+Value ($dollars)
+Source: Box Office Mojo
+
+44
+Week 1,Avatar: The Way of Water,140979561,2023/
+Week 1,Stuart Little,130929381,2000/
+Week 1,Cast Away,156198230,2001/
+Week 1,The Lord of the Rings: The Two Towers,171188651,2003/
+Week 1,The Lord of the Rings: The Return of the King,180564994,2004/
+Week 1,Meet the Fockers,150997898,2005/
+Week 1,Hostel,157486991,2006/
+Week 1,Patch Adams,151287903,1999/
+Week 1,Night at the Museum,166868782,2007/
+Week 1,Marley & Me,194232062,2009/
+Week 1,-,0,1978/
+Week 1,Avatar,288509520,2010/
+Week 1,True Grit,148114478,2011/
+Week 1,The Devil Inside,176213282,2012/
+Week 1,Django Unchained,193656826,2013/
+Week 1,National Treasure: Book of Secrets,177963648,2008/
+Week 1,Titanic,149491304,1998/
+Week 1,Jerry Maguire,104261473,1997/
+Week 1,12 Monkeys,90409724,1996/
+Week 1,On Golden Pond,141277,1982/
+Week 1,Tootsie,56231811,1983/
+Week 1,Terms of Endearment,46504864,1984/
+Week 1,Beverly Hills Cop,56821947,1985/
+Week 1,Rocky IV,63379336,1986/
+Week 1,The Golden Child,65608272,1987/
+Week 1,Three Men and a Baby,79608411,1988/
+Week 1,Rain Man,62648304,1989/
+Week 1,Born on the Fourth of July,71640296,1990/
+Week 1,Home Alone,87573743,1991/
+Week 1,Hook,95043404,1992/
+Week 1,Kramer vs. Kramer,7614000,1980/
+Week 1,Aladdin,102657282,1993/
+Week 1,Mrs. Doubtfire,79306498,1994/
+Week 1,Dumb and Dumber,75150558,1995/
+Week 1,Frozen,190086612,2014/
+Week 1,The Hobbit: The Battle of the Five Armies,197541369,2015/
+Week 1,The Lord of the Rings: The Fellowship of the Ring,160260760,2002/
+Week 1,Star Wars: Episode IX - The Rise of Skywalker,191738131,2020/
+Week 1,Wonder Woman 1984,16130221,2021/
+Week 1,Hidden Figures,191327544,2017/
+Week 1,Aquaman,189701458,2019/
+Week 1,Jumanji: Welcome to the Jungle,221132888,2018/
+Week 1,Star Wars: Episode VII - The Force Awakens,288654414,2016/
+Week 1,Spider-Man: No Way Home,82739591,2022/
+
+43
+Week 2,Avatar,212425555,2010/
+Week 2,Just Married,146495448,2003/
+Week 2,Avatar: The Way of Water,147709193,2023/
+Week 2,Out of Africa,43726012,1986/
+Week 2,Gran Torino,189012291,2009/
+Week 2,The Hand That Rocks the Cradle,80828620,1992/
+Week 2,Scream,99933491,2022/
+Week 2,Next Friday,146456782,2000/
+Week 2,The Bucket List,166150636,2008/
+Week 2,Stomp the Yard,175794454,2007/
+Week 2,The Golden Child,49183855,1987/
+Week 2,Save the Last Dance,196118833,2001/
+Week 2,Wonder Woman 1984,11409751,2021/
+Week 2,Jumanji: Welcome to the Jungle,234295238,2018/
+Week 2,Glory Road,177921887,2006/
+Week 2,Home Alone,80726192,1991/
+Week 2,Three Men and a Baby,52192062,1988/
+Week 2,Coach Carter,186167827,2005/
+Week 2,The Lord of the Rings: The Fellowship of the Ring,138189002,2002/
+Week 2,Rain Man,76286086,1989/
+Week 2,The Lord of the Rings: The Return of the King,136950341,2004/
+Week 2,The Upside,174387441,2019/
+Week 2,-,0,1978/
+Week 2,A Civil Action,112696485,1999/
+Week 2,Hidden Figures,219559431,2017/
+Week 2,Higher Learning,116141822,1995/
+Week 2,The Revenant,213602441,2016/
+Week 2,Taken 3,165590418,2015/
+Week 2,1917,183503852,2020/
+Week 2,Time Bandits,90095538,1982/
+Week 2,Philadelphia,94861011,1994/
+Week 2,Lone Survivor,188892293,2014/
+Week 2,12 Monkeys,112717850,1996/
+Week 2,Tootsie,43410065,1983/
+Week 2,The Relic,96518871,1997/
+Week 2,Zero Dark Thirty,187928178,2013/
+Week 2,Contraband,191051103,2012/
+Week 2,Beverly Hills Cop,48745336,1985/
+Week 2,The Green Hornet,185023934,2011/
+Week 2,Titanic,113391860,1998/
+Week 2,A Few Good Men,71979984,1993/
+Week 2,Terms of Endearment,43205680,1984/
+Week 2,Born on the Fourth of July,76329778,1990/
+
+45
+Week 3,Kangaroo Jack,150350044,2003/
+Week 3,Beverly Hills Ninja,105794239,1997/
+Week 3,The Marksman,14774235,2021/
+Week 3,Aladdin,87541247,1993/
+Week 3,Home Alone,90369322,1991/
+Week 3,The Hand That Rocks the Cradle,95147257,1992/
+Week 3,Black Hawk Down,176703388,2002/
+Week 3,Glass,196159206,2019/
+Week 3,Titanic,133019337,1998/
+Week 3,-,0,1979/
+Week 3,-,0,1980/
+Week 3,Philadelphia,77781152,1994/
+Week 3,From Dusk Till Dawn,96426802,1996/
+Week 3,Bad Boys for Life,246852406,2020/
+Week 3,Next Friday,105493208,2000/
+Week 3,Ride Along 2,238871426,2016/
+Week 3,Save the Last Dance,144688287,2001/
+Week 3,Varsity Blues,145543580,1999/
+Week 3,-,0,1978/
+Week 3,Underworld: Awakening,175635273,2012/
+Week 3,Split,193994143,2017/
+Week 3,No Strings Attached,135366417,2011/
+Week 3,Mama,193889853,2013/
+Week 3,Beverly Hills Cop,37710768,1985/
+Week 3,Born on the Fourth of July,60966668,1990/
+Week 3,Avatar,246834769,2010/
+Week 3,Tootsie,35227130,1983/
+Week 3,The Color Purple,56098528,1986/
+Week 3,Paul Blart: Mall Cop,265145090,2009/
+Week 3,Terms of Endearment,30369158,1984/
+Week 3,Cloverfield,213430946,2008/
+Week 3,Critical Condition,55145110,1987/
+Week 3,Ride Along,246827021,2014/
+Week 3,Along Came Polly,152382375,2004/
+Week 3,Absence of Malice,28180854,1982/
+Week 3,Rain Man,52024823,1989/
+Week 3,American Sniper,299050139,2015/
+Week 3,Spider-Man: No Way Home,60746879,2022/
+Week 3,Legends of the Fall,74684093,1995/
+Week 3,Are We There Yet?,129369622,2005/
+Week 3,"Good Morning, Vietnam",76438075,1988/
+Week 3,Avatar: The Way of Water,102525953,2023/
+Week 3,Stomp the Yard,128377546,2007/
+Week 3,Jumanji: Welcome to the Jungle,184047126,2018/
+Week 3,Underworld: Evolution,151900940,2006/
+
+44
+Week 4,Tootsie,34354040,1983/
+Week 4,Mrs. Doubtfire,70983794,1994/
+Week 4,Guyana: Cult of the Damned,2171181,1980/
+Week 4,Avatar: The Way of Water,95030470,2023/
+Week 4,Driving Miss Daisy,48700749,1990/
+Week 4,The Marksman,11076863,2021/
+Week 4,Beverly Hills Cop,31474679,1985/
+Week 4,Aladdin,68261262,1993/
+Week 4,The Color Purple,34561757,1986/
+Week 4,Platoon,34434944,1987/
+Week 4,The Hand That Rocks the Cradle,62689506,1992/
+Week 4,"Good Morning, Vietnam",58381709,1988/
+Week 4,Rain Man,52354727,1989/
+Week 4,Home Alone,67474369,1991/
+Week 4,Silkwood,31897758,1984/
+Week 4,Spider-Man: No Way Home,46449926,2022/
+Week 4,The Revenant,156607426,2016/
+Week 4,Legends of the Fall,57836925,1995/
+Week 4,Rambo,179645198,2008/
+Week 4,Paul Blart: Mall Cop,200727151,2009/
+Week 4,Epic Movie,148512963,2007/
+Week 4,Big Momma's House 2,157803091,2006/
+Week 4,Avatar,186197011,2010/
+Week 4,Hide and Seek,153487355,2005/
+Week 4,-,0,1978/
+Week 4,The Rite,139660347,2011/
+Week 4,The Butterfly Effect,130816168,2004/
+Week 4,Glass,137684269,2019/
+Week 4,Darkness Falls,131153253,2003/
+Week 4,The Grey,162946338,2012/
+Week 4,Maze Runner: The Death Cure,187471873,2018/
+Week 4,Black Hawk Down,164197937,2002/
+Week 4,Split,183789954,2017/
+Week 4,Whose Life Is It Anyway?,33196800,1982/
+Week 4,Eye of the Beholder,86115844,2000/
+Week 4,Varsity Blues,106871043,1999/
+Week 4,Hansel & Gretel: Witch Hunters,146135716,2013/
+Week 4,Mr. Holland's Opus,64279304,1996/
+Week 4,American Sniper,202836555,2015/
+Week 4,Titanic,100836664,1998/
+Week 4,Ride Along,154648033,2014/
+Week 4,The Wedding Planner,125156615,2001/
+Week 4,Bad Boys for Life,160776068,2020/
+Week 4,Evita,78461699,1997/
+
+46
+Week 5,Warm Bodies,118805418,2013/
+Week 5,Kung Fu Panda 3,175098230,2016/
+Week 5,Jumanji: Welcome to the Jungle,129767460,2018/
+Week 5,Avatar,163249125,2010/
+Week 5,American Sniper,136462275,2015/
+Week 5,Tootsie,33846305,1983/
+Week 5,The Roommate,115449835,2011/
+Week 5,Chronicle,151149413,2012/
+Week 5,Beverly Hills Cop,35840063,1985/
+Week 5,Ride Along,114148109,2014/
+Week 5,Split,131654279,2017/
+Week 5,80 for Brady,102842049,2023/
+Week 5,Terms of Endearment,31213470,1984/
+Week 5,Down and Out in Beverly Hills,39820960,1986/
+Week 5,Platoon,46343043,1987/
+Week 5,When a Stranger Calls,131108044,2006/
+Week 5,Hannah Montana and Miley Cyrus: Best of Both Worlds Concert,167569102,2008/
+Week 5,Black Sheep,71285672,1996/
+Week 5,Star Wars: Episode IV - A New Hope1997 Special Edition,111297358,1997/
+Week 5,Ace Ventura: Pet Detective,82317228,1994/
+Week 5,The Little Things,14211103,2021/
+Week 5,Titanic,102047737,1998/
+Week 5,Bad Boys for Life,112241086,2020/
+Week 5,She's All That,92037443,1999/
+Week 5,Aladdin,60155438,1993/
+Week 5,The Wedding Planner,123422818,2001/
+Week 5,The Hand That Rocks the Cradle,61125590,1992/
+Week 5,Taken,164544254,2009/
+Week 5,Black Hawk Down,125959322,2002/
+Week 5,Home Alone,72094081,1991/
+Week 5,You Got Served,121054777,2004/
+Week 5,Driving Miss Daisy,52150097,1990/
+Week 5,Jackass Forever,77019839,2022/
+Week 5,Glass,101933532,2019/
+Week 5,Boogeyman,130493848,2005/
+Week 5,Rain Man,48941882,1989/
+Week 5,Legends of the Fall,49834554,1995/
+Week 5,The Messengers,118193250,2007/
+Week 5,"Good Morning, Vietnam",45323094,1988/
+Week 5,The Recruit,143657346,2003/
+Week 5,On Golden Pond,27063001,1982/
+Week 5,Scream 3,110651459,2000/
+Week 5,-,0,1978/
+Week 5,-,0,1980/
+Week 5,The Incredible Shrinking Woman,5228003,1981/
+Week 5,-,0,1979/
+
+46
+Week 6,Identity Thief,164904804,2013/
+Week 6,The Lego Movie 2: The Second Part,173677594,2019/
+Week 6,Loaded Weapon 1,70348849,1993/
+Week 6,Tootsie,27578554,1983/
+Week 6,Hard to Kill,57196028,1990/
+Week 6,Payback,102682354,1999/
+Week 6,Platoon,47022915,1987/
+Week 6,Collateral Damage,135636421,2002/
+Week 6,Down and Out in Beverly Hills,44046017,1986/
+Week 6,The Vow,260405857,2012/
+Week 6,Birds of Prey,127579254,2020/
+Week 6,Kung Fu Panda 3,126658082,2016/
+Week 6,He's Just Not That Into You,192862838,2009/
+Week 6,Dear John,150977103,2010/
+Week 6,Fool's Gold,163776227,2008/
+Week 6,-,0,1979/
+Week 6,How to Lose a Guy in 10 Days,151070604,2003/
+Week 6,Final Destination 3,159456409,2006/
+Week 6,-,0,1981/
+Week 6,Beverly Hills Cop,37574507,1985/
+Week 6,Barbershop 2: Back in Business,138085206,2004/
+Week 6,"Good Morning, Vietnam",46048413,1988/
+Week 6,Norbit,154250838,2007/
+Week 6,Fifty Shades Darker,260606517,2017/
+Week 6,Death on the Nile,81194788,2022/
+Week 6,The Fly II,54504479,1989/
+Week 6,The Last Married Couple in America,3168951,1980/
+Week 6,Fifty Shades Freed,201409377,2018/
+Week 6,Ace Ventura: Pet Detective,74854958,1994/
+Week 6,The SpongeBob Movie: Sponge Out of Water,187711999,2015/
+Week 6,Magic Mike's Last Dance,81870889,2023/
+Week 6,Titanic,87408692,1998/
+Week 6,Unfaithfully Yours,27179677,1984/
+Week 6,The Quick and the Dead,50144313,1995/
+Week 6,The Lego Movie,193105244,2014/
+Week 6,Medicine Man,60065188,1992/
+Week 6,Star Wars: Episode IV - A New Hope1997 Special Edition,95768795,1997/
+Week 6,Just Go with It,196852055,2011/
+Week 6,Scream 3,119011145,2000/
+Week 6,On Golden Pond,22939690,1982/
+Week 6,Broken Arrow,73731291,1996/
+Week 6,The Little Things,9621991,2021/
+Week 6,Hitch,160157268,2005/
+Week 6,-,0,1978/
+Week 6,Sleeping with the Enemy,72387184,1991/
+Week 6,Hannibal,166199939,2001/
+
+46
+Week 7,The Brady Bunch Movie,77818881,1995/
+Week 7,-,0,1980/
+Week 7,Tootsie,42445465,1983/
+Week 7,Unknown,205969087,2011/
+Week 7,Wayne's World,85570870,1992/
+Week 7,The Lego Batman Movie,222117063,2017/
+Week 7,Message in a Bottle,137054663,1999/
+Week 7,"Good Morning, Vietnam",56026039,1988/
+Week 7,-,0,1978/
+Week 7,Driving Miss Daisy,67029325,1990/
+Week 7,Daredevil,157143558,2003/
+Week 7,Platoon,59056296,1987/
+Week 7,50 First Dates,156764514,2004/
+Week 7,Groundhog Day,86844843,1993/
+Week 7,The Lego Movie,241339975,2014/
+Week 7,Star Wars: Episode IV - A New Hope1997 Special Edition,137179412,1997/
+Week 7,Fifty Shades of Grey,291159331,2015/
+Week 7,Eight Below,168002716,2006/
+Week 7,Alita: Battle Angel,183674228,2019/
+Week 7,The 'Burbs,72923285,1989/
+Week 7,Ghost Rider,217197330,2007/
+Week 7,A Good Day to Die Hard,199428660,2013/
+Week 7,Hitch,171946928,2005/
+Week 7,Beverly Hills Cop,48565119,1985/
+Week 7,Uncharted,133721393,2022/
+Week 7,-,0,1979/
+Week 7,The Silence of the Lambs,95595571,1991/
+Week 7,Valentine's Day,274911492,2010/
+Week 7,Black Panther,419745271,2018/
+Week 7,On Deadly Ground,93382215,1994/
+Week 7,Friday the 13th,254609109,2009/
+Week 7,Deadpool,329793400,2016/
+Week 7,Titanic,135069302,1998/
+Week 7,Broken Arrow,97452350,1996/
+Week 7,Sonic the Hedgehog,215111943,2020/
+Week 7,Hannibal,171281994,2001/
+Week 7,Safe House,227801178,2012/
+Week 7,Ant-Man and the Wasp: Quantumania,193202452,2023/
+Week 7,The Croods: A New Age,14738089,2021/
+Week 7,Footloose,42852474,1984/
+Week 7,On Golden Pond,30982004,1982/
+Week 7,John Q,192176483,2002/
+Week 7,The Whole Nine Yards,159098936,2000/
+Week 7,Jumper,192343387,2008/
+Week 7,Down and Out in Beverly Hills,53357639,1986/
+Week 7,-,0,1981/
+
+45
+Week 8,Vantage Point,137916018,2008/
+Week 8,The Lego Movie,142101720,2014/
+Week 8,Footloose,31350127,1984/
+Week 8,Madea's Family Reunion,147624529,2006/
+Week 8,Diary of a Mad Black Woman,152711472,2005/
+Week 8,On Deadly Ground,67843544,1994/
+Week 8,Black Panther,255715632,2018/
+Week 8,Uncharted,79992208,2022/
+Week 8,The 'Burbs,47290371,1989/
+Week 8,-,0,1979/
+Week 8,Hall Pass,140375523,2011/
+Week 8,Titanic,89398465,1998/
+Week 8,The Whole Nine Yards,112645978,2000/
+Week 8,Old School,144922471,2003/
+Week 8,Hannibal,113002396,2001/
+Week 8,Get Out,169125603,2017/
+Week 8,The Passion of the Christ,159058955,2004/
+Week 8,Identity Thief,134207125,2013/
+Week 8,-,0,1978/
+Week 8,Rumble in the Bronx,78586733,1996/
+Week 8,On Golden Pond,24692691,1982/
+Week 8,Queen of the Damned,135869548,2002/
+Week 8,Act of Valor,169971943,2012/
+Week 8,Deadpool,185742605,2016/
+Week 8,The Call of the Wild,136094614,2020/
+Week 8,The Croods: A New Age,10115048,2021/
+Week 8,Star Wars: Episode V - The Empire Strikes Back1997 Special Edition,108258595,1997/
+Week 8,Madea Goes to Jail,178175458,2009/
+Week 8,Ant-Man and the Wasp: Quantumania,122420424,2023/
+Week 8,-,0,1977/
+Week 8,The Brady Bunch Movie,56039730,1995/
+Week 8,Shutter Island,170415749,2010/
+Week 8,The Silence of the Lambs,69024082,1991/
+Week 8,Beverly Hills Cop,35187938,1985/
+Week 8,Driving Miss Daisy,44010492,1990/
+Week 8,Down and Out in Beverly Hills,41823912,1986/
+Week 8,Tootsie,30212142,1983/
+Week 8,Wayne's World,68268952,1992/
+Week 8,Fifty Shades of Grey,155693517,2015/
+Week 8,Ghost Rider,145339995,2007/
+Week 8,"Good Morning, Vietnam",48843005,1988/
+Week 8,Message in a Bottle,102132309,1999/
+Week 8,Platoon,44209710,1987/
+Week 8,How to Train Your Dragon: The Hidden World,165159850,2019/
+Week 8,Groundhog Day,70366572,1993/
+
+47
+Week 9,Focus,137546307,2015/
+Week 9,Rango,168412622,2011/
+Week 9,Wild Hogs,156086833,2007/
+Week 9,Black Panther,198506984,2018/
+Week 9,Man of the House,60710541,1995/
+Week 9,Star Wars: Episode V - The Empire Strikes Back1997 Special Edition,100348923,1997/
+Week 9,The Passion of the Christ,212141763,2004/
+Week 9,Beverly Hills Cop,37308426,1985/
+Week 9,-,0,1981/
+Week 9,"Good Morning, Vietnam",46650176,1988/
+Week 9,The Mexican,113429798,2001/
+Week 9,-,0,1980/
+Week 9,-,0,1977/
+Week 9,Creed III,151921390,2023/
+Week 9,Cradle 2 the Grave,133848278,2003/
+Week 9,Logan,252960428,2017/
+Week 9,Falling Down,63905934,1993/
+Week 9,Non-Stop,159786536,2014/
+Week 9,8MM,101184266,1999/
+Week 9,The Hunt for Red October,55777471,1990/
+Week 9,Tootsie,26364417,1983/
+Week 9,House,46575870,1986/
+Week 9,Wayne's World,60619195,1992/
+Week 9,Madea Goes to Jail,140646955,2009/
+Week 9,We Were Soldiers,133835495,2002/
+Week 9,The Invisible Man,128714844,2020/
+Week 9,The Lorax,212870744,2012/
+Week 9,Tom & Jerry,24996590,2021/
+Week 9,The Batman,216125188,2022/
+Week 9,Shutter Island,156167406,2010/
+Week 9,On Golden Pond,19676325,1982/
+Week 9,The Pacifier,152314032,2005/
+Week 9,A Nightmare on Elm Street 3: Dream Warriors,48150344,1987/
+Week 9,Jack the Giant Slayer,140795988,2013/
+Week 9,Titanic,85221353,1998/
+Week 9,Ace Ventura: Pet Detective,65146750,1994/
+Week 9,Footloose,34519152,1984/
+Week 9,Up Close & Personal,66370158,1996/
+Week 9,Lean on Me,50866726,1989/
+Week 9,The Whole Nine Yards,104391273,2000/
+Week 9,-,0,1979/
+Week 9,The Silence of the Lambs,74457985,1991/
+Week 9,Semi-Pro,124423353,2008/
+Week 9,How to Train Your Dragon: The Hidden World,151459712,2019/
+Week 9,-,0,1978/
+Week 9,16 Blocks,128706689,2006/
+Week 9,Deadpool,147646667,2016/
+
+47
+Week 10,Chappie,121657937,2015/
+Week 10,Private Parts,103240764,1997/
+Week 10,Pretty in Pink,42076713,1986/
+Week 10,Failure to Launch,149976313,2006/
+Week 10,Robots,151479470,2005/
+Week 10,Zootopia,208317815,2016/
+Week 10,Lethal Weapon,54534955,1987/
+Week 10,Scream VI,166546588,2023/
+Week 10,The Batman,139863064,2022/
+Week 10,-,0,1977/
+Week 10,Kong: Skull Island,227604378,2017/
+Week 10,Lean on Me,49464455,1989/
+Week 10,Outbreak,57274332,1995/
+Week 10,Oz the Great and Powerful,190987490,2013/
+Week 10,Analyze This,110768620,1999/
+Week 10,The Hunt for Red October,62222527,1990/
+Week 10,Tootsie,26944059,1983/
+Week 10,Watchmen,148090878,2009/
+Week 10,The Time Machine,138475523,2002/
+Week 10,Onward,134543546,2020/
+Week 10,The Lorax,187226987,2012/
+Week 10,Alice in Wonderland,253480439,2010/
+Week 10,The Silence of the Lambs,69132321,1991/
+Week 10,Raya and the Last Dragon,29602325,2021/
+Week 10,On Golden Pond,21547520,1982/
+Week 10,-,0,1978/
+Week 10,Mission to Mars,116850435,2000/
+Week 10,The Mexican,100543895,2001/
+Week 10,Battle Los Angeles,179108604,2011/
+Week 10,Wayne's World,60456598,1992/
+Week 10,Captain Marvel,281109887,2019/
+Week 10,"10,000 BC",139254945,2008/
+Week 10,Falling Down,62272919,1993/
+Week 10,300: Rise of an Empire,193720702,2014/
+Week 10,All Night Long,1739158,1981/
+Week 10,Witness,32655278,1985/
+Week 10,"Good Morning, Vietnam",45395695,1988/
+Week 10,The Passion of the Christ,188315756,2004/
+Week 10,300,207073592,2007/
+Week 10,Coal Miner's Daughter,4736852,1980/
+Week 10,Black Panther,197178640,2018/
+Week 10,Bringing Down the House,146664455,2003/
+Week 10,Titanic,95809815,1998/
+Week 10,Splash,39858866,1984/
+Week 10,The Birdcage,88883387,1996/
+Week 10,Voices,6405,1979/
+Week 10,Guarding Tess,62937478,1994/
+
+47
+Week 11,The Birdcage,74502306,1996/
+Week 11,Wayne's World,61533291,1992/
+Week 11,Limitless,153894371,2011/
+Week 11,Shazam! Fury of the Gods,120581335,2023/
+Week 11,Outbreak,56079538,1995/
+Week 11,"Good Morning, Vietnam",43817031,1988/
+Week 11,Fletch Lives,59692792,1989/
+Week 11,Naked Gun 33 1/3: The Final Insult,67327304,1994/
+Week 11,300,155704284,2007/
+Week 11,V for Vendetta,139109650,2006/
+Week 11,-,0,1980/
+Week 11,Alice in Wonderland,201010289,2010/
+Week 11,21 Jump Street,149333683,2012/
+Week 11,Oz the Great and Powerful,141553988,2013/
+Week 11,Cinderella,176458901,2015/
+Week 11,-,0,1978/
+Week 11,Fire in the Sky,58154581,1993/
+Week 11,Mr. Peabody & Sherman,149677184,2014/
+Week 11,Race to Witch Mountain,135747610,2009/
+Week 11,The Hunt for Red October,60957282,1990/
+Week 11,Zootopia,190782393,2016/
+Week 11,Lethal Weapon,54394186,1987/
+Week 11,Horton Hears a Who!,169129070,2008/
+Week 11,The Silence of the Lambs,64250378,1991/
+Week 11,Analyze This,115029865,1999/
+Week 11,Star Wars: Episode VI - Return of the Jedi1997 Special Edition,94564932,1997/
+Week 11,The Batman,111626141,2022/
+Week 11,Back Roads,7826471,1981/
+Week 11,Raya and the Last Dragon,23972278,2021/
+Week 11,Beverly Hills Cop,33007278,1985/
+Week 11,Richard Pryor: Live on the Sunset Strip,32031243,1982/
+Week 11,The Passion of the Christ,160604256,2004/
+Week 11,Erin Brockovich,126889619,2000/
+Week 11,Black Panther,183023473,2018/
+Week 11,-,0,1977/
+Week 11,Onward,58926153,2020/
+Week 11,Exit Wounds,110067956,2001/
+Week 11,Titanic,98305483,1998/
+Week 11,-,0,1979/
+Week 11,Splash,41963430,1984/
+Week 11,Beauty and the Beast,348996112,2017/
+Week 11,Captain Marvel,187942023,2019/
+Week 11,High Road to China,28073891,1983/
+Week 11,The Ring Two,162866110,2005/
+Week 11,Gung Ho,40698480,1986/
+Week 11,Bringing Down the House,138361472,2003/
+Week 11,Ice Age,176533038,2002/
+
+45
+Week 12,Friday the 13th: A New Beginning,51624158,1985/
+Week 12,Police Academy 5: Assignment: Miami Beach,45608535,1988/
+Week 12,Alice in Wonderland,164557173,2010/
+Week 12,Outbreak,60845779,1995/
+Week 12,Naked Gun 33 1/3: The Final Insult,64384917,1994/
+Week 12,Pretty Woman,62165079,1990/
+Week 12,Teenage Mutant Ninja Turtles II: The Secret of the Ooze,82958283,1991/
+Week 12,The Divergent Series: Insurgent,170340262,2015/
+Week 12,The Croods,206711471,2013/
+Week 12,Teenage Mutant Ninja Turtles III,68413722,1993/
+Week 12,Liar Liar,122214734,1997/
+Week 12,Us,204114622,2019/
+Week 12,Forces of Nature,102884430,1999/
+Week 12,John Wick: Chapter 4,153677362,2023/
+Week 12,Dawn of the Dead,153632555,2004/
+Week 12,The Hunger Games,274488466,2012/
+Week 12,Blade II,185534613,2002/
+Week 12,Pacific Rim: Uprising,201170963,2018/
+Week 12,Spring Break,47407827,1983/
+Week 12,Knowing,139212908,2009/
+Week 12,Titanic,100672172,1998/
+Week 12,Horton Hears a Who!,163363199,2008/
+Week 12,Bringing Down the House,129654540,2003/
+Week 12,"Phoenix, OregonRe-release",5632,2020/
+Week 12,The Lost City,106734194,2022/
+Week 12,Fletch Lives,55157009,1989/
+Week 12,-,0,1978/
+Week 12,Police Academy,46604742,1984/
+Week 12,TMNT,173163089,2007/
+Week 12,Divergent,188112093,2014/
+Week 12,Guess Who,147441883,2005/
+Week 12,Heartbreakers,107638722,2001/
+Week 12,Erin Brockovich,117052123,2000/
+Week 12,Basic Instinct,70018181,1992/
+Week 12,Zootopia,183382558,2016/
+Week 12,Lethal Weapon,49710586,1987/
+Week 12,The Final Conflict,7363582,1981/
+Week 12,Raya and the Last Dragon,22962344,2021/
+Week 12,Beauty and the Beast,267856889,2017/
+Week 12,Porky's,36547791,1982/
+Week 12,Diary of a Wimpy Kid: Rodrick Rules,157827277,2011/
+Week 12,The Birdcage,64791713,1996/
+Week 12,Police Academy 3: Back in Training,55286953,1986/
+Week 12,Little Miss Marker,1906710,1980/
+Week 12,Inside Man,141587260,2006/
+
+46
+Week 13,Panic Room,189213523,2002/
+Week 13,Head of State,131760042,2003/
+Week 13,Sin City,132976367,2005/
+Week 13,Batman v Superman: Dawn of Justice,339295945,2016/
+Week 13,The Hunger Games,213872724,2012/
+Week 13,The Super Mario Bros. Movie,195611910,2023/
+Week 13,Spring Break,42557853,1983/
+Week 13,Scooby-Doo 2: Monsters Unleashed,152021839,2004/
+Week 13,The Boss Baby,222360225,2017/
+Week 13,Titanic,91013234,1998/
+Week 13,Ready Player One,205442044,2018/
+Week 13,Blind Date,47388320,1987/
+Week 13,Noah,181733864,2014/
+Week 13,The Money Pit,48549346,1986/
+Week 13,Spy Kids,119795804,2001/
+Week 13,The Champ,176767,1979/
+Week 13,Police Academy,51146954,1984/
+Week 13,Hop,162920726,2011/
+Week 13,D2: The Mighty Ducks,72230655,1994/
+Week 13,Rain Man,40774286,1989/
+Week 13,Strike,5250,2020/
+Week 13,21,137579839,2008/
+Week 13,The Birdcage,68580096,1996/
+Week 13,Ice Age: The Meltdown,176854485,2006/
+Week 13,Star Wars: Episode IV - A New Hope,792809,1978/
+Week 13,Liar Liar,102869254,1997/
+Week 13,Teenage Mutant Ninja Turtles,86751513,1990/
+Week 13,Tommy Boy,58542876,1995/
+Week 13,Blades of Glory,179796289,2007/
+Week 13,G.I. Joe: Retaliation,212101323,2013/
+Week 13,Erin Brockovich,114129245,2000/
+Week 13,Home,203140997,2015/
+Week 13,Monsters vs. Aliens,184047508,2009/
+Week 13,Teenage Mutant Ninja Turtles III,55613310,1993/
+Week 13,Godzilla vs. Kong,41396012,2021/
+Week 13,When Time Ran Out...,1921491,1980/
+Week 13,How to Train Your Dragon,196468026,2010/
+Week 13,-,0,1981/
+Week 13,Biloxi Blues,56494388,1988/
+Week 13,Porky's,38708298,1982/
+Week 13,Police Academy 2: Their First Assignment,72996971,1985/
+Week 13,White Men Can't Jump,80913419,1992/
+Week 13,Forces of Nature,110881838,1999/
+Week 13,Dumbo,184191955,2019/
+Week 13,Morbius,105100204,2022/
+Week 13,Teenage Mutant Ninja Turtles II: The Secret of the Ooze,73946352,1991/
+
+45
+Week 14,The Matrix,129627428,1999/
+Week 14,Major League,45870928,1989/
+Week 14,Fast & Furious,208993051,2009/
+Week 14,Shazam!,192530861,2019/
+Week 14,Cop & ½,61194871,1993/
+Week 14,Teenage Mutant Ninja Turtles,91474862,1990/
+Week 14,The Super Mario Bros. Movie,285178784,2023/
+Week 14,Tootsie,33190189,1983/
+Week 14,21,122353072,2008/
+Week 14,Basic Instinct,77247484,1992/
+Week 14,Batman v Superman: Dawn of Justice,171163378,2016/
+Week 14,Phone Booth,125682368,2003/
+Week 14,"Phoenix, OregonRe-release",5925,2020/
+Week 14,Police Academy,54885990,1984/
+Week 14,Evil Dead,169598356,2013/
+Week 14,Police Academy 4: Citizens on Patrol,46352350,1987/
+Week 14,Primal Fear,75810863,1996/
+Week 14,Rules of Engagement,108007567,2000/
+Week 14,-,0,1979/
+Week 14,Beetlejuice,67042618,1988/
+Week 14,Porky's,53497751,1982/
+Week 14,Police Academy 2: Their First Assignment,60578864,1985/
+Week 14,Clash of the Titans,250319855,2010/
+Week 14,Star Wars: Episode IV - A New Hope,979923,1978/
+Week 14,Panic Room,136942038,2002/
+Week 14,Blades of Glory,172380165,2007/
+Week 14,Ice Age: The Meltdown,154563494,2006/
+Week 14,Teenage Mutant Ninja Turtles II: The Secret of the Ooze,49160686,1991/
+Week 14,Hellboy,177525969,2004/
+Week 14,Liar Liar,90436088,1997/
+Week 14,The Hunger Games,176648120,2012/
+Week 14,Furious 7,310171232,2015/
+Week 14,A Quiet Place,215968070,2018/
+Week 14,D2: The Mighty Ducks,66019229,1994/
+Week 14,Hop,146002691,2011/
+Week 14,The Boss Baby,172540812,2017/
+Week 14,Spy Kids,137131430,2001/
+Week 14,Captain America: The Winter Soldier,212596140,2014/
+Week 14,Sahara,111591498,2005/
+Week 14,Godzilla vs. Kong,57137115,2021/
+Week 14,Lost in Space,94403339,1998/
+Week 14,Sonic the Hedgehog 2,155777728,2022/
+Week 14,-,0,1980/
+Week 14,Police Academy 3: Back in Training,37620918,1986/
+Week 14,Bad Boys,75992688,1995/
+
+44
+Week 15,Sleepwalkers,79352304,1992/
+Week 15,Teenage Mutant Ninja Turtles,72897693,1990/
+Week 15,Godzilla vs. Kong,32872762,2021/
+Week 15,Indecent Proposal,79896885,1993/
+Week 15,Porky's,45496517,1982/
+Week 15,Rules of Engagement,117033830,2000/
+Week 15,"Phoenix, OregonRe-release",17624,2020/
+Week 15,Clash of the Titans,159992058,2010/
+Week 15,The Super Mario Bros. Movie,188375371,2023/
+Week 15,The Hunger Games,147587293,2012/
+Week 15,Fantastic Beasts: The Secrets of Dumbledore,145065068,2022/
+Week 15,Lone Wolf McQuade,39424475,1983/
+Week 15,Rio,184364020,2011/
+Week 15,-,0,1978/
+Week 15,Spy Kids,128341796,2001/
+Week 15,Out for Justice,53143682,1991/
+Week 15,Changing Lanes,123685270,2002/
+Week 15,Friday the 13th: The Final Chapter,70045339,1984/
+Week 15,The Amityville Horror,107033627,2005/
+Week 15,City of Angels,105496308,1998/
+Week 15,Captain America: The Winter Soldier,203338691,2014/
+Week 15,Four Weddings and a Funeral,51865193,1994/
+Week 15,The Fate of the Furious,228479867,2017/
+Week 15,Furious 7,165748533,2015/
+Week 15,Major League,46911645,1989/
+Week 15,The Passion of the Christ,161928722,2004/
+Week 15,The Money Pit,33173266,1986/
+Week 15,Disturbia,148328528,2007/
+Week 15,The Secret of My Success,50383893,1987/
+Week 15,Prom Night,117982354,2008/
+Week 15,Anger Management,138999836,2003/
+Week 15,Anaconda,79516569,1997/
+Week 15,Rampage,198042210,2018/
+Week 15,The Boss,135033390,2016/
+Week 15,Shazam!,161993933,2019/
+Week 15,Bad Boys,74648818,1995/
+Week 15,Primal Fear,64767570,1996/
+Week 15,Hannah Montana: The Movie,182357504,2009/
+Week 15,Police Academy 2: Their First Assignment,47350813,1985/
+Week 15,Beetlejuice,53001063,1988/
+Week 15,42,150099389,2013/
+Week 15,Scary Movie 4,161778039,2006/
+Week 15,The Matrix,107297991,1999/
+Week 15,Nighthawks,3599431,1981/
+
+46
+Week 16,North Sea Hijack,1076445,1980/
+Week 16,Manhattan,160780,1979/
+Week 16,Godzilla vs. Kong,24538338,2021/
+Week 16,Out for Justice,46346134,1991/
+Week 16,While You Were Sleeping,64219704,1995/
+Week 16,Furious 7,153661866,2015/
+Week 16,Life,105265573,1999/
+Week 16,Anaconda,68448030,1997/
+Week 16,The Interpreter,118680249,2005/
+Week 16,U-571,123191263,2000/
+Week 16,Porky's,30760214,1982/
+Week 16,Legend,30460416,1986/
+Week 16,The Bad Guys,120952706,2022/
+Week 16,The Secret of My Success,43757306,1987/
+Week 16,Silent Hill,134475795,2006/
+Week 16,Primal Fear,52869290,1996/
+Week 16,The Jungle Book,227357903,2016/
+Week 16,Rio,180045162,2011/
+Week 16,Bridget Jones's Diary,101964068,2001/
+Week 16,Basic Instinct,76441880,1992/
+Week 16,-,0,1981/
+Week 16,The Fate of the Furious,140940360,2017/
+Week 16,The Super Mario Bros. Movie,162324138,2023/
+Week 16,The Scorpion King,132713023,2002/
+Week 16,Anger Management,150015504,2003/
+Week 16,The Forbidden Kingdom,122425790,2008/
+Week 16,Flashdance,34171396,1983/
+Week 16,Police Academy,55919797,1984/
+Week 16,Pet Sematary,50834099,1989/
+Week 16,Four Weddings and a Funeral,47628584,1994/
+Week 16,-,0,1978/
+Week 16,Captain America: The Winter Soldier,181264941,2014/
+Week 16,City of Angels,83233333,1998/
+Week 16,A Quiet Place,163678579,2018/
+Week 16,The Curse of La Llorona,151266279,2019/
+Week 16,Resistance,8791,2020/
+Week 16,Indecent Proposal,58671887,1993/
+Week 16,Kill Bill: Vol. 2,128915774,2004/
+Week 16,Think Like a Man,175536523,2012/
+Week 16,Disturbia,112767029,2007/
+Week 16,Oblivion,141603891,2013/
+Week 16,Kick-Ass,155463349,2010/
+Week 16,Police Academy 2: Their First Assignment,38468156,1985/
+Week 16,Beetlejuice,53721716,1988/
+Week 16,17 Again,142375825,2009/
+Week 16,Teenage Mutant Ninja Turtles,51301535,1990/
+
+45
+Week 17,Driven,85969632,2001/
+Week 17,Obsessed,143445917,2009/
+Week 17,The Quest,54342419,1996/
+Week 17,RV,127430086,2006/
+Week 17,The Matrix,80586443,1999/
+Week 17,Identity,115704923,2003/
+Week 17,U-571,101038470,2000/
+Week 17,Four Weddings and a Funeral,46212698,1994/
+Week 17,Baby Mama,120191813,2008/
+Week 17,The Super Mario Bros. Movie,128770142,2023/
+Week 17,The Hitchhiker's Guide to the Galaxy,112874640,2005/
+Week 17,Volcano,66555155,1997/
+Week 17,Where the Buffalo Roam,2322979,1980/
+Week 17,The Big Hit,62298814,1998/
+Week 17,Man on Fire,126132120,2004/
+Week 17,Last Embrace,4223,1979/
+Week 17,How to Train Your Dragon,128734978,2010/
+Week 17,While You Were Sleeping,57455358,1995/
+Week 17,Disturbia,98379347,2007/
+Week 17,The Scorpion King,107627233,2002/
+Week 17,Indecent Proposal,54395392,1993/
+Week 17,Basic Instinct,55999807,1992/
+Week 17,The Bad Guys,86689695,2022/
+Week 17,Avengers: Endgame,536411266,2019/
+Week 17,Police Academy,35395132,1984/
+Week 17,The Secret of My Success,36479770,1987/
+Week 17,Oscar,43868676,1991/
+Week 17,Demon Slayer the Movie: Mugen Train,60722724,2021/
+Week 17,Pretty Woman,54094892,1990/
+Week 17,Fast Five,199511346,2011/
+Week 17,Furious 7,121168729,2015/
+Week 17,Beetlejuice,48049444,1988/
+Week 17,Legend,22182599,1986/
+Week 17,Think Like a Man,142586881,2012/
+Week 17,Stick,31212805,1985/
+Week 17,The Jungle Book,169457225,2016/
+Week 17,Cattle Annie and Little Britches,146152,1981/
+Week 17,The Fate of the Furious,129454379,2017/
+Week 17,True History of the Kelly Gang,18231,2020/
+Week 17,Flashdance,28758201,1983/
+Week 17,Avengers: Infinity War,416289826,2018/
+Week 17,Pain & Gain,120572561,2013/
+Week 17,The Other Woman,151618577,2014/
+Week 17,Porky's,27355591,1982/
+Week 17,Pet Sematary,49851884,1989/
+
+45
+Week 18,Code of Silence,30758072,1985/
+Week 18,The Avengers,338936048,2012/
+Week 18,Mission: Impossible III,140437431,2006/
+Week 18,The Mummy Returns,138502426,2001/
+Week 18,The Secret of My Success,32599285,1987/
+Week 18,Pet Sematary,43111514,1989/
+Week 18,Indecent Proposal,44929843,1993/
+Week 18,Four Weddings and a Funeral,39601207,1994/
+Week 18,Guardians of the Galaxy Vol. 2,248475475,2017/
+Week 18,King of the Mountain,1174605,1981/
+Week 18,Pretty Woman,45220644,1990/
+Week 18,Iron Man,201322833,2008/
+Week 18,Avengers: Infinity War,224420461,2018/
+Week 18,Mean Girls,128724662,2004/
+Week 18,Gladiator,118034511,2000/
+Week 18,The Jungle Book,137077341,2016/
+Week 18,He Got Game,60202931,1998/
+Week 18,Guardians of the Galaxy Vol. 3,209186208,2023/
+Week 18,Iron Man 3,271247902,2013/
+Week 18,Colors,42128239,1988/
+Week 18,Breakin',45876193,1984/
+Week 18,The Amazing Spider-Man 2,193201263,2014/
+Week 18,X-Men Origins: Wolverine,199539214,2009/
+Week 18,Entrapment,79197155,1999/
+Week 18,Flashdance,29383356,1983/
+Week 18,-,0,1980/
+Week 18,French Kiss,52389309,1995/
+Week 18,The Wretched,130162,2020/
+Week 18,Kingdom of Heaven,110977587,2005/
+Week 18,Basic Instinct,39901371,1992/
+Week 18,Spider-Man 3,233218727,2007/
+Week 18,The Craft,46257988,1996/
+Week 18,Thor,215916165,2011/
+Week 18,"Jo Jo Dancer, Your Life Is Calling",24742186,1986/
+Week 18,Avengers: Endgame,257703964,2019/
+Week 18,Porky's,26110874,1982/
+Week 18,Avengers: Age of Ultron,292973658,2015/
+Week 18,Oscar,40264933,1991/
+Week 18,Spider-Man,214333883,2002/
+Week 18,X2,193158104,2003/
+Week 18,Breakdown,73985157,1997/
+Week 18,-,0,1979/
+Week 18,Doctor Strange in the Multiverse of Madness,277112562,2022/
+Week 18,A Nightmare on Elm Street,128020832,2010/
+Week 18,Demon Slayer the Movie: Mugen Train,31313313,2021/
+
+46
+Week 19,The Fifth Element,74510444,1997/
+Week 19,Gladiator,113422887,2000/
+Week 19,Guardians of the Galaxy Vol. 2,176042644,2017/
+Week 19,Crimson Tide,63296911,1995/
+Week 19,Wrath of Man,31270379,2021/
+Week 19,Deep Impact,87011541,1998/
+Week 19,Star Wars: Episode III - Revenge of the Sith,151574167,2005/
+Week 19,Iron Man,161117404,2008/
+Week 19,Van Helsing,143732121,2004/
+Week 19,Avengers: Age of Ultron,168341793,2015/
+Week 19,-,0,1977/
+Week 19,Avengers: Infinity War,182746452,2018/
+Week 19,Neighbors,179028025,2014/
+Week 19,Short Circuit,23232179,1986/
+Week 19,"See No Evil, Hear No Evil",42113962,1989/
+Week 19,Porky's,22506031,1982/
+Week 19,Code of Silence,26186192,1985/
+Week 19,When a Man Loves a Woman,60904660,1994/
+Week 19,Spider-Man 3,137710087,2007/
+Week 19,Spider-Man,191389423,2002/
+Week 19,Colors,30627523,1988/
+Week 19,The Mummy,111822701,1999/
+Week 19,Iron Man 2,227854671,2010/
+Week 19,Captain America: Civil War,301892803,2016/
+Week 19,Mission: Impossible III,127389306,2006/
+Week 19,Avengers: Endgame,219497995,2019/
+Week 19,The Mummy Returns,103061350,2001/
+Week 19,The Avengers,229277363,2012/
+Week 19,Doctor Strange in the Multiverse of Madness,120475480,2022/
+Week 19,The Secret of My Success,25015299,1987/
+Week 19,The Natural,42640786,1984/
+Week 19,Dragon: The Bruce Lee Story,46751595,1993/
+Week 19,F/X2,36938638,1991/
+Week 19,Twister,80228685,1996/
+Week 19,Thor,187077134,2011/
+Week 19,Pretty Woman,36285858,1990/
+Week 19,X2,181964977,2003/
+Week 19,-,0,1978/
+Week 19,-,0,1981/
+Week 19,Star Trek,197207527,2009/
+Week 19,The Wretched,141730,2020/
+Week 19,Basic Instinct,36333112,1992/
+Week 19,The Nude Bomb,4667811,1980/
+Week 19,Iron Man 3,218514742,2013/
+Week 19,Blue Thunder,38692620,1983/
+Week 19,Guardians of the Galaxy Vol. 3,136053616,2023/
+
+46
+Week 20,Dinosaur,171131342,2000/
+Week 20,Die Hard with a Vengeance,78831568,1995/
+Week 20,The Wretched,206849,2020/
+Week 20,Shrek,130421791,2001/
+Week 20,Star Wars: Episode IV - A New Hope,493774,1977/
+Week 20,The Matrix Reloaded,212207572,2003/
+Week 20,Friday the 13th Part VII: The New Blood,32863146,1988/
+Week 20,Conan the Barbarian,31916213,1982/
+Week 20,Star Wars: Episode I - The Phantom Menace,129985700,1999/
+Week 20,Shrek the Third,242038430,2007/
+Week 20,Lethal Weapon 3,64004098,1992/
+Week 20,What About Bob?,49989792,1991/
+Week 20,Pitch Perfect 2,240944976,2015/
+Week 20,Star Wars: Episode III - Revenge of the Sith,227332213,2005/
+Week 20,Twister,90302734,1996/
+Week 20,The Chronicles of Narnia: Prince Caspian,194989641,2008/
+Week 20,The Fifth Element,66957083,1997/
+Week 20,Top Gun,31361822,1986/
+Week 20,Pirates of the Caribbean: On Stranger Tides,256839160,2011/
+Week 20,Beverly Hills Cop II,37724285,1987/
+Week 20,Star Wars: Episode V - The Empire Strikes Back,2333825,1980/
+Week 20,Angels & Demons,194386999,2009/
+Week 20,Iron Man 2,182351307,2010/
+Week 20,The Da Vinci Code,215985043,2006/
+Week 20,Captain America: Civil War,169562436,2016/
+Week 20,Star Trek Into Darkness,220229837,2013/
+Week 20,Deep Impact,90147520,1998/
+Week 20,Troy,166321909,2004/
+Week 20,Star Wars: Episode II - Attack of the Clones,230168167,2002/
+Week 20,-,0,1981/
+Week 20,Spiral,34961865,2021/
+Week 20,Godzilla,232393700,2014/
+Week 20,Bird on a Wire,53454077,1990/
+Week 20,Fast X,162140846,2023/
+Week 20,Rambo: First Blood Part II,30959082,1985/
+Week 20,John Wick: Chapter 3 - Parabellum,203520860,2019/
+Week 20,Alien: Covenant,173512782,2017/
+Week 20,Maverick,67723479,1994/
+Week 20,The Avengers,196111045,2012/
+Week 20,-,0,1979/
+Week 20,Deadpool 2,283469570,2018/
+Week 20,Doctor Strange in the Multiverse of Madness,98113709,2022/
+Week 20,Indiana Jones and the Last Crusade,51569234,1989/
+Week 20,Star Wars: Episode VI - Return of the Jedi,52285673,1983/
+Week 20,Indiana Jones and the Temple of Doom,48146318,1984/
+Week 20,Dave,50727815,1993/
+
+46
+Week 21,The Angry Birds Movie,181470823,2016/
+Week 21,Star Wars: Episode V - The Empire Strikes Back,10265091,1980/
+Week 21,The Little Mermaid,249541360,2023/
+Week 21,Alien,4758639,1979/
+Week 21,Spiral,20378092,2021/
+Week 21,Pirates of the Caribbean: Dead Men Tell No Tales,218533507,2017/
+Week 21,Willow,43329669,1988/
+Week 21,Beverly Hills Cop II,69425450,1987/
+Week 21,X-Men: The Last Stand,283430948,2006/
+Week 21,Mission: Impossible,142699591,1996/
+Week 21,Bustin' Loose,19572316,1981/
+Week 21,The Flintstones,113871603,1994/
+Week 21,Cobra,60756626,1986/
+Week 21,Night at the Museum: Battle of the Smithsonian,261126333,2009/
+Week 21,Fast & Furious 6,369640050,2013/
+Week 21,Casper,127896816,1995/
+Week 21,Back to the Future Part III,79771292,1990/
+Week 21,Aladdin,283652332,2019/
+Week 21,Sliver,64663851,1993/
+Week 21,Top Gun: Maverick,284229658,2022/
+Week 21,Indiana Jones and the Temple of Doom,81793511,1984/
+Week 21,Star Wars: Episode IV - A New Hope,2062644,1977/
+Week 21,Shrek Forever After,210675007,2010/
+Week 21,Bruce Almighty,236622316,2003/
+Week 21,Star Wars: Episode I - The Phantom Menace,161093241,1999/
+Week 21,Backdraft,80013724,1991/
+Week 21,Pearl Harbor,214766296,2001/
+Week 21,The Hangover Part II,330413723,2011/
+Week 21,The Wretched,339051,2020/
+Week 21,Lethal Weapon 3,102791506,1992/
+Week 21,Star Wars: Episode VI - Return of the Jedi,82652643,1983/
+Week 21,Men in Black 3,236073022,2012/
+Week 21,Godzilla,139828060,1998/
+Week 21,Shrek 2,231000848,2004/
+Week 21,X-Men: Days of Future Past,276211722,2014/
+Week 21,Pirates of the Caribbean: At World's End,293561496,2007/
+Week 21,The Lost World: Jurassic Park,155891216,1997/
+Week 21,Tomorrowland,231396990,2015/
+Week 21,Star Wars: Episode III - Revenge of the Sith,267095044,2005/
+Week 21,Indiana Jones and the Kingdom of the Crystal Skull,255670568,2008/
+Week 21,Conan the Barbarian,36391758,1982/
+Week 21,Solo: A Star Wars Story,276358973,2018/
+Week 21,Indiana Jones and the Last Crusade,84648932,1989/
+Week 21,Mission: Impossible II,217816716,2000/
+Week 21,Rambo: First Blood Part II,73311334,1985/
+Week 21,Star Wars: Episode II - Attack of the Clones,237842428,2002/
+
+46
+Week 22,-,0,1977/
+Week 22,Star Wars: Episode VI - Return of the Jedi,77356110,1983/
+Week 22,The Lost World: Jurassic Park,87711698,1997/
+Week 22,Wonder Woman,268380107,2017/
+Week 22,The Wretched,248484,2020/
+Week 22,Top Gun,42044476,1986/
+Week 22,Aladdin,251058341,2019/
+Week 22,Rambo: First Blood Part II,56937480,1985/
+Week 22,Mission: Impossible II,146653600,2000/
+Week 22,Star Wars: Episode I - The Phantom Menace,176458640,1999/
+Week 22,Spider-Man: Across the Spider-Verse,293843410,2023/
+Week 22,Finding Nemo,241229014,2003/
+Week 22,Alien,3623506,1979/
+Week 22,Godzilla,91171030,1998/
+Week 22,Shrek 2,292023485,2004/
+Week 22,The Sum of All Fears,174572196,2002/
+Week 22,Star Trek III: The Search for Spock,76477913,1984/
+Week 22,Solo: A Star Wars Story,158144979,2018/
+Week 22,A Quiet Place Part II,119187658,2021/
+Week 22,-,0,1980/
+Week 22,Madagascar,182384542,2005/
+Week 22,-,0,1981/
+Week 22,Shrek Forever After,235029188,2010/
+Week 22,Top Gun: Maverick,185212388,2022/
+Week 22,Casper,93136809,1995/
+Week 22,Crocodile Dundee II,73873923,1988/
+Week 22,Total Recall,78928773,1990/
+Week 22,Fast & Furious 6,229027733,2013/
+Week 22,Maleficent,230601707,2014/
+Week 22,X-Men: Apocalypse,247632860,2016/
+Week 22,Pirates of the Caribbean: At World's End,190219347,2007/
+Week 22,Cliffhanger,101812513,1993/
+Week 22,San Andreas,197581693,2015/
+Week 22,The Break-Up,205482020,2006/
+Week 22,Snow White and the Huntsman,199888969,2012/
+Week 22,The Flintstones,82155646,1994/
+Week 22,Up,228584117,2009/
+Week 22,Beverly Hills Cop II,45134132,1987/
+Week 22,Backdraft,63884926,1991/
+Week 22,Sex and the City,230874659,2008/
+Week 22,Pearl Harbor,173116482,2001/
+Week 22,Rocky III,61505358,1982/
+Week 22,X-Men: First Class,225856713,2011/
+Week 22,Mission: Impossible,104539457,1996/
+Week 22,Indiana Jones and the Last Crusade,70607423,1989/
+Week 22,Lethal Weapon 3,80184059,1992/
+
+47
+Week 23,Spider-Man: Across the Spider-Verse,237894237,2023/
+Week 23,Mr. & Mrs. Smith,227278917,2005/
+Week 23,Jurassic World Dominion,297265363,2022/
+Week 23,Damien: Omen II,5861992,1978/
+Week 23,Star Trek V: The Final Frontier,87428417,1989/
+Week 23,The Sum of All Fears,161402751,2002/
+Week 23,Rambo: First Blood Part II,62085508,1985/
+Week 23,Star Trek II: The Wrath of Khan,72762262,1982/
+Week 23,Speed,92000126,1994/
+Week 23,-,0,1977/
+Week 23,The Truman Show,119594412,1998/
+Week 23,The Fault in Our Stars,235595385,2014/
+Week 23,The Conjuring: The Devil Made Me Do It,95498185,2021/
+Week 23,The Secret Life of Pets 2,241798277,2019/
+Week 23,Star Wars: Episode VI - Return of the Jedi,76807426,1983/
+Week 23,Finding Nemo,225325313,2003/
+Week 23,Patriot Games,86000885,1992/
+Week 23,Super 8,201738518,2011/
+Week 23,Swordfish,144498974,2001/
+Week 23,The Wretched,647894,2020/
+Week 23,City Slickers,71256427,1991/
+Week 23,The Hangover,245147072,2009/
+Week 23,Star Wars: Episode I - The Phantom Menace,128536028,1999/
+Week 23,Shrek Forever After,186228148,2010/
+Week 23,Ghostbusters,97081249,1984/
+Week 23,Cliffhanger,79623249,1993/
+Week 23,The Purge,232123083,2013/
+Week 23,-,0,1980/
+Week 23,Harry Potter and the Prisoner of Azkaban,257969082,2004/
+Week 23,Another 48 Hrs.,80802932,1990/
+Week 23,Madagascar 3: Europe's Most Wanted,259135403,2012/
+Week 23,Ocean's Eight,181174157,2018/
+Week 23,Wonder Woman,211071505,2017/
+Week 23,The Untouchables,55509442,1987/
+Week 23,Top Gun,48881725,1986/
+Week 23,Cars,215576910,2006/
+Week 23,-,0,1981/
+Week 23,Spy,188236012,2015/
+Week 23,The Rock,111571351,1996/
+Week 23,Ocean's Thirteen,194665697,2007/
+Week 23,Teenage Mutant Ninja Turtles: Out of the Shadows,190377155,2016/
+Week 23,Crocodile Dundee II,65146767,1988/
+Week 23,Con Air,89099952,1997/
+Week 23,Congo,103509940,1995/
+Week 23,Gone in 60 Seconds,143602030,2000/
+Week 23,Alien,4300753,1979/
+Week 23,Kung Fu Panda,247688287,2008/
+
+47
+Week 24,Jurassic Park,128385233,1993/
+Week 24,Fantastic Four: Rise of the Silver Surfer,212833027,2007/
+Week 24,Harry Potter and the Prisoner of Azkaban,231973047,2004/
+Week 24,Incredibles 2,403621055,2018/
+Week 24,The Flash,247255128,2023/
+Week 24,Man of Steel,289031400,2013/
+Week 24,Crocodile Dundee II,68609836,1988/
+Week 24,Dick Tracy,106368451,1990/
+Week 24,Batman Forever,144802418,1995/
+Week 24,The Conjuring 2,218751484,2016/
+Week 24,Ghostbusters,88677226,1984/
+Week 24,Alien,3783140,1979/
+Week 24,The Karate Kid,218553220,2010/
+Week 24,Lara Croft: Tomb Raider,192521334,2001/
+Week 24,Finding Nemo,184920537,2003/
+Week 24,Patriot Games,77878658,1992/
+Week 24,Cars 3,292680893,2017/
+Week 24,Green Lantern,227254468,2011/
+Week 24,The Cable Guy,108558682,1996/
+Week 24,A Quiet Place Part II,88574520,2021/
+Week 24,Becky,771415,2020/
+Week 24,Cars,224188245,2006/
+Week 24,Robin Hood: Prince of Thieves,99864222,1991/
+Week 24,Shaft,153808030,2000/
+Week 24,Austin Powers: The Spy Who Shagged Me,179993217,1999/
+Week 24,Madagascar 3: Europe's Most Wanted,197217988,2012/
+Week 24,Men in Black: International,205279222,2019/
+Week 24,Superman III,88142110,1983/
+Week 24,Star Wars: Episode IV - A New Hope,5473681,1977/
+Week 24,Predator,77472160,1987/
+Week 24,The Hangover,210709464,2009/
+Week 24,Back to School,61065816,1986/
+Week 24,Ghostbusters II,107993144,1989/
+Week 24,Rambo: First Blood Part II,64557931,1985/
+Week 24,E.T. the Extra-Terrestrial,80732936,1982/
+Week 24,Raiders of the Lost Ark,13843039,1981/
+Week 24,22 Jump Street,274993544,2014/
+Week 24,Wolf,100128570,1994/
+Week 24,The Incredible Hulk,257194828,2008/
+Week 24,Batman Begins,206201697,2005/
+Week 24,The Truman Show,117956731,1998/
+Week 24,Jurassic World,393685383,2015/
+Week 24,Grease,16055908,1978/
+Week 24,Scooby-Doo,238001770,2002/
+Week 24,Jurassic World Dominion,241502854,2022/
+Week 24,Wholly Moses!,9928806,1980/
+Week 24,Speed 2: Cruise Control,83677238,1997/
+
+47
+Week 25,Transformers: The Last Knight,214916215,2017/
+Week 25,Robin Hood: Prince of Thieves,103178813,1991/
+Week 25,Tarzan,198931902,1999/
+Week 25,The Fast and the Furious,207006418,2001/
+Week 25,Batman,151854136,1989/
+Week 25,Batman Returns,125963462,1992/
+Week 25,Click,237074234,2006/
+Week 25,E.T. the Extra-Terrestrial,77648945,1982/
+Week 25,Brave,247135768,2012/
+Week 25,Star Wars: Episode VI - Return of the Jedi,95154603,1983/
+Week 25,Lilo & Stitch,244262032,2002/
+Week 25,The Karate Kid Part II,78914367,1986/
+Week 25,Hulk,215937229,2003/
+Week 25,Followed,778684,2020/
+Week 25,Get Smart,212420940,2008/
+Week 25,Batman Begins,227344720,2005/
+Week 25,Jurassic World,359026887,2015/
+Week 25,Cars 2,317595770,2011/
+Week 25,Star Wars: Episode V - The Empire Strikes Back,31328270,1980/
+Week 25,Eraser,135921466,1996/
+Week 25,Jurassic World: Fallen Kingdom,407998267,2018/
+Week 25,Alien,9740592,1979/
+Week 25,Dick Tracy,102680619,1990/
+Week 25,Heaven Can Wait,540313,1978/
+Week 25,Elvis,206132038,2022/
+Week 25,Pocahontas,142900784,1995/
+Week 25,The X Files,151156618,1998/
+Week 25,Spider-Man: Across the Spider-Verse,169235719,2023/
+Week 25,Dodgeball: A True Underdog Story,219799863,2004/
+Week 25,Red Heat,79092373,1988/
+Week 25,Finding Dory,361778568,2016/
+Week 25,"Me, Myself & Irene",168576763,2000/
+Week 25,22 Jump Street,220210101,2014/
+Week 25,Transformers: Revenge of the Fallen,309178494,2009/
+Week 25,The Witches of Eastwick,69392651,1987/
+Week 25,Monsters University,356403141,2013/
+Week 25,Evan Almighty,209989259,2007/
+Week 25,Cocoon,71211813,1985/
+Week 25,Ghostbusters,91488332,1984/
+Week 25,Toy Story 3,307696026,2010/
+Week 25,Superman II,35774926,1981/
+Week 25,The Lion King,147869516,1994/
+Week 25,Hitman's Wife's Bodyguard,70290314,2021/
+Week 25,Star Wars: Episode IV - A New Hope,9075456,1977/
+Week 25,Batman & Robin,139556866,1997/
+Week 25,Jurassic Park,127597826,1993/
+Week 25,Toy Story 4,316524656,2019/
+
+47
+Week 26,The Perfect Storm,239732067,2000/
+Week 26,Minions: The Rise of Gru,301253959,2022/
+Week 26,E.T. the Extra-Terrestrial,90722719,1982/
+Week 26,Star Wars: Episode VI - Return of the Jedi,81092148,1983/
+Week 26,Mr. Deeds,266743638,2002/
+Week 26,F9: The Fast Saga,140426117,2021/
+Week 26,Transformers: Dark of the Moon,320690194,2011/
+Week 26,Transformers,344818906,2007/
+Week 26,Superman Returns,264523393,2006/
+Week 26,Despicable Me 3,281182034,2017/
+Week 26,Dragnet,85956120,1987/
+Week 26,Independence Day,204802926,1996/
+Week 26,Alien,7626254,1979/
+Week 26,Monsters University,382677490,2013/
+Week 26,Jurassic Park,126896674,1993/
+Week 26,Indiana Jones and the Dial of Destiny,234251178,2023/
+Week 26,The Lion King,146262947,1994/
+Week 26,Finding Dory,291415238,2016/
+Week 26,Who Framed Roger Rabbit,87936547,1988/
+Week 26,Apollo 13,174748799,1995/
+Week 26,Superman II,35954873,1981/
+Week 26,Transformers: Revenge of the Fallen,347587297,2009/
+Week 26,WALL·E,314910817,2008/
+Week 26,Inside Out,308982327,2015/
+Week 26,-,0,1978/
+Week 26,Batman,157874113,1989/
+Week 26,Days of Thunder,107900981,1990/
+Week 26,Hercules,178986563,1997/
+Week 26,Transformers: Age of Extinction,289901037,2014/
+Week 26,The Twilight Saga: Eclipse,358919937,2010/
+Week 26,Charlie's Angels: Full Throttle,230985347,2003/
+Week 26,Becky,527749,2020/
+Week 26,Big Daddy,249040144,1999/
+Week 26,Batman Returns,113535675,1992/
+Week 26,Star Wars: Episode IV - A New Hope,11228163,1977/
+Week 26,Ghostbusters,102102775,1984/
+Week 26,The Karate Kid Part II,80874074,1986/
+Week 26,Spider-Man 2,255363039,2004/
+Week 26,Ted,407227730,2012/
+Week 26,A.I. Artificial Intelligence,232202386,2001/
+Week 26,Doctor Dolittle,175236066,1998/
+Week 26,Pale Rider,80101186,1985/
+Week 26,The Naked Gun 2½: The Smell of Fear,128311565,1991/
+Week 26,War of the Worlds,231678828,2005/
+Week 26,Star Wars: Episode V - The Empire Strikes Back,17961732,1980/
+Week 26,Jurassic World: Fallen Kingdom,312933120,2018/
+Week 26,Toy Story 4,330476970,2019/
+
+47
+Week 27,The Amazing Spider-Man,297433730,2012/
+Week 27,Despicable Me 2,339155772,2013/
+Week 27,Transformers: Dark of the Moon,234047748,2011/
+Week 27,Ice Age: Dawn of the Dinosaurs,258153743,2009/
+Week 27,Transformers: Age of Extinction,204482485,2014/
+Week 27,The Twilight Saga: Eclipse,335174558,2010/
+Week 27,Terminator 3: Rise of the Machines,231921446,2003/
+Week 27,-,0,1978/
+Week 27,Relic,672807,2020/
+Week 27,F9: The Fast Saga,115363174,2021/
+Week 27,Star Wars: Episode IV - A New Hope,11038368,1977/
+Week 27,Spider-Man 2,266416517,2004/
+Week 27,Spider-Man: Far from Home,281598399,2019/
+Week 27,Fantastic Four,217495971,2005/
+Week 27,Thor: Love and Thunder,334746945,2022/
+Week 27,Ant-Man and the Wasp,278938550,2018/
+Week 27,Spider-Man: Homecoming,303727567,2017/
+Week 27,Alien,5334535,1979/
+Week 27,Transformers,318421443,2007/
+Week 27,Finding Dory,310795591,2016/
+Week 27,Hancock,243286058,2008/
+Week 27,Inside Out,219271846,2015/
+Week 27,Pirates of the Caribbean: Dead Man's Chest,325580377,2006/
+Week 27,Cats & Dogs,202065008,2001/
+Week 27,Men in Black II,226421108,2002/
+Week 27,Ghostbusters,81604065,1984/
+Week 27,Scary Movie,213615565,2000/
+Week 27,Die Hard 2,121016538,1990/
+Week 27,Insidious: The Red Door,222148047,2023/
+Week 27,Wild Wild West,199922943,1999/
+Week 27,Apollo 13,135706906,1995/
+Week 27,Forrest Gump,147991030,1994/
+Week 27,The Firm,176532079,1993/
+Week 27,E.T. the Extra-Terrestrial,82115934,1982/
+Week 27,Terminator 2: Judgment Day,131453051,1991/
+Week 27,Men in Black,175558944,1997/
+Week 27,Coming to America,106990012,1988/
+Week 27,A League of Their Own,111177722,1992/
+Week 27,Superman II,16651892,1981/
+Week 27,Dragnet,78900797,1987/
+Week 27,Independence Day,187366431,1996/
+Week 27,Armageddon,160328889,1998/
+Week 27,Star Wars: Episode VI - Return of the Jedi,60063083,1983/
+Week 27,The Karate Kid Part II,89469231,1986/
+Week 27,Lethal Weapon 2,131550115,1989/
+Week 27,Back to the Future,83329918,1985/
+Week 27,Star Wars: Episode V - The Empire Strikes Back,13995275,1980/
+
+46
+Week 28,Men in Black II,216742000,2002/
+Week 28,Independence Day,157729544,1996/
+Week 28,Despicable Me 2,300442364,2013/
+Week 28,Harry Potter and the Half-Blood Prince,290751948,2009/
+Week 28,War for the Planet of the Apes,243096748,2017/
+Week 28,X-Men,223061116,2000/
+Week 28,Despicable Me,293659395,2010/
+Week 28,Pirates of the Caribbean: Dead Man's Chest,238346414,2006/
+Week 28,American Pie,181312216,1999/
+Week 28,Ghostbusters,82216298,1984/
+Week 28,Ice Age: Continental Drift,253392893,2012/
+Week 28,Pirates of the Caribbean: The Curse of the Black Pearl,224545691,2003/
+Week 28,The Secret Life of Pets,323895350,2016/
+Week 28,Terminator 2: Judgment Day,135465725,1991/
+Week 28,Revenge of the Nerds II: Nerds in Paradise,77582639,1987/
+Week 28,The Firm,153859970,1993/
+Week 28,Staying Alive,79492459,1983/
+Week 28,Star Wars: Episode IV - A New Hope,11916019,1977/
+Week 28,Relic,586299,2020/
+Week 28,-,0,1981/
+Week 28,Men in Black,152037665,1997/
+Week 28,Hellboy II: The Golden Army,220612387,2008/
+Week 28,Back to the Future,81430573,1985/
+Week 28,Spider-Man: Far from Home,201907706,2019/
+Week 28,Thor: Love and Thunder,205656619,2022/
+Week 28,True Lies,152062148,1994/
+Week 28,Minions,317115561,2015/
+Week 28,Lethal Weapon 2,130019472,1989/
+Week 28,Die Hard 2,121237747,1990/
+Week 28,Harry Potter and the Deathly Hallows: Part 2,375468293,2011/
+Week 28,A League of Their Own,106897540,1992/
+Week 28,Dawn of the Planet of the Apes,227126382,2014/
+Week 28,Spider-Man 2,230965174,2004/
+Week 28,Star Wars: Episode V - The Empire Strikes Back,11604693,1980/
+Week 28,Mission: Impossible - Dead Reckoning Part One,212444753,2023/
+Week 28,E.T. the Extra-Terrestrial,70168562,1982/
+Week 28,Lethal Weapon 4,181762423,1998/
+Week 28,Black Widow,165820525,2021/
+Week 28,Charlie and the Chocolate Factory,252658147,2005/
+Week 28,Alien,4473028,1979/
+Week 28,Apollo 13,140432112,1995/
+Week 28,The Karate Kid Part II,79871596,1986/
+Week 28,Harry Potter and the Order of the Phoenix,275248310,2007/
+Week 28,Hotel Transylvania 3: Summer Vacation,259320155,2018/
+Week 28,Legally Blonde,211385698,2001/
+Week 28,Coming to America,96649238,1988/
+
+47
+Week 29,Endless Love,10298865,1981/
+Week 29,The Firm,134870471,1993/
+Week 29,Star Wars: Episode V - The Empire Strikes Back,20474895,1980/
+Week 29,The Mask of Zorro,174394198,1998/
+Week 29,Star Wars: Episode IV - A New Hope,12202130,1977/
+Week 29,Mamma Mia! Here We Go Again,270678091,2018/
+Week 29,Ghost,111657638,1990/
+Week 29,"I, Robot",232301328,2004/
+Week 29,Forrest Gump,157536891,1994/
+Week 29,The Dark Knight,399148168,2008/
+Week 29,Eyes Wide Shut,188320035,1999/
+Week 29,Men in Black,150175165,1997/
+Week 29,Dawn of the Planet of the Apes,220539822,2014/
+Week 29,Charlie and the Chocolate Factory,216578946,2005/
+Week 29,Harry Potter and the Half-Blood Prince,245102123,2009/
+Week 29,The Conjuring,296904641,2013/
+Week 29,Aliens,77081717,1986/
+Week 29,Dunkirk,273985088,2017/
+Week 29,Ghostbusters,77943951,1984/
+Week 29,The Lion King,391079975,2019/
+Week 29,Bad Boys II,232756104,2003/
+Week 29,Lethal Weapon 2,109887704,1989/
+Week 29,Back to the Future,79894345,1985/
+Week 29,Nope,193908187,2022/
+Week 29,The Dead Pool,104973391,1988/
+Week 29,Pirates of the Caribbean: Dead Man's Chest,222285366,2006/
+Week 29,"Honey, I Blew Up the Kid",95711772,1992/
+Week 29,Clueless,134994530,1995/
+Week 29,E.T. the Extra-Terrestrial,75506159,1982/
+Week 29,The Dark Knight Rises,339974008,2012/
+Week 29,Independence Day,126623705,1996/
+Week 29,The Secret Life of Pets,248477598,2016/
+Week 29,Captain America: The First Avenger,284813288,2011/
+Week 29,Stuart Little 2,183150628,2002/
+Week 29,Snow White and the Seven Dwarfs1987 Re-release,89222137,1987/
+Week 29,Alien,4008486,1979/
+Week 29,Space Jam: A New Legacy,131872999,2021/
+Week 29,Terminator 2: Judgment Day,117205910,1991/
+Week 29,I Now Pronounce You Chuck & Larry,240114489,2007/
+Week 29,Inception,279914074,2010/
+Week 29,Relic,491828,2020/
+Week 29,-,0,1978/
+Week 29,Barbie,492416447,2023/
+Week 29,What Lies Beneath,212627599,2000/
+Week 29,Jurassic Park III,218803824,2001/
+Week 29,Ant-Man,287718827,2015/
+Week 29,Jaws 3-D,86985316,1983/
+
+47
+Week 30,Alien,2860473,1979/
+Week 30,Old,104492311,2021/
+Week 30,Mo' Money,81129996,1992/
+Week 30,Aliens,81559155,1986/
+Week 30,G-Force,236245623,2009/
+Week 30,Wedding Crashers,191841145,2005/
+Week 30,Terminator 2: Judgment Day,94375054,1991/
+Week 30,Who Framed Roger Rabbit,101610057,1988/
+Week 30,Presumed Innocent,111202518,1990/
+Week 30,DC League of Super-Pets,151253578,2022/
+Week 30,The Mask,153268456,1994/
+Week 30,The Bourne Supremacy,217408468,2004/
+Week 30,E.T. the Extra-Terrestrial,84693948,1982/
+Week 30,National Lampoon's European Vacation,86687946,1985/
+Week 30,Mission: Impossible - Fallout,247412373,2018/
+Week 30,The Smurfs,275953728,2011/
+Week 30,Star Wars: Episode V - The Empire Strikes Back,13060643,1980/
+Week 30,Ant-Man,234284409,2015/
+Week 30,Planet of the Apes,225717054,2001/
+Week 30,Saving Private Ryan,187736595,1998/
+Week 30,The Simpsons Movie,271391493,2007/
+Week 30,Lucy,228576572,2014/
+Week 30,Barbie,343926486,2023/
+Week 30,Summer School,91212312,1987/
+Week 30,Waterworld,134645968,1995/
+Week 30,The Dark Knight,278168136,2008/
+Week 30,Spy Kids 3: Game Over,241791369,2003/
+Week 30,In the Line of Fire,133494823,1993/
+Week 30,The Dark Knight Rises,209000501,2012/
+Week 30,The Lion King,252143756,2019/
+Week 30,Air Force One,155591906,1997/
+Week 30,Miami Vice,202057568,2006/
+Week 30,Star Trek Beyond,297489688,2016/
+Week 30,National Lampoon's Vacation,83321807,1983/
+Week 30,-,0,1981/
+Week 30,The Haunting,211386548,1999/
+Week 30,Austin Powers in Goldmember,227583310,2002/
+Week 30,The Wolverine,264928176,2013/
+Week 30,Star Wars: Episode IV - A New Hope,12000083,1977/
+Week 30,The Rental,992267,2020/
+Week 30,A Time to Kill,131811636,1996/
+Week 30,Turner & Hooch,111741247,1989/
+Week 30,Purple Rain,79374736,1984/
+Week 30,-,0,1978/
+Week 30,Inception,247823919,2010/
+Week 30,Nutty Professor II: The Klumps,194226580,2000/
+Week 30,Dunkirk,221011063,2017/
+
+46
+Week 31,Mission: Impossible - Rogue Nation,228033383,2015/
+Week 31,-,0,1981/
+Week 31,The Dark Tower,184482439,2017/
+Week 31,The Living Daylights,88596487,1987/
+Week 31,Talladega Nights: The Ballad of Ricky Bobby,219105930,2006/
+Week 31,Mission: Impossible - Fallout,218707977,2018/
+Week 31,Clear and Present Danger,156859604,1994/
+Week 31,Parenthood,103627461,1989/
+Week 31,Air Force One,151966408,1997/
+Week 31,Guardians of the Galaxy,271992148,2014/
+Week 31,Aliens,71437871,1986/
+Week 31,Cocktail,96460717,1988/
+Week 31,The Dukes of Hazzard,176268534,2005/
+Week 31,Jason Bourne,283985335,2016/
+Week 31,A Time to Kill,101404107,1996/
+Week 31,Alien,2414912,1979/
+Week 31,The Dark Knight,255492464,2008/
+Week 31,Waterworld,131829240,1995/
+Week 31,The Bourne Ultimatum,254832303,2007/
+Week 31,Runaway Bride,243303228,1999/
+Week 31,Ghost,115012456,1990/
+Week 31,Rise of the Planet of the Apes,259290324,2011/
+Week 31,Inception,228843650,2010/
+Week 31,E.T. the Extra-Terrestrial,76559273,1982/
+Week 31,Bullet Train,136951704,2022/
+Week 31,Funny People,194503657,2009/
+Week 31,The Rental,854110,2020/
+Week 31,Fast & Furious Presents: Hobbs & Shaw,227524503,2019/
+Week 31,Ghostbusters,70593818,1984/
+Week 31,Rising Sun,129787624,1993/
+Week 31,Jungle Cruise,119308630,2021/
+Week 31,2 Guns,225090192,2013/
+Week 31,American Wedding,228624368,2003/
+Week 31,Signs,249895949,2002/
+Week 31,Barbie,272735983,2023/
+Week 31,National Lampoon's Vacation,66247015,1983/
+Week 31,Hot Shots!,100189966,1991/
+Week 31,Star Wars: Episode IV - A New Hope,12473041,1977/
+Week 31,Hollow Man,190996874,2000/
+Week 31,The Dark Knight Rises,191209829,2012/
+Week 31,Saving Private Ryan,175854864,1998/
+Week 31,Star Wars: Episode V - The Empire Strikes Back,10274074,1980/
+Week 31,Back to the Future,76126766,1985/
+Week 31,Rush Hour 2,259564447,2001/
+Week 31,Death Becomes Her,83948106,1992/
+Week 31,The Village,232733356,2004/
+
+46
+Week 32,The Other Guys,205380980,2010/
+Week 32,The Tax Collector,1209292,2020/
+Week 32,Hollow Man,159925000,2000/
+Week 32,S.W.A.T.,206713355,2003/
+Week 32,The Bourne Legacy,213835068,2012/
+Week 32,The Living Daylights,88689084,1987/
+Week 32,Alien,2222720,1979/
+Week 32,Talladega Nights: The Ballad of Ricky Bobby,191362903,2006/
+Week 32,Star Wars: Episode IV - A New Hope,11560351,1977/
+Week 32,Unforgiven,91762718,1992/
+Week 32,The Suicide Squad,93429312,2021/
+Week 32,xXx,202730811,2002/
+Week 32,National Lampoon's Vacation,65445651,1983/
+Week 32,The Abyss,104746010,1989/
+Week 32,Dangerous Minds,129354468,1995/
+Week 32,Hot Shots!,90540952,1991/
+Week 32,The Fugitive,119364655,1993/
+Week 32,Jack,106326657,1996/
+Week 32,Annabelle: Creation,173131832,2017/
+Week 32,The Dark Knight,196694829,2008/
+Week 32,Suicide Squad,329772931,2016/
+Week 32,Elysium,237865897,2013/
+Week 32,Collateral,184247609,2004/
+Week 32,Barbie,175087704,2023/
+Week 32,Rush Hour 3,225115841,2007/
+Week 32,Flatliners,106574277,1990/
+Week 32,Mission: Impossible - Rogue Nation,197998776,2015/
+Week 32,Teenage Mutant Ninja Turtles,276226383,2014/
+Week 32,Conspiracy Theory,129463103,1997/
+Week 32,Aliens,67561936,1986/
+Week 32,The Help,234139529,2011/
+Week 32,The Meg,226431042,2018/
+Week 32,Star Wars: Episode V - The Empire Strikes Back,9505189,1980/
+Week 32,Back to the Future,75171025,1985/
+Week 32,E.T. the Extra-Terrestrial,73459792,1982/
+Week 32,Student Bodies,2347425,1981/
+Week 32,Four Brothers,177537610,2005/
+Week 32,American Pie 2,231951630,2001/
+Week 32,G.I. Joe: The Rise of Cobra,221648143,2009/
+Week 32,Bullet Train,99088597,2022/
+Week 32,Fast & Furious Presents: Hobbs & Shaw,202634716,2019/
+Week 32,Red Dawn,69628491,1984/
+Week 32,Cocktail,79989673,1988/
+Week 32,The Sixth Sense,235727414,1999/
+Week 32,Saving Private Ryan,158658470,1998/
+Week 32,Clear and Present Danger,127326462,1994/
+
+46
+Week 33,xXx,158607601,2002/
+Week 33,Suicide Squad,254073490,2016/
+Week 33,The Expendables 2,199383383,2012/
+Week 33,American Pie 2,168437295,2001/
+Week 33,Superbad,195841052,2007/
+Week 33,Alien,1542198,1979/
+Week 33,Straight Outta Compton,217243616,2015/
+Week 33,The Help,179632318,2011/
+Week 33,The Expendables,221294779,2010/
+Week 33,E.T. the Extra-Terrestrial,75145362,1982/
+Week 33,Mortal Kombat,121910235,1995/
+Week 33,Free Guy,107173681,2021/
+Week 33,Dragon Ball Super: Super Hero,109212416,2022/
+Week 33,Unforgiven,83940142,1992/
+Week 33,Young Guns,79133584,1988/
+Week 33,Tin Cup,93862434,1996/
+Week 33,The SpongeBob Movie: Sponge on the Run,3152281,2020/
+Week 33,Alien vs. Predator,198312585,2004/
+Week 33,The Butler,205691977,2013/
+Week 33,Good Boys,177854993,2019/
+Week 33,Tightrope,73732226,1984/
+Week 33,The Sixth Sense,191036808,1999/
+Week 33,Smokey and the Bandit II,17805900,1980/
+Week 33,Cop Land,109916974,1997/
+Week 33,The Cell,141411746,2000/
+Week 33,-,0,1981/
+Week 33,Freddy vs. Jason,211943495,2003/
+Week 33,The Hitman's Bodyguard,138860067,2017/
+Week 33,Tropic Thunder,186478180,2008/
+Week 33,Back to the Future,73412132,1985/
+Week 33,The Fly,70124879,1986/
+Week 33,District 9,214480433,2009/
+Week 33,The 40-Year-Old Virgin,162612842,2005/
+Week 33,Teenage Mutant Ninja Turtles,203826063,2014/
+Week 33,Blue Beetle,139968472,2023/
+Week 33,Hot Shots!,72503949,1991/
+Week 33,Crazy Rich Asians,195015319,2018/
+Week 33,Stakeout,72008580,1987/
+Week 33,Easy Money,56971903,1983/
+Week 33,Star Wars: Episode IV - A New Hope,10213996,1977/
+Week 33,Saving Private Ryan,143292862,1998/
+Week 33,Ghost,102687527,1990/
+Week 33,Uncle Buck,99241263,1989/
+Week 33,Forrest Gump,107598155,1994/
+Week 33,Talladega Nights: The Ballad of Ricky Bobby,155214114,2006/
+Week 33,The Fugitive,112352412,1993/
+
+46
+Week 34,Guardians of the Galaxy,157750308,2014/
+Week 34,An American Werewolf in London,7205908,1981/
+Week 34,The Help,137102685,2011/
+Week 34,Alien,1462592,1979/
+Week 34,Straight Outta Compton,151043437,2015/
+Week 34,The Butler,157051178,2013/
+Week 34,Unforgiven,60179288,1992/
+Week 34,The Fugitive,95086227,1993/
+Week 34,Tropic Thunder,149399242,2008/
+Week 34,Mortal Kombat,95274224,1995/
+Week 34,Hot Shots!,56677762,1991/
+Week 34,Darkman,79950255,1990/
+Week 34,The Expendables,183643220,2010/
+Week 34,The Expendables 2,133939756,2012/
+Week 34,Uncle Buck,73067428,1989/
+Week 34,Inglourious Basterds,181006317,2009/
+Week 34,Natural Born Killers,91258437,1994/
+Week 34,American Pie 2,135184358,2001/
+Week 34,Angel Has Fallen,156037093,2019/
+Week 34,Bring It On,124027512,2000/
+Week 34,Signs,120228427,2002/
+Week 34,Suicide Squad,187165556,2016/
+Week 34,Tin Cup,91030728,1996/
+Week 34,-,0,1980/
+Week 34,The Sixth Sense,154872334,1999/
+Week 34,Tightrope,53877354,1984/
+Week 34,Star Wars: Episode IV - A New Hope,8653096,1977/
+Week 34,Free Guy,88460481,2021/
+Week 34,Stakeout,66996575,1987/
+Week 34,The Invitation,72138144,2022/
+Week 34,E.T. the Extra-Terrestrial,61442775,1982/
+Week 34,Mr. Mom,52771724,1983/
+Week 34,The Fly,61298675,1986/
+Week 34,Unhinged,8234319,2020/
+Week 34,The 40-Year-Old Virgin,135457184,2005/
+Week 34,G.I. Jane,102345899,1997/
+Week 34,Freddy vs. Jason,144324263,2003/
+Week 34,Superbad,151221081,2007/
+Week 34,Gran Turismo,124996979,2023/
+Week 34,Back to the Future,60087214,1985/
+Week 34,The Hitman's Bodyguard,101552490,2017/
+Week 34,A Nightmare on Elm Street 4: The Dream Master,78099043,1988/
+Week 34,Exorcist: The Beginning,166479959,2004/
+Week 34,Blade,119480249,1998/
+Week 34,Crazy Rich Asians,150198552,2018/
+Week 34,Invincible,140935955,2006/
+
+45
+Week 35,Transporter 2,107387120,2005/
+Week 35,G.I. Jane,95917877,1997/
+Week 35,Angel Has Fallen,142189067,2019/
+Week 35,The Hitman's Bodyguard,112587233,2017/
+Week 35,Halloween,167130987,2007/
+Week 35,Stand by Me,55466750,1986/
+Week 35,Candyman,82064205,2021/
+Week 35,Guardians of the Galaxy,163548362,2014/
+Week 35,The Final Destination,165895871,2009/
+Week 35,The Possession,156149036,2012/
+Week 35,Crazy Rich Asians,151983826,2018/
+Week 35,Mr. Mom,49074744,1983/
+Week 35,Forrest Gump,93677837,1994/
+Week 35,Body Heat,881660,1981/
+Week 35,Back to the Future,53407472,1985/
+Week 35,Takers,157924612,2010/
+Week 35,Hero,142341283,2004/
+Week 35,The Fugitive,78605743,1993/
+Week 35,Signs,129361788,2002/
+Week 35,Blade,91054524,1998/
+Week 35,Bring It On,119075960,2000/
+Week 35,Dead Again,61442757,1991/
+Week 35,Straight Outta Compton,123514184,2015/
+Week 35,The New Mutants,23705367,2020/
+Week 35,The Help,161436697,2011/
+Week 35,A Nightmare on Elm Street 4: The Dream Master,66730347,1988/
+Week 35,Jeepers Creepers 2,132640882,2003/
+Week 35,Tightrope,58862605,1984/
+Week 35,E.T. the Extra-Terrestrial,50446944,1982/
+Week 35,Mortal Kombat,84261288,1995/
+Week 35,Tropic Thunder,142741469,2008/
+Week 35,Top Gun: Maverick,83133673,2022/
+Week 35,The Butler,186119930,2013/
+Week 35,Don't Breathe,164705279,2016/
+Week 35,Alien,1269842,1979/
+Week 35,Jeepers Creepers,134810641,2001/
+Week 35,Ghost,70004304,1990/
+Week 35,The Crow: City of Angels,73484601,1996/
+Week 35,The Sixth Sense,151100307,1999/
+Week 35,Stakeout,53549021,1987/
+Week 35,Honeymoon in Vegas,54858011,1992/
+Week 35,Uncle Buck,68891366,1989/
+Week 35,-,0,1980/
+Week 35,The Equalizer 3,135538535,2023/
+Week 35,Invincible,139306039,2006/
+
+44
+Week 36,Dead Again,35526734,1991/
+Week 36,-,0,1981/
+Week 36,The Final Destination,147803169,2009/
+Week 36,Back to the Future,29961721,1985/
+Week 36,Jeepers Creepers 2,86378275,2003/
+Week 36,The Sixth Sense,112242759,1999/
+Week 36,It Chapter Two,178412448,2019/
+Week 36,The Possession,87919567,2012/
+Week 36,Without a Paddle,115372914,2004/
+Week 36,Tightrope,36399931,1984/
+Week 36,Riddick,110174966,2013/
+Week 36,The Watcher,76947488,2000/
+Week 36,Mr. Mom,26777381,1983/
+Week 36,The Nun II,117982853,2023/
+Week 36,Ghost,43570249,1990/
+Week 36,Stakeout,53208227,1987/
+Week 36,The Covenant,92681094,2006/
+Week 36,Uncle Buck,46091184,1989/
+Week 36,Bulletproof,48710407,1996/
+Week 36,Barbarian,58690664,2022/
+Week 36,Bangkok Dangerous,87753870,2008/
+Week 36,"To Wong Foo, Thanks for Everything! Julie Newmar",57229210,1995/
+Week 36,Zapped!,59038098,1982/
+Week 36,A Nightmare on Elm Street 4: The Dream Master,64247530,1988/
+Week 36,The Musketeer,92421954,2001/
+Week 36,War Room,135308637,2015/
+Week 36,Contagion,109344057,2011/
+Week 36,3:10 to Yuma,104968835,2007/
+Week 36,Don't Breathe,149628708,2016/
+Week 36,It,216627670,2017/
+Week 36,Honeymoon in Vegas,50925470,1992/
+Week 36,Fire Down Below,52181670,1997/
+Week 36,The American,154078058,2010/
+Week 36,Alien,873789,1979/
+Week 36,My Big Fat Greek Wedding,99978086,2002/
+Week 36,Guardians of the Galaxy,88040756,2014/
+Week 36,Forrest Gump,49501071,1994/
+Week 36,The Fugitive,76233523,1993/
+Week 36,The Nun,161262773,2018/
+Week 36,There's Something About Mary,76498830,1998/
+Week 36,The Exorcism of Emily Rose,110491833,2005/
+Week 36,Shang-Chi and the Legend of the Ten Rings,161355063,2021/
+Week 36,Top Gun,30722359,1986/
+Week 36,Tenet,24107364,2020/
+
+47
+Week 37,The Watcher,69005251,2000/
+Week 37,Resident Evil: Retribution,114083012,2012/
+Week 37,A Haunting in Venice,83354203,2023/
+Week 37,Resident Evil: Afterlife,107283399,2010/
+Week 37,The Fugitive,50053871,1993/
+Week 37,Sneakers,44078180,1992/
+Week 37,An Officer and a Gentleman,28484622,1982/
+Week 37,Barbershop,108809296,2002/
+Week 37,Mr. Mom,24280841,1983/
+Week 37,-,0,1977/
+Week 37,The Woman King,71121269,2022/
+Week 37,Shang-Chi and the Legend of the Ten Rings,81149728,2021/
+Week 37,Hardball,83634364,2001/
+Week 37,Tenet,17341437,2020/
+Week 37,Back to the Future,22024863,1985/
+Week 37,Top Gun,27111647,1986/
+Week 37,Stakeout,34209597,1987/
+Week 37,It,148499678,2017/
+Week 37,Sea of Love,45009158,1989/
+Week 37,Burn After Reading,130409848,2008/
+Week 37,The Game,51504915,1997/
+Week 37,Just Like Heaven,105730155,2005/
+Week 37,Maximum Risk,47517196,1996/
+Week 37,-,0,1978/
+Week 37,"To Wong Foo, Thanks for Everything! Julie Newmar",53820234,1995/
+Week 37,The Predator,148009449,2018/
+Week 37,Rounders,48942082,1998/
+Week 37,Timecop,54782097,1994/
+Week 37,No Good Deed,116621917,2014/
+Week 37,The Lion King2011 3D Release,136401687,2011/
+Week 37,Sully,134442104,2016/
+Week 37,Alien,655978,1979/
+Week 37,Gridiron Gang,99023211,2006/
+Week 37,Freddy's Dead: The Final Nightmare,45071898,1991/
+Week 37,The Brave One,101431230,2007/
+Week 37,The Perfect Guy,130021845,2015/
+Week 37,Postcards from the Edge,47028609,1990/
+Week 37,Insidious: Chapter 2,130724749,2013/
+Week 37,Once Upon a Time in Mexico,111086142,2003/
+Week 37,-,0,1980/
+Week 37,-,0,1981/
+Week 37,It Chapter Two,149537267,2019/
+Week 37,Moon Over Parador,37119899,1988/
+Week 37,Ghostbusters,30611308,1984/
+Week 37,I Can Do Bad All by Myself,117978152,2009/
+Week 37,Resident Evil: Apocalypse,103105986,2004/
+Week 37,Stigmata,103594298,1999/
+
+45
+Week 38,Mr. Mom,23273528,1983/
+Week 38,-,0,1977/
+Week 38,Sully,121858383,2016/
+Week 38,Maze Runner: The Scorch Trials,147971889,2015/
+Week 38,A Fish Called Wanda,33711688,1988/
+Week 38,Don't Worry Darling,83857157,2022/
+Week 38,Black Rain,46289971,1989/
+Week 38,All of Me,36923706,1984/
+Week 38,Kingsman: The Golden Circle,152942112,2017/
+Week 38,Sneakers,50285106,1992/
+Week 38,End of Watch,120245860,2012/
+Week 38,Tenet,15403958,2020/
+Week 38,Top Gun,26405618,1986/
+Week 38,The House with a Clock in Its Walls,125093394,2018/
+Week 38,Shang-Chi and the Legend of the Ten Rings,63629567,2021/
+Week 38,The Maze Runner,133255672,2014/
+Week 38,Goodfellas,48625682,1990/
+Week 38,Back to the Future,20824729,1985/
+Week 38,Downton Abbey,168838131,2019/
+Week 38,Continental Divide,4528980,1981/
+Week 38,Prisoners,113042385,2013/
+Week 38,Freddy's Dead: The Final Nightmare,37760818,1991/
+Week 38,Fatal Attraction,45827814,1987/
+Week 38,The Lion King2011 3D Release,155047385,2011/
+Week 38,E.T. the Extra-Terrestrial,29023272,1982/
+Week 38,The Exorcist2000 Director's Cut,78629799,2000/
+Week 38,-,0,1980/
+Week 38,Underworld,133597948,2003/
+Week 38,The Town,131316767,2010/
+Week 38,Lakeview Terrace,113737699,2008/
+Week 38,Cloudy with a Chance of Meatballs,129868143,2009/
+Week 38,Rush Hour,84295067,1998/
+Week 38,In & Out,64291704,1997/
+Week 38,Sky Captain and the World of Tomorrow,98316332,2004/
+Week 38,The First Wives Club,61184904,1996/
+Week 38,Blue Streak,101832096,1999/
+Week 38,Barbershop,102645742,2002/
+Week 38,Striking Distance,50467807,1993/
+Week 38,Jackass Number Two,111885032,2006/
+Week 38,Se7en,60717807,1995/
+Week 38,Timecop,47039212,1994/
+Week 38,Flightplan,126031680,2005/
+Week 38,Resident Evil: Extinction,122274353,2007/
+Week 38,Alien,728261,1979/
+Week 38,Hardball,76015096,2001/
+
+44
+Week 39,Fatal Attraction,38306154,1987/
+Week 39,American Made,120143224,2017/
+Week 39,Alien,522438,1979/
+Week 39,Hotel Transylvania,152474679,2012/
+Week 39,Pacific Heights,44969031,1990/
+Week 39,Invasion U.S.A.,24819024,1985/
+Week 39,The Forgotten,91774776,2004/
+Week 39,Wall Street: Money Never Sleeps,131313391,2010/
+Week 39,Cloudy with a Chance of Meatballs,124404083,2009/
+Week 39,Rush Hour,82010535,1998/
+Week 39,The Peacemaker,78197985,1997/
+Week 39,Sweet Home Alabama,128624892,2002/
+Week 39,Chariots of Fire,106011,1981/
+Week 39,Night School,140037237,2018/
+Week 39,Cloudy with a Chance of Meatballs 2,136352516,2013/
+Week 39,Hotel Transylvania 2,178104358,2015/
+Week 39,Remember the Titans,82674073,2000/
+Week 39,Flightplan,114799346,2005/
+Week 39,In God We Trust (or Gimme That Prime Time Religion),5210501,1980/
+Week 39,Smile,88355691,2022/
+Week 39,The Fisher King,43946000,1991/
+Week 39,The Good Son,61491852,1993/
+Week 39,Crocodile Dundee,31806288,1986/
+Week 39,Shang-Chi and the Legend of the Ten Rings,50290427,2021/
+Week 39,Don't Say a Word,94625569,2001/
+Week 39,Double Jeopardy,102933194,1999/
+Week 39,Dolphin Tale,127805558,2011/
+Week 39,The Magnificent Seven,136363465,2016/
+Week 39,Se7en,62259622,1995/
+Week 39,The Big Chill,26659104,1983/
+Week 39,Dead Ringers,33367550,1988/
+Week 39,The First Wives Club,53222050,1996/
+Week 39,Open Season,126231487,2006/
+Week 39,The Last of the Mohicans,57883175,1992/
+Week 39,All of Me,36837922,1984/
+Week 39,The River Wild,55414676,1994/
+Week 39,E.T. the Extra-Terrestrial,29010891,1982/
+Week 39,Abominable,131184326,2019/
+Week 39,The Equalizer,139361329,2014/
+Week 39,The Game Plan,116188090,2007/
+Week 39,Tenet,12464580,2020/
+Week 39,Black Rain,40254625,1989/
+Week 39,Eagle Eye,131345167,2008/
+Week 39,The Rundown,118670384,2003/
+
+46
+Week 40,Se7en,74956807,1995/
+Week 40,Black Rain,43652818,1989/
+Week 40,Red Dragon,131424225,2002/
+Week 40,Never Say Never Again,35463131,1983/
+Week 40,The Game Plan,113151934,2007/
+Week 40,Wallace & Gromit: The Curse of the Were-Rabbit,142177761,2005/
+Week 40,Smile,83589769,2022/
+Week 40,The Martian,194094453,2015/
+Week 40,Gravity,170507756,2013/
+Week 40,Meet the Parents,114415040,2000/
+Week 40,Beverly Hills Chihuahua,145920333,2008/
+Week 40,Kiss the Girls,73991004,1997/
+Week 40,Gone Girl,193722333,2014/
+Week 40,-,0,1977/
+Week 40,Venom: Let There Be Carnage,160377703,2021/
+Week 40,The Departed,145681997,2006/
+Week 40,Marked for Death,58756287,1990/
+Week 40,-,0,1979/
+Week 40,-,0,1978/
+Week 40,E.T. the Extra-Terrestrial,23374907,1982/
+Week 40,Fatal Attraction,40894885,1987/
+Week 40,Blade Runner 2049,149160302,2017/
+Week 40,Miss Peregrine's Home for Peculiar Children,150273974,2016/
+Week 40,Zombieland,137342155,2009/
+Week 40,Gorillas in the Mist,31465087,1988/
+Week 40,The Specialist,63507411,1994/
+Week 40,The First Wives Club,57324838,1996/
+Week 40,Crocodile Dundee,37265042,1986/
+Week 40,Tenet,11758783,2020/
+Week 40,Real Steel,130735511,2011/
+Week 40,Antz,101217644,1998/
+Week 40,Taken 2,189881467,2012/
+Week 40,Training Day,120293722,2001/
+Week 40,Teachers,39745518,1984/
+Week 40,Shark Tale,141381641,2004/
+Week 40,Zoot Suit,88316,1981/
+Week 40,Venom,253603575,2018/
+Week 40,Commando,36623021,1985/
+Week 40,Somewhere in Time,1559279,1980/
+Week 40,The Last of the Mohicans,58885497,1992/
+Week 40,School of Rock,127396594,2003/
+Week 40,Double Jeopardy,111497757,1999/
+Week 40,The Social Network,124942530,2010/
+Week 40,Malice,65642256,1993/
+Week 40,Joker,216660456,2019/
+Week 40,The Fisher King,50292836,1991/
+
+44
+Week 41,Joker,202185650,2019/
+Week 41,Taken 2,169040444,2012/
+Week 41,Happy Death Day,131950497,2017/
+Week 41,Training Day,110201848,2001/
+Week 41,Red Dragon,124299189,2002/
+Week 41,Gone Girl,202385961,2014/
+Week 41,The Girl on the Train,147944082,2016/
+Week 41,-,0,1981/
+Week 41,The Departed,140461472,2006/
+Week 41,Shark Tale,137457770,2004/
+Week 41,Beverly Hills Chihuahua,137258824,2008/
+Week 41,Demolition Man,83809771,1993/
+Week 41,The Ghost and the Darkness,69538403,1996/
+Week 41,Marked for Death,50778360,1990/
+Week 41,An Officer and a Gentleman,21759308,1982/
+Week 41,Looking for Mr. Goodbar,297341,1977/
+Week 41,No Time to Die,146751036,2021/
+Week 41,Double Jeopardy,117426556,1999/
+Week 41,Alien Nation,38981918,1988/
+Week 41,Commando,43109270,1985/
+Week 41,Couples Retreat,151809513,2009/
+Week 41,The War with Grandpa,13446315,2020/
+Week 41,Crocodile Dundee,47856528,1986/
+Week 41,The Fisher King,49009602,1991/
+Week 41,The Martian,163510725,2015/
+Week 41,Halloween Ends,96016976,2022/
+Week 41,The Fog,113084527,2005/
+Week 41,Why Did I Get Married?,130118965,2007/
+Week 41,Never Say Never Again,26832846,1983/
+Week 41,Meet the Parents,106613514,2000/
+Week 41,The Social Network,129022790,2010/
+Week 41,Venom,184035791,2018/
+Week 41,Real Steel,115992630,2011/
+Week 41,Gravity,163531879,2013/
+Week 41,-,0,1980/
+Week 41,Under Siege,65659489,1992/
+Week 41,Fatal Attraction,45461873,1987/
+Week 41,Look Who's Talking,50095045,1989/
+Week 41,Pulp Fiction,71532095,1994/
+Week 41,Antz,81759085,1998/
+Week 41,Se7en,67114534,1995/
+Week 41,School of Rock,116728853,2003/
+Week 41,Kiss the Girls,78109217,1997/
+Week 41,Teachers,30574495,1984/
+
+44
+Week 42,Max Payne,128876834,2008/
+Week 42,Sleepers,61880335,1996/
+Week 42,Get Shorty,65138341,1995/
+Week 42,Honest Thief,16229827,2020/
+Week 42,Goosebumps,159339684,2015/
+Week 42,The Ring,117587412,2002/
+Week 42,30 Days of Night,116916147,2007/
+Week 42,E.T. the Extra-Terrestrial,16334214,1982/
+Week 42,Fight Club,105068404,1999/
+Week 42,The Texas Chainsaw Massacre,147637665,2003/
+Week 42,Teachers,36357646,1984/
+Week 42,Paranormal Activity 3,152524730,2011/
+Week 42,The Accountant,132518142,2016/
+Week 42,From Hell,106410808,2001/
+Week 42,Demolition Man,73479814,1993/
+Week 42,Look Who's Talking,53619969,1989/
+Week 42,Crocodile Dundee,44695063,1986/
+Week 42,Maleficent: Mistress of Evil,184816957,2019/
+Week 42,Boo 2! A Madea Halloween,128545990,2017/
+Week 42,Where the Wild Things Are,176608879,2009/
+Week 42,Under Siege,58059627,1992/
+Week 42,Jackass 3D,172955016,2010/
+Week 42,Pulp Fiction,65459148,1994/
+Week 42,I Know What You Did Last Summer,85069853,1997/
+Week 42,Paranormal Activity 4,162974135,2012/
+Week 42,Practical Magic,89769194,1998/
+Week 42,Gravity,137515450,2013/
+Week 42,Halloween,216850956,2018/
+Week 42,Meet the Parents,102362706,2000/
+Week 42,-,0,1979/
+Week 42,Black Adam,147141895,2022/
+Week 42,Doom,113036968,2005/
+Week 42,Fatal Attraction,35821803,1987/
+Week 42,Halloween Kills,136795787,2021/
+Week 42,Never Say Never Again,32289556,1983/
+Week 42,The Accused,32119513,1988/
+Week 42,Shark Tale,122836427,2004/
+Week 42,Fury,172777362,2014/
+Week 42,Marked for Death,50151218,1990/
+Week 42,The Prestige,135287487,2006/
+Week 42,-,0,1981/
+Week 42,Star Wars: Episode IV - A New Hope,2891000,1977/
+Week 42,Other People's Money,43469413,1991/
+Week 42,Commando,33115937,1985/
+
+45
+Week 43,Jackass: The Movie,139241348,2002/
+Week 43,Joker,149669678,2019/
+Week 43,Scary Movie 3,164243626,2003/
+Week 43,Dune,111710408,2021/
+Week 43,Honest Thief,13941885,2020/
+Week 43,Crocodile Dundee,45870704,1986/
+Week 43,Saw II,135835213,2005/
+Week 43,Look Who's Talking,48540609,1989/
+Week 43,The Terminator,35819811,1984/
+Week 43,Fatal Attraction,42395628,1987/
+Week 43,Halloween,148052491,2018/
+Week 43,Halloween 4: The Return of Michael Myers,35520226,1988/
+Week 43,The Best Man,98914271,1999/
+Week 43,Jagged Edge,27687742,1985/
+Week 43,Pleasantville,82519332,1998/
+Week 43,I Know What You Did Last Summer,75268260,1997/
+Week 43,Saw III,137769320,2006/
+Week 43,Jigsaw,109543154,2017/
+Week 43,The Grudge,134235918,2004/
+Week 43,Boo! A Madea Halloween,163330723,2016/
+Week 43,Meet the Parents,102848126,2000/
+Week 43,Sleepers,59444387,1996/
+Week 43,Saw IV,138506313,2007/
+Week 43,First Blood,36520493,1982/
+Week 43,Star Wars: Episode IV - A New Hope,4144585,1977/
+Week 43,Paranormal Activity 2,168346763,2010/
+Week 43,Demolition Man,62269693,1993/
+Week 43,Under Siege,52749341,1992/
+Week 43,Get Shorty,64516795,1995/
+Week 43,K-PAX,108290922,2001/
+Week 43,Paranormal Activity,158521524,2009/
+Week 43,-,0,1980/
+Week 43,Stargate,67190611,1994/
+Week 43,Graveyard Shift,48469962,1990/
+Week 43,Puss in Boots,139629440,2011/
+Week 43,Silence of the North,471363,1981/
+Week 43,Argo,126723820,2012/
+Week 43,Ouija,151552712,2014/
+Week 43,Black Adam,91912422,2022/
+Week 43,High School Musical 3: Senior Year,163878099,2008/
+Week 43,Richard Pryor... Here and Now,28643334,1983/
+Week 43,The Martian,138324130,2015/
+Week 43,The Great Santini,109569,1979/
+Week 43,House Party 2,47471271,1991/
+Week 43,Jackass Presents: Bad Grandpa,136670494,2013/
+
+47
+Week 44,Wreck-It Ralph,179743679,2012/
+Week 44,Borat,172325590,2006/
+Week 44,Get Shorty,65696571,1995/
+Week 44,Nightcrawler,129970379,2014/
+Week 44,-,0,1980/
+Week 44,The Grudge,133140723,2004/
+Week 44,Under Siege,42628219,1992/
+Week 44,Death Wish 3,36160028,1985/
+Week 44,Terminator: Dark Fate,157058718,2019/
+Week 44,Halloween 4: The Return of Michael Myers,27781067,1988/
+Week 44,Jacob's Ladder,48985930,1990/
+Week 44,Star Wars: Episode IV - A New Hope,3465669,1977/
+Week 44,Never Say Never Again,32946623,1983/
+Week 44,Saw 3D,128027682,2010/
+Week 44,Crocodile Dundee,39052550,1986/
+Week 44,Thor: Ragnarok,236868261,2017/
+Week 44,This Is It,124452095,2009/
+Week 44,I Know What You Did Last Summer,66249177,1997/
+Week 44,Stargate,68244729,1994/
+Week 44,-,0,2023/
+Week 44,Bohemian Rhapsody,195592903,2018/
+Week 44,Fatal Attraction,37526862,1987/
+Week 44,Charlie's Angels,131649454,2000/
+Week 44,The Rose,128501,1979/
+Week 44,Ender's Game,166027607,2013/
+Week 44,The People Under the Stairs,49247371,1991/
+Week 44,Black Adam,78067175,2022/
+Week 44,Dune,88414755,2021/
+Week 44,Vampires,56216973,1998/
+Week 44,Chicken Little,176720913,2005/
+Week 44,High School Musical 3: Senior Year,117701516,2008/
+Week 44,Romeo + Juliet,65854815,1996/
+Week 44,First Blood,29811695,1982/
+Week 44,House on Haunted Hill,90569340,1999/
+Week 44,-,0,1978/
+Week 44,"Monsters, Inc.",179456448,2001/
+Week 44,American Gangster,171360977,2007/
+Week 44,The Terminator,31951937,1984/
+Week 44,Halloween II,9574012,1981/
+Week 44,Puss in Boots,147877492,2011/
+Week 44,The Santa Clause 2,152102676,2002/
+Week 44,The Nightmare Before Christmas,55767888,1993/
+Week 44,The Martian,102245901,2015/
+Week 44,The Matrix Revolutions,166859353,2003/
+Week 44,Come Play,12343556,2020/
+Week 44,Boo! A Madea Halloween,120277440,2016/
+Week 44,Look Who's Talking,51047014,1989/
+
+45
+Week 45,The Nightmare Before Christmas,63549470,1993/
+Week 45,The Waterboy,122241650,1998/
+Week 45,Thor: Ragnarok,194963666,2017/
+Week 45,Charlie's Angels,128217358,2000/
+Week 45,Star Wars: Episode IV - A New Hope,2846784,1977/
+Week 45,Let Him Go,14838502,2020/
+Week 45,A Christmas Carol,164401568,2009/
+Week 45,Curly Sue,46953301,1991/
+Week 45,Starship Troopers,96800834,1997/
+Week 45,Fatal Attraction,54261601,1987/
+Week 45,Spectre,222330376,2015/
+Week 45,Time Bandits,9296223,1981/
+Week 45,Thor: The Dark World,221692830,2013/
+Week 45,Interview with the Vampire: The Vampire Chronicles,106077085,1994/
+Week 45,The Big Chill,25608925,1983/
+Week 45,The Incredibles,199126382,2004/
+Week 45,The Grinch,228436850,2018/
+Week 45,The Matrix Revolutions,208673959,2003/
+Week 45,Black Panther: Wakanda Forever,256405792,2022/
+Week 45,Immortals,168363170,2011/
+Week 45,Look Who's Talking,49798364,1989/
+Week 45,Bee Movie,149088389,2007/
+Week 45,-,0,1979/
+Week 45,Death Wish 3,33787192,1985/
+Week 45,Crocodile Dundee,42337488,1986/
+Week 45,Ace Ventura: When Nature Calls,88510354,1995/
+Week 45,Madagascar: Escape 2 Africa,191312745,2008/
+Week 45,Passenger 57,56244228,1992/
+Week 45,Doctor Strange,251689176,2016/
+Week 45,Midway,171355582,2019/
+Week 45,Big Hero 6,218258177,2014/
+Week 45,"Oh, God! You Devil",32630062,1984/
+Week 45,They Live,34153726,1988/
+Week 45,Chicken Little,151963687,2005/
+Week 45,Megamind,205751189,2010/
+Week 45,8 Mile,189316187,2002/
+Week 45,Skyfall,231965804,2012/
+Week 45,Child's Play 2,56304229,1990/
+Week 45,"Monsters, Inc.",162305030,2001/
+Week 45,Borat,158077676,2006/
+Week 45,First Blood,27828149,1982/
+Week 45,The Bone Collector,127048569,1999/
+Week 45,Ransom,87356239,1996/
+Week 45,The Lord of the Rings,295120,1978/
+Week 45,Eternals,151540050,2021/
+
+46
+Week 46,Cape Fear,43020515,1991/
+Week 46,Crocodile Dundee,32748162,1986/
+Week 46,Bram Stoker's Dracula,76683257,1992/
+Week 46,Freaky,13981080,2020/
+Week 46,The Three Musketeers,67501888,1993/
+Week 46,How the Grinch Stole Christmas,265939956,2000/
+Week 46,Raging Bull,215573,1980/
+Week 46,The Twilight Saga: Breaking Dawn - Part 1,329160788,2011/
+Week 46,Ford v Ferrari,147774232,2019/
+Week 46,Missing in Action,44073624,1984/
+Week 46,Master and Commander: The Far Side of the World,164221943,2003/
+Week 46,Fantastic Beasts: The Crimes of Grindelwald,315936017,2018/
+Week 46,Once Bitten,27945587,1985/
+Week 46,Creepshow,29819349,1982/
+Week 46,The Pursuit of D.B. Cooper,1548165,1981/
+Week 46,Harry Potter and the Goblet of Fire,284955028,2005/
+Week 46,Harry Potter and the Sorcerer's Stone,249674543,2001/
+Week 46,-,0,1979/
+Week 46,Pokémon: The First Movie - Mewtwo Strikes Back,130385765,1999/
+Week 46,The Twilight Saga: Breaking Dawn - Part 2,382988260,2012/
+Week 46,The Incredibles,175922676,2004/
+Week 46,Megamind,151745628,2010/
+Week 46,The Waterboy,100077813,1998/
+Week 46,Star Wars: Episode IV - A New Hope,3314361,1977/
+Week 46,2012,176987194,2009/
+Week 46,Justice League,328730983,2017/
+Week 46,Harlem Nights,94254118,1989/
+Week 46,The Big Chill,28637008,1983/
+Week 46,Eternals,89924449,2021/
+Week 46,Casino Royale,239591449,2006/
+Week 46,Spectre,137611030,2015/
+Week 46,Home Alone,91821130,1990/
+Week 46,Child's Play,41632368,1988/
+Week 46,Dumb and Dumber To,174787606,2014/
+Week 46,-,0,1978/
+Week 46,GoldenEye,132880673,1995/
+Week 46,Doctor Strange,198097131,2016/
+Week 46,Quantum of Solace,180676613,2008/
+Week 46,Beowulf,192826142,2007/
+Week 46,The Jackal,78456319,1997/
+Week 46,Harry Potter and the Chamber of Secrets,206834918,2002/
+Week 46,Star Trek: Generations,128132383,1994/
+Week 46,Thor: The Dark World,161583196,2013/
+Week 46,Space Jam,97610650,1996/
+Week 46,The Running Man,47104470,1987/
+Week 46,Black Panther: Wakanda Forever,166806980,2022/
+
+45
+Week 47,The Croods: A New Age,13742140,2020/
+Week 47,Harry Potter and the Sorcerer's Stone,179189822,2001/
+Week 47,The Hunger Games: Mockingjay - Part 1,301024424,2014/
+Week 47,The Land Before Time,64498912,1988/
+Week 47,Addams Family Values,86893896,1993/
+Week 47,Die Another Day,243785601,2002/
+Week 47,The Addams Family,88766255,1991/
+Week 47,Frozen II,342358466,2019/
+Week 47,Mortal Kombat: Annihilation,135491092,1997/
+Week 47,-,0,1978/
+Week 47,Ragtime,415030,1981/
+Week 47,Home Alone 2: Lost in New York,126075734,1992/
+Week 47,The Cat in the Hat,215821255,2003/
+Week 47,Toy Story,129968015,1995/
+Week 47,The Twilight Saga: Breaking Dawn - Part 1,197927420,2011/
+Week 47,Twilight,263344410,2008/
+Week 47,The Rugrats Movie,155493912,1998/
+Week 47,National Treasure,236003513,2004/
+Week 47,Supergirl,41470113,1984/
+Week 47,Fantastic Beasts and Where to Find Them,272804552,2016/
+Week 47,Rocky IV,47059966,1985/
+Week 47,The Hunger Games: Catching Fire,356497254,2013/
+Week 47,The Running Man,66658890,1987/
+Week 47,Enchanted,191220949,2007/
+Week 47,Home Alone,93993161,1990/
+Week 47,Harry Potter and the Goblet of Fire,196085780,2005/
+Week 47,The Santa Clause,113344962,1994/
+Week 47,The Twilight Saga: New Moon,389986304,2009/
+Week 47,How the Grinch Stole Christmas,205508560,2000/
+Week 47,Coco,233588047,2017/
+Week 47,Harry Potter and the Deathly Hallows: Part 1,307994976,2010/
+Week 47,The Hunger Games: Mockingjay - Part 2,287462185,2015/
+Week 47,Black Panther: Wakanda Forever,114262463,2022/
+Week 47,Ghostbusters: Afterlife,149045469,2021/
+Week 47,Back to the Future Part II,95084935,1989/
+Week 47,Crocodile Dundee,59864794,1986/
+Week 47,The Twilight Saga: Breaking Dawn - Part 2,254086150,2012/
+Week 47,Star Wars: Episode IV - A New Hope,3013831,1977/
+Week 47,Happy Feet,192773683,2006/
+Week 47,Raging Bull,204800,1980/
+Week 47,Star Trek: First Contact,144242421,1996/
+Week 47,Terms of Endearment,30403904,1983/
+Week 47,The World Is Not Enough,203724346,1999/
+Week 47,Star Wars: Episode V - The Empire Strikes Back1982 Re-release,36111001,1982/
+Week 47,Ralph Breaks the Internet,266372185,2018/
+
+43
+Week 48,Four Christmases,194142940,2008/
+Week 48,Rocky IV,53020058,1985/
+Week 48,The Croods: A New Age,16708864,2020/
+Week 48,Enchanted,106660520,2007/
+Week 48,The Twilight Saga: Breaking Dawn - Part 1,104461189,2011/
+Week 48,Mrs. Doubtfire,91836744,1993/
+Week 48,Star Wars: Episode IV - A New Hope,1970491,1977/
+Week 48,The Hunger Games: Mockingjay - Part 2,221009228,2015/
+Week 48,The Haunted Mansion,188370299,2003/
+Week 48,101 Dalmatians,124996468,1996/
+Week 48,Die Another Day,176377460,2002/
+Week 48,Terms of Endearment,18590598,1983/
+Week 48,National Lampoon's Christmas Vacation,62185027,1989/
+Week 48,The Addams Family,82127214,1991/
+Week 48,Moana,224632572,2016/
+Week 48,Happy Feet,118451028,2006/
+Week 48,How the Grinch Stole Christmas,108366192,2000/
+Week 48,Star Trek IV: The Voyage Home,67099381,1986/
+Week 48,The Twilight Saga: New Moon,225286338,2009/
+Week 48,Encanto,123659629,2021/
+Week 48,Coco,140246350,2017/
+Week 48,Toy Story 2,188810023,1999/
+Week 48,Harry Potter and the Goblet of Fire,109057911,2005/
+Week 48,Black Panther: Wakanda Forever,71808894,2022/
+Week 48,The Santa Clause,58434710,1994/
+Week 48,Ralph Breaks the Internet,159339998,2018/
+Week 48,Three Men and a Baby,63430076,1987/
+Week 48,A Bug's Life,140673770,1998/
+Week 48,The Hunger Games: Catching Fire,246833082,2013/
+Week 48,Harry Potter and the Deathly Hallows: Part 1,216542327,2010/
+Week 48,The Twilight Saga: Breaking Dawn - Part 2,148475343,2012/
+Week 48,E.T. the Extra-Terrestrial,30504207,1982/
+Week 48,Frozen II,225284723,2019/
+Week 48,Harry Potter and the Sorcerer's Stone,110243057,2001/
+Week 48,Scrooged,65845468,1988/
+Week 48,National Treasure,190490670,2004/
+Week 48,Home Alone,67895455,1990/
+Week 48,Toy Story,77138684,1995/
+Week 48,The Terminator,26044934,1984/
+Week 48,Home Alone 2: Lost in New York,116592282,1992/
+Week 48,The Hunger Games: Mockingjay - Part 1,195931810,2014/
+Week 48,Raging Bull,212826,1980/
+Week 48,Flubber,112219506,1997/
+
+46
+Week 49,The Last Samurai,125991820,2003/
+Week 49,Flash Gordon,5055852,1980/
+Week 49,Ocean's Eleven,113047112,2001/
+Week 49,Beverly Hills Cop,53985199,1984/
+Week 49,Die Another Day,105096355,2002/
+Week 49,First Blood,17156522,1982/
+Week 49,How the Grinch Stole Christmas,110120569,2000/
+Week 49,Black Panther: Wakanda Forever,51441972,2022/
+Week 49,Encanto,70680627,2021/
+Week 49,Sudden Impact,37883423,1983/
+Week 49,New Year's Eve,101221324,2011/
+Week 49,Apocalypto,127941774,2006/
+Week 49,The Blind Side,129011486,2009/
+Week 49,Star Trek IV: The Voyage Home,44314938,1986/
+Week 49,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",172826019,2005/
+Week 49,Ralph Breaks the Internet,118024971,2018/
+Week 49,The Hunger Games: Mockingjay - Part 1,101819700,2014/
+Week 49,A Bug's Life,74906191,1998/
+Week 49,Toy Story,62877586,1995/
+Week 49,Home Alone,58545111,1990/
+Week 49,Three Men and a Baby,40249087,1987/
+Week 49,Four Christmases,107876766,2008/
+Week 49,Coco,114954459,2017/
+Week 49,The Hunger Games: Mockingjay - Part 2,128585893,2015/
+Week 49,101 Dalmatians,66275697,1996/
+Week 49,The War of the Roses,57540209,1989/
+Week 49,-,0,1978/
+Week 49,The Croods: A New Age,10250177,2020/
+Week 49,The Golden Compass,107221399,2007/
+Week 49,The Naked Gun: From the Files of Police Squad!,50159323,1988/
+Week 49,Flubber,50562083,1997/
+Week 49,Disclosure,58398769,1994/
+Week 49,Frozen,125400294,2013/
+Week 49,Moana,125024701,2016/
+Week 49,Toy Story 2,99294909,1999/
+Week 49,Star Trek: The Motion Picture,17073885,1979/
+Week 49,Star Trek VI: The Undiscovered Country,67489245,1991/
+Week 49,Skyfall,108922796,2012/
+Week 49,Star Wars: Episode IV - A New Hope,1547262,1977/
+Week 49,Home Alone 2: Lost in New York,73991327,1992/
+Week 49,Reds,4027671,1981/
+Week 49,Frozen II,124799870,2019/
+Week 49,Rocky IV,46077925,1985/
+Week 49,National Treasure,118568064,2004/
+Week 49,Mrs. Doubtfire,54167037,1993/
+Week 49,Tangled,112249551,2010/
+
+46
+Week 50,Dumb and Dumber,84409997,1994/
+Week 50,A Few Good Men,73262613,1992/
+Week 50,National Lampoon's Christmas Vacation,58248485,1989/
+Week 50,Raging Bull,106901,1980/
+Week 50,Wayne's World 2,62141702,1993/
+Week 50,Star Trek: The Motion Picture,10517370,1979/
+Week 50,I Am Legend,217076321,2007/
+Week 50,Jerry Maguire,81172715,1996/
+Week 50,The Hobbit: An Unexpected Journey,192917642,2012/
+Week 50,Sudden Impact,52805613,1983/
+Week 50,Vanilla Sky,151604533,2001/
+Week 50,The Day the Earth Stood Still,122889599,2008/
+Week 50,Home Alone,69256889,1990/
+Week 50,The Chronicles of Narnia: The Voyage of the Dawn Treader,123480611,2010/
+Week 50,Toy Story,85241302,1995/
+Week 50,Rollover,3503990,1981/
+Week 50,The Hobbit: The Battle of the Five Armies,146098083,2014/
+Week 50,Moana,113543682,2016/
+Week 50,Avatar: The Way of Water,236324722,2022/
+Week 50,Hook,64387903,1991/
+Week 50,The Hobbit: The Desolation of Smaug,210111906,2013/
+Week 50,The Hunger Games: Mockingjay - Part 2,105472167,2015/
+Week 50,The Princess and the Frog,129382686,2009/
+Week 50,The Croods: A New Age,7996147,2020/
+Week 50,The Lord of the Rings: The Two Towers,172465810,2002/
+Week 50,The Golden Child,48979743,1986/
+Week 50,Saturday Night Fever,8506454,1977/
+Week 50,Beverly Hills Cop,51116151,1984/
+Week 50,Jumanji: The Next Level,162246008,2019/
+Week 50,King Kong,210638955,2005/
+Week 50,Spider-Man: Into the Spider-Verse,182879464,2018/
+Week 50,Ocean's Twelve,141349324,2004/
+Week 50,Throw Momma from the Train,42844414,1987/
+Week 50,Star Trek: Insurrection,80653202,1998/
+Week 50,What Women Want,153328832,2000/
+Week 50,West Side Story,59453081,2021/
+Week 50,Star Wars: Episode VIII - The Last Jedi,408585324,2017/
+Week 50,The Jewel of the Nile,44156571,1985/
+Week 50,The Toy,31717766,1982/
+Week 50,Scream 2,86508869,1997/
+Week 50,Twins,48177626,1988/
+Week 50,Sherlock Holmes: A Game of Shadows,213257570,2011/
+Week 50,The Lord of the Rings: The Return of the King,169799818,2003/
+Week 50,The Pursuit of Happyness,190521762,2006/
+Week 50,Superman,12044352,1978/
+Week 50,The Green Mile,100597301,1999/
+
+46
+Week 51,The Pelican Brief,89950261,1993/
+Week 51,The Hobbit: The Desolation of Smaug,347353915,2013/
+Week 51,Mission: Impossible - Ghost Protocol,345401912,2011/
+Week 51,The Lord of the Rings: The Return of the King,264385950,2003/
+Week 51,Beverly Hills Cop,84538343,1984/
+Week 51,Neighbors,26342432,1981/
+Week 51,A Few Good Men,97051543,1992/
+Week 51,The Lord of the Rings: The Fellowship of the Ring,287952227,2001/
+Week 51,Star Trek: The Motion Picture,19140350,1979/
+Week 51,Tootsie,59568384,1982/
+Week 51,TRON: Legacy,249283195,2010/
+Week 51,The Hobbit: An Unexpected Journey,319123357,2012/
+Week 51,A Series of Unfortunate Events,204070862,2004/
+Week 51,Star Wars: Episode IX - The Rise of Skywalker,485547943,2019/
+Week 51,Cast Away,288450694,2000/
+Week 51,The Croods: A New Age,11158576,2020/
+Week 51,Rocky IV,75925378,1985/
+Week 51,Rogue One: A Star Wars Story,351825485,2016/
+Week 51,Stuart Little,149009815,1999/
+Week 51,National Treasure: Book of Secrets,361407900,2007/
+Week 51,Twins,65458766,1988/
+Week 51,The Lord of the Rings: The Two Towers,291116393,2002/
+Week 51,National Lampoon's Christmas Vacation,94493732,1989/
+Week 51,Superman,18517515,1978/
+Week 51,Night at the Museum,334658192,2006/
+Week 51,Beavis and Butt-Head Do America,155876518,1996/
+Week 51,Star Wars: Episode VIII - The Last Jedi,467332600,2017/
+Week 51,Star Wars: Episode VII - The Force Awakens,512582385,2015/
+Week 51,Yes Man,212027468,2008/
+Week 51,Spider-Man: No Way Home,450887647,2021/
+Week 51,Sudden Impact,65199709,1983/
+Week 51,Saturday Night Fever,13803562,1977/
+Week 51,You've Got Mail,115115751,1998/
+Week 51,Home Alone,124130058,1990/
+Week 51,Eddie Murphy: Raw,68400790,1987/
+Week 51,Aquaman,414509628,2018/
+Week 51,Toy Story,179189497,1995/
+Week 51,The Hobbit: The Battle of the Five Armies,287998336,2014/
+Week 51,Avatar,274045181,2009/
+Week 51,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",311117246,2005/
+Week 51,Titanic,171316431,1997/
+Week 51,The Jazz Singer,6541442,1980/
+Week 51,Hook,108594408,1991/
+Week 51,The Golden Child,68531557,1986/
+Week 51,Dumb and Dumber,151317247,1994/
+Week 51,Avatar: The Way of Water,246487640,2022/
+
+46
+Week 52,The Lord of the Rings: The Return of the King,356699125,2003/
+Week 52,Spider-Man: No Way Home,292392077,2021/
+Week 52,Avatar: The Way of Water,176585127,2022/
+Week 52,Cast Away,233483221,2000/
+Week 52,Stuart Little,238921917,1999/
+Week 52,Patch Adams,265892846,1998/
+Week 52,Titanic,265831839,1997/
+Week 52,Michael,199915325,1996/
+Week 52,Toy Story,166361879,1995/
+Week 52,Dumb and Dumber,129355750,1994/
+Week 52,Modern Problems,6986686,1981/
+Week 52,Mrs. Doubtfire,135844494,1993/
+Week 52,Aladdin,164077104,1992/
+Week 52,Hook,173060189,1991/
+Week 52,Home Alone,157095225,1990/
+Week 52,The War of the Roses,100691642,1989/
+Week 52,Twins,101154529,1988/
+Week 52,Three Men and a Baby,110949437,1987/
+Week 52,The Golden Child,118625941,1986/
+Week 52,Rocky IV,102828578,1985/
+Week 52,Tootsie,89953820,1982/
+Week 52,Beverly Hills Cop,97435245,1984/
+Week 52,Terms of Endearment,68612256,1983/
+Week 52,The Lord of the Rings: The Two Towers,333491599,2002/
+Week 52,-,0,1980/
+Week 52,The Lord of the Rings: The Fellowship of the Ring,290520484,2001/
+Week 52,Meet the Fockers,307703200,2004/
+Week 52,Wonder Woman 1984,36219846,2020/
+Week 52,Star Wars: Episode IX - The Rise of Skywalker,377804849,2019/
+Week 52,Aquaman,343404540,2018/
+Week 52,Jumanji: Welcome to the Jungle,338477578,2017/
+Week 52,-,0,1978/
+Week 52,Rogue One: A Star Wars Story,468076682,2016/
+Week 52,Star Wars: Episode VII - The Force Awakens,528565948,2015/
+Week 52,The Hobbit: The Battle of the Five Armies,391450158,2014/
+Week 52,The Hobbit: An Unexpected Journey,329822992,2012/
+Week 52,Frozen,368526048,2013/
+Week 52,Kramer vs. Kramer,10991206,1979/
+Week 52,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",235975577,2005/
+Week 52,Night at the Museum,269483538,2006/
+Week 52,National Treasure: Book of Secrets,323207192,2007/
+Week 52,Mission: Impossible - Ghost Protocol,248070722,2011/
+Week 52,Avatar,505152202,2009/
+Week 52,Marley & Me,383425388,2008/
+Week 52,Little Fockers,332900157,2010/
+Week 52,Saturday Night Fever,6922844,1977/
+
+8
+Week 53,Rain Man,89809797,1988/
+Week 53,Little Fockers,216588441,2010/
+Week 53,Stuart Little,161598334,1999/
+Week 53,Tootsie,68287950,1982/
+Week 53,Meet the Fockers,193280990,2004/
+Week 53,Mrs. Doubtfire,105807063,1993/
+Week 53,Spider-Man: No Way Home,138000934,2021/
+Week 53,Rogue One: A Star Wars Story,311003351,2016/
