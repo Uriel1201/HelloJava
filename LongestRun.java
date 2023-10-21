@@ -9,8 +9,8 @@ public class LongestRun {
   public static void main(String[] args) {
     
     int max = 0;
-    int rep = 1;
-    int x = StdIn.readInt(); 
+    int rep = 0;
+    int x = 0; 
     int best = x;
 
     while (!StdIn.isEmpty()) {
@@ -27,6 +27,6 @@ public class LongestRun {
       }
     }
 
-    System.out.println("Longest run: " + max + "consecutive" + best + "s.");
+    System.out.println("Longest run: " + max + " consecutive " + best + "s.");
   }
 }
