@@ -1,3 +1,9 @@
+/************************************
+ * Writing a program that reads in a sequence of integers and
+ * prints both the integer that appears in a longest consecutive 
+ * run and  the length of that run.
+ ***********************************/
+
 public class LongestRun {
 
   public static void main(String[] args) {
