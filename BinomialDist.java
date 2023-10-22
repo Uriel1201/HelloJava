@@ -10,7 +10,7 @@ public class BinomialDist {
     for (int i = 2; i < n + 1; i++) {
       for (int j = 1; j < i + 1; j++) {
         weights[i][j] = (weights[i - 1][j - 1] + weights[i - 1][j]) * 0.5;
-        System.out.print(weights[][] + " ");
+        System.out.print(weights[i][j] + " ");
       }
       System.out.println();
     }
