@@ -11,14 +11,17 @@ public class BinomialDist {
     for (int i = 1; i < n + 1; i++) {
       for (int j = 1; j < i + 2; j++) {
         triangle[i][j] = (triangle[i - 1][j - 1] + triangle[i - 1][j]);
+        System.out.print(triangle[i][j] + " ");
       }
+      System.out.println();
     }
-
+/*
     double w = Math.pow(p, x);
     double q = 1 - p;
     int m = n - x;
     double v = Math.pow(q, m);
     double weight = w * v;
-    System.out.println("P(X = x): " + (weight * triangle[n][x + 1]);
+    System.out.println("P(X = x): " + (weight * triangle[n][x + 1]));
+    */
   }
 }
