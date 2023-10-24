@@ -16,12 +16,22 @@ public class BinomialDist {
       // System.out.println();
     }
     
-    double w = Math.pow(p, x);
-    double q = 1 - p;
-    int m = n - x;
-    double v = Math.pow(q, m);
-    double weight = w * v;
-    System.out.println("P(X = x): " + (weight * triangle[n][x + 1]));
-    
+    int i = 0;
+    double _p = 1;
+    while (i < x) {
+      _p = _p * p;
+      i++;
+    }
+
+    int y = n - x;
+    int j = 0;
+    double _q = 1;
+    while (j < y) {
+      _q  = _q * q;
+      j++;
+    }
+
+    double weight = _p * _q * triangle[n][x + 1];
+    System.out.println("P(X =" + x + "): " + weight);
   }
 }
