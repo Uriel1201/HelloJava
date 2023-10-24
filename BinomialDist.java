@@ -1,10 +1,19 @@
+/*************************************
+* Writing a program that computes 
+* the Binomial Mass Function.
+**************************************/
+
 public class BinomialDist {
 
   public static void main(String[] args) {
-    
+
+    // Number of trials 
     int n = Integer.parseInt(args[0]);
+    // Number of successes 
     int x = Integer.parseInt(args[1]);
+    // Success probability 
     double p = Double.parseDouble(args[2]);
+    
     int[][] triangle = new int[n + 1][n + 2]; 
     triangle[0][1] = 1;
 
@@ -33,6 +42,6 @@ public class BinomialDist {
     }
 
     double weight = _p * _q * triangle[n][x + 1];
-    System.out.println("P(X =" + x + "): " + weight);
+    System.out.println("P(X = " + x + ") = " + weight);
   }
 }
