@@ -25,6 +25,7 @@ public class BinomialDist {
 
     int y = n - x;
     int j = 0;
+    double q = 1 - p;
     double _q = 1;
     while (j < y) {
       _q  = _q * q;
