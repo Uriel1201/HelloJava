@@ -7,16 +7,14 @@ public class BinomialDist {
 
   public static double[] weights(int n, double p) {
 
-    int[][] triangle = new int[n + 1][n + 2]; 
+    long[][] triangle = new long[n + 1][n + 2]; 
     double[] w = new double[n + 1];
     triangle[0][1] = 1;
 
     for (int i = 1; i < n + 1; i++) {
       for (int j = 1; j < i + 2; j++) {
         triangle[i][j] = (triangle[i - 1][j - 1] + triangle[i - 1][j]);
-        // System.out.print(triangle[i][j] + " ");
       }
-      // System.out.println();
     }
 
     for (int x = 0; x < n + 1; x++) {
