@@ -23,7 +23,7 @@ public class BinomialDist {
   public static double[] weights(int n, double p) {
 
     double[] w = new double[n + 1];
-    long[][] triangle = pascal(n);
+    BigInteger[][] triangle = pascal(n);
     
     for (int x = 0; x < n + 1; x++) {
       
@@ -42,8 +42,9 @@ public class BinomialDist {
         _q  = _q * q;
         j++;
       }
-
-      w[x] = _p * _q * triangle[n][x + 1];
+      double comb = triangle[n][x + 1].doubleValue();
+      w[x] = _p * _q * comb;
+      // w[x] = _p * _q * triangle[n][x + 1];
     }
 
     return w;
