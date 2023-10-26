@@ -8,7 +8,7 @@ import java.math.BigInteger;
 public class BinomialDist {
 
   /************************************************/
-  public static BigInteger[][] pascal(int n) {
+  private static BigInteger[][] pascal(int n) {
 
     BigInteger[][] triangle = new BigInteger[n + 1][n + 2];
     
@@ -28,7 +28,7 @@ public class BinomialDist {
   }
 
   /************************************************/
-  public static double[] weights(int n, double p) {
+  private static double[] weights(int n, double p) {
 
     double[] w = new double[n + 1];
     BigInteger[][] triangle = pascal(n);
