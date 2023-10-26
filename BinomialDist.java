@@ -1,7 +1,7 @@
-/*************************************
-* Writing a program that computes 
-* the Binomial Mass Function.
-**************************************/
+/*****************************************
+* Writing a class that computes methods 
+* related with the Binomial Distribution.
+*****************************************/
 
 import java.math.BigInteger;
 
