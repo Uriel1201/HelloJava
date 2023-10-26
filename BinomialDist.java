@@ -2,10 +2,12 @@
 * Writing a program that computes 
 * the Binomial Mass Function.
 **************************************/
+
 import java.math.BigInteger;
 
 public class BinomialDist {
 
+  /************************************************/
   public static BigInteger[][] pascal(int n) {
 
     BigInteger[][] triangle = new BigInteger[n + 1][n + 2];
@@ -25,6 +27,7 @@ public class BinomialDist {
     return triangle;
   }
 
+  /************************************************/
   public static double[] weights(int n, double p) {
 
     double[] w = new double[n + 1];
@@ -55,6 +58,7 @@ public class BinomialDist {
     return w;
   } 
 
+  /************************************************/
   public static void main(String[] args) {
     
     int n = Integer.parseInt(args[0]); 
