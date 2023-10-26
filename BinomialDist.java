@@ -42,9 +42,11 @@ public class BinomialDist {
   } 
 
   public static void main(String[] args) {
+    
     int n = Integer.parseInt(args[0]); 
     double p = Double.parseDouble(args[1]);
     double[] w = weights(n, p);
+    
     for (int i = 0; i < n + 1; i++)
       System.out.println(w[i]);
   }
