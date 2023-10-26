@@ -9,6 +9,11 @@ public class BinomialDist {
   public static BigInteger[][] pascal(int n) {
 
     BigInteger[][] triangle = new BigInteger[n + 1][n + 2];
+    
+    for (int i = 0; i < n + 1; i++)
+      for (int j = 0; j < n+ 2; j++)
+        triangle[i][j] = BigInteger.ZERO;
+    
     triangle[0][1] = BigInteger.ONE;
     
     for (int i = 1; i < n + 1; i++) {
