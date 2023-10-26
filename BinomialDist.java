@@ -5,18 +5,25 @@
 
 public class BinomialDist {
 
-  public static double[] weights(int n, double p) {
+  public static long[][] pascal(int n) {
 
-    long[][] triangle = new long[n + 1][n + 2]; 
-    double[] w = new double[n + 1];
+    long[][] triangle = new long[n + 1][n + 2];
     triangle[0][1] = 1;
-
+    
     for (int i = 1; i < n + 1; i++) {
       for (int j = 1; j < i + 2; j++) {
-        triangle[i][j] = (triangle[i - 1][j - 1] + triangle[i - 1][j]);
+        triangle[i][j] = triangle[i - 1][j - 1] + triangle[i - 1][j];
       }
     }
+    
+    return triangle;
+  }
 
+  public static double[] weights(int n, double p) {
+
+    double[] w = new double[n + 1];
+    long[][] triangle = pascal(n);
+    
     for (int x = 0; x < n + 1; x++) {
       
       int i = 0;
@@ -36,7 +43,7 @@ public class BinomialDist {
       }
 
       w[x] = _p * _q * triangle[n][x + 1];
-    } 
+    }
 
     return w;
   } 
