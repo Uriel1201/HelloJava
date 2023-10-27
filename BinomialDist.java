@@ -95,18 +95,18 @@ public class BinomialDist {
     int x =  Integer.parseInt(args[1]);
     double p = Double.parseDouble(args[2]);
     
-    
     double[] w = weights(n, p);
     double sProb1 = getProbability(n, x, p);
     int y = n - x;
     double sProb2 = getProbability(n, y, p);
     Boolean match1 = (sProb1 == w[x]);
     Boolean match2 = (sProb2 == w[y]);
-    /*
+    double cumm = c
+      
     for (int i = 0; i < n + 1; i++)
-      System.out.println(w[i]);
-    */
-    System.out.println(match1);
-    System.out.println(match2);
+      c += w[i];
+
+    System.out.println("The cummulative value of all weights is: " + c);
+    System.out.println("Is correct P(X = " + x ") -> " + match1);
   }
 }
