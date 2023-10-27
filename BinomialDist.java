@@ -59,7 +59,12 @@ public class BinomialDist {
         j++;
       }
       double comb = triangle[n][x + 1].doubleValue();
-      weights[x] = _p * _q * comb;
+      double w = _p * _q * comb;
+      if (w < 1.0E-6) {
+        weights[x] = 0.0;
+      } else {
+        weights[x] = w;
+      }
     }
   }
 
@@ -81,6 +86,7 @@ public class BinomialDist {
     for (int i = 0; i < trials + 1; i++) {
       success.add(i);
       values.add(weights[i]);
+      System.out.println("success: " + success.get(i) + " has mass: " + values.get(i));
     }
   }
   
@@ -88,17 +94,21 @@ public class BinomialDist {
   public static void main(String[] args) {
   
     int n = Integer.parseInt(args[0]);
+    int x = Integer.parseInt(args[1]);
     double p = Double.parseDouble(args[2]);
 
     BinomialDist np = new BinomialDist(n, p);
 
     double cumm = 0.0;
+    System.out.println("prob of x: " + np.getProbability(x));
+
     for (int i = 0; i < n + 1; i++) {
       double sProb = np.getProbability(i);
       cumm += sProb;
-      System.out.println(sProb);
+      // System.out.println(sProb);
     }
     
     System.out.println("The cummulative value of all weights is: " + cumm);
+    np.plotMass();
   }
 }
