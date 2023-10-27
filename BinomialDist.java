@@ -4,6 +4,8 @@
 *****************************************/
 
 import java.math.BigInteger;
+import java.awt.Color;
+import java.util.ArrayList;
 
 public class BinomialDist {
 
@@ -68,6 +70,20 @@ public class BinomialDist {
     return pX;
   }
 
+  /************************************************/
+  public void plotMass() {
+    
+    ArrayList<Double> values = new ArrayList<Double>(); 
+    ArrayList<Integer> success = new ArrayList<Integer>(); 
+
+    Color dots = Color.decode("#85646e");
+
+    for (int i = 0; i < trials + 1; i++) {
+      success.add(i);
+      values.add(weights[i]);
+    }
+  }
+  
   /************************************************/
   public static void main(String[] args) {
   
