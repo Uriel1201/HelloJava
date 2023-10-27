@@ -61,37 +61,6 @@ public class BinomialDist {
     }
   }
 
-  /************************************************
-  private static double[] weights(int n, double p) {
-
-    double[] w = new double[n + 1];
-    BigInteger[][] triangle = pascal(n);
-    
-    for (int x = 0; x < n + 1; x++) {
-      
-      int i = 0;
-      double _p = 1;
-      while (i < x) {
-        _p = _p * p;
-        i++;
-      }
-
-      int y = n - x;
-      int j = 0;
-      double q = 1 - p;
-      double _q = 1;
-      while (j < y) {
-        _q  = _q * q;
-        j++;
-      }
-      double comb = triangle[n][x + 1].doubleValue();
-      w[x] = _p * _q * comb;
-      // w[x] = _p * _q * triangle[n][x + 1];
-    }
-
-    return w;
-  } */
-
   /************************************************/
   public double getProbability(int x) {
     // x: number of successes '0<= x <=n'
@@ -103,7 +72,6 @@ public class BinomialDist {
   public static void main(String[] args) {
   
     int n = Integer.parseInt(args[0]);
-    int x =  Integer.parseInt(args[1]);
     double p = Double.parseDouble(args[2]);
 
     BinomialDist np = new BinomialDist(n, p);
