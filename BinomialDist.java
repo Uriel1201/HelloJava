@@ -7,6 +7,10 @@ import java.math.BigInteger;
 
 public class BinomialDist {
 
+  private final int trials;
+  private final doube param;
+  private final double[] weights;
+
   /************************************************/
   private static BigInteger[][] pascal(int n) {
 
@@ -25,6 +29,13 @@ public class BinomialDist {
     }
     
     return triangle;
+  }
+
+  /************************************************/
+  public BinomialDist(int n; double p) {
+    trials = n;
+    param = p;
+    weights = new double[n + 1];
   }
 
   /************************************************/
