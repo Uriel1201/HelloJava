@@ -109,10 +109,11 @@ public class BinomialDist {
     BinomialDist np = new BinomialDist(n, p);
 
     double cumm = 0.0;
-    for (int i = 0; i < n + 1; i++ {
+    for (int i = 0; i < n + 1; i++) {
       double sProb = np.getProbability(i);
       cumm += sProb;
       System.out.println(sProb);
+    }
     
     System.out.println("The cummulative value of all weights is: " + cumm);
   }
