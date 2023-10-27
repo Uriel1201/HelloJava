@@ -92,56 +92,28 @@ public class BinomialDist {
     return w;
   } */
 
-  /************************************************
+  /************************************************/
   public double getProbability(int x) {
-    
-    // x: 'number of endpoints' 0 <= x <= n
-    // n: 'number of trials'    0 < n
-    // p: 'success probability' 0 < p < 1
-    
-    BigInteger[][] triangle = pascal(n);
-    
-    int i = 0;
-    double _p = 1;
-    while (i < x) {
-      _p = _p * p;
-      i++;
-    }
-
-    int y = n - x;
-    int j = 0;
-    double q = 1 - p;
-    double _q = 1;
-    while (j < y) {
-      _q  = _q * q;
-      j++;
-    }
-    
-    double comb = triangle[n][x + 1].doubleValue();
-    double w = _p * _q * comb;
-    return w;
-  } */ 
+    // x: number of successes '0<= x <=n'
+    double pX = weights[x];
+    return pX;
+  }
 
   /************************************************/
   public static void main(String[] args) {
-    /*
+  
     int n = Integer.parseInt(args[0]);
     int x =  Integer.parseInt(args[1]);
     double p = Double.parseDouble(args[2]);
-    
-    double[] w = weights(n, p);
-    double sProb1 = getProbability(n, x, p);
-    int y = n - x;
-    double sProb2 = getProbability(n, y, p);
-    Boolean match1 = (sProb1 == w[x]);
-    double cumm = 0.0;
-      
-    for (int i = 0; i < n + 1; i++)
-      cumm += w[i];
 
+    BinomialDist np = new BinomialDist(n, p);
+
+    double cumm = 0.0;
+    for (int i = 0; i < n + 1; i++ {
+      double sProb = np.getProbability(i);
+      cumm += sProb;
+      System.out.println(sProb);
+    
     System.out.println("The cummulative value of all weights is: " + cumm);
-    System.out.println("Is correct P(X = " + x + ") -> " + match1);
-    System.out.println("P_X(" + n + " - " + x + ") = " + sProb2);
-    */
   }
 }
