@@ -100,13 +100,13 @@ public class BinomialDist {
     int y = n - x;
     double sProb2 = getProbability(n, y, p);
     Boolean match1 = (sProb1 == w[x]);
-    Boolean match2 = (sProb2 == w[y]);
-    double cumm = c
+    double cumm = 0.0;
       
     for (int i = 0; i < n + 1; i++)
-      c += w[i];
+      cumm += w[i];
 
-    System.out.println("The cummulative value of all weights is: " + c);
-    System.out.println("Is correct P(X = " + x ") -> " + match1);
+    System.out.println("The cummulative value of all weights is: " + cumm);
+    System.out.println("Is correct P(X = " + x + ") -> " + match1);
+    System.out.println("P_X(" + n + " - " + x + ") = " + sProb2);
   }
 }
