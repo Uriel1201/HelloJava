@@ -6,6 +6,7 @@
 import java.math.BigInteger;
 import java.awt.Color;
 import java.util.ArrayList;
+import java.awt.Font;
 
 public class BinomialDist {
 
@@ -76,23 +77,41 @@ public class BinomialDist {
   }
 
   /************************************************/
-  private void chart() {
+  private void chart(String Title, String xLabel) {
     
     ArrayList<Double> values = new ArrayList<Double>(); 
-    ArrayList<Integer> success = new ArrayList<Integer>(); 
+    ArrayList<Integer> success = new ArrayList<Double>(); 
 
+    Color cTitle =  Color.decode("#000000");
+    Color cxLabel = Color.decode("#06400a");
     Color dots = Color.decode("#ae0001");
-    Color lines = Color.decode("#eeba30");
+    Color lines = Color.decode("#d3a625");
 
     for (int i = 0; i < trials + 1; i++) {
-      success.add(i);
+      
+      double s = (double) i;
+      success.add(s);
       values.add(weights[i]);
     }
+
+    // Set the scale 
+    Double xMax = success.get(trials);
+    StdDraw.setXscale(-0.01 * xMax, 1.2 * xMax);
+    StdDraw.setYscale(-0.01, 1.25); 
+
+    // Draw title 
+    StdDraw.setPenColor(cTitle);
+    StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 16));
+    StdDraw.text(0.6 * xMax, 1.2, Title);
+
+    // Draw xLabel
   }
 
   /************************************************/
   public void plotMass() {
-    chart();
+    String Title = "";
+    String xLabel = "";
+    chart(Title, xLabel);
   }
   
   /************************************************/
