@@ -13,6 +13,7 @@ public class BinomialDist {
   private final int trials;
   private final double param;
   private final double[] weights;
+  private final double[] dist;
 
   /************************************************/
   private static BigInteger[][] pascal(int n) {
@@ -39,6 +40,7 @@ public class BinomialDist {
     trials = n;
     param = p;
     weights = new double[n + 1];
+    dist = new double[n + 1];
     
     BigInteger[][] triangle = pascal(n);
     
@@ -65,6 +67,11 @@ public class BinomialDist {
         weights[x] = 0.0;
       } else {
         weights[x] = w;
+      }
+      if (x == 0) {
+        dist[x] = w;
+      } else {
+        dist[x] = dist[x - 1] + w;
       }
     }
   }
