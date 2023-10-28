@@ -81,7 +81,7 @@ public class BinomialDist {
     ArrayList<Double> values = new ArrayList<Double>(); 
     ArrayList<Integer> success = new ArrayList<Integer>(); 
 
-    Color dots = Color.decode("ae0001");
+    Color dots = Color.decode("#ae0001");
 
     for (int i = 0; i < trials + 1; i++) {
       success.add(i);
