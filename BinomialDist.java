@@ -76,12 +76,13 @@ public class BinomialDist {
   }
 
   /************************************************/
-  public void plotMass() {
+  private void chart() {
     
     ArrayList<Double> values = new ArrayList<Double>(); 
     ArrayList<Integer> success = new ArrayList<Integer>(); 
 
     Color dots = Color.decode("#ae0001");
+    Color lines = color.decode("#eeba30");
 
     for (int i = 0; i < trials + 1; i++) {
       success.add(i);
@@ -90,10 +91,8 @@ public class BinomialDist {
   }
 
   /************************************************/
-  public void plotCumulative(int x) {
-    
-    Color lines = Color.decode("#eeba30");
-    plotMass();
+  public void plotMass() {
+    chart();
   }
   
   /************************************************/
