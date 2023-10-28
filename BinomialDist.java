@@ -80,7 +80,7 @@ public class BinomialDist {
   private void chart(String Title, String xLabel, String Parameters) {
     
     ArrayList<Double> values = new ArrayList<Double>(); 
-    ArrayList<Integer> success = new ArrayList<Double>(); 
+    ArrayList<Integer> success = new ArrayList<Integer>(); 
 
     Color cTitle =  Color.decode("#000000");
     Color cxLabel = Color.decode("#06400a");
@@ -89,10 +89,7 @@ public class BinomialDist {
     Color lines = Color.decode("#d3a625");
 
     for (int i = 0; i < trials + 1; i++) {
-      
-      double s = (double) i;
-      double v = weights[i] * 10.0;
-      success.add(s);
+      success.add(i);
       values.add(weights[i]);
     }
 
