@@ -77,13 +77,14 @@ public class BinomialDist {
   }
 
   /************************************************/
-  private void chart(String Title, String xLabel) {
+  private void chart(String Title, String xLabel, String Parameters) {
     
     ArrayList<Double> values = new ArrayList<Double>(); 
     ArrayList<Integer> success = new ArrayList<Double>(); 
 
     Color cTitle =  Color.decode("#000000");
     Color cxLabel = Color.decode("#06400a");
+    Color cParam = Color.decode("#ae0001");
     Color dots = Color.decode("#ae0001");
     Color lines = Color.decode("#d3a625");
 
@@ -109,6 +110,11 @@ public class BinomialDist {
     StdDraw.setPenColor(cxLabel);
     StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 16));
     StdDraw.textLeft(0.0, 1.1, xLabel); 
+
+    // Draw Parameters 
+    StdDraw.setPenColor(cParam);
+    StdDraw.setFont(new Font("SansSerif", Font.BOLD, 16));
+    StdDraw.textRight(1.14 * xMax, 1.0, Parameters);
   }
 
   /************************************************/
