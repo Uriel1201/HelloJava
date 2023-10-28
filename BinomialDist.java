@@ -111,13 +111,23 @@ public class BinomialDist {
     StdDraw.setPenColor(cParam);
     StdDraw.setFont(new Font("SansSerif", Font.BOLD, 16));
     StdDraw.textRight(1.14 * trials, 0.7, Parameters);
+
+    // Draw axes
+    StdDraw.setPenColor(cxLabel);
+    StdDraw.setFont(new Font("", Font.PLAIN, 12));
+    for (int s : success) {
+      StdDraw.text(s, 1.02, String.format("%,d", s));
+    }
   }
 
   /************************************************/
   public void plotMass() {
-    String Title = "";
-    String xLabel = "";
-    chart(Title, xLabel);
+    String Title = "Probability Mass Function";
+    String xLabel = "Success (units):";
+    String pToS = String.valueOf(param);
+    String tToS = String.valueOf(trials);
+    String Param = "n: " + tToS + ",   p: " + pToS + ".";
+    chart(Title, xLabel, Param);
   }
   
   /************************************************/
