@@ -81,13 +81,19 @@ public class BinomialDist {
     ArrayList<Double> values = new ArrayList<Double>(); 
     ArrayList<Integer> success = new ArrayList<Integer>(); 
 
-    Color dots = Color.decode("#85646e");
+    Color dots = Color.decode("ae0001");
 
     for (int i = 0; i < trials + 1; i++) {
       success.add(i);
       values.add(weights[i]);
-      System.out.println("success: " + success.get(i) + " has mass: " + values.get(i));
     }
+  }
+
+  /************************************************/
+  public void plotCumulative(int x) {
+    
+    Color lines = Color.decode("#eeba30");
+    plotMass();
   }
   
   /************************************************/
