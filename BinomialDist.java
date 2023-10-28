@@ -90,6 +90,7 @@ public class BinomialDist {
     for (int i = 0; i < trials + 1; i++) {
       
       double s = (double) i;
+      double v = weights[i] * 10.0;
       success.add(s);
       values.add(weights[i]);
     }
@@ -101,10 +102,13 @@ public class BinomialDist {
 
     // Draw title 
     StdDraw.setPenColor(cTitle);
-    StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 16));
+    StdDraw.setFont(new Font("SansSerif", Font.BOLD, 24));
     StdDraw.text(0.6 * xMax, 1.2, Title);
 
-    // Draw xLabel
+    // Draw x-axis label
+    StdDraw.setPenColor(cxLabel);
+    StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 16));
+    StdDraw.textLeft(0.0, 1.1, xLabel); 
   }
 
   /************************************************/
