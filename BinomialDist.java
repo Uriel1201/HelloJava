@@ -94,14 +94,13 @@ public class BinomialDist {
     }
 
     // Set the scale 
-    Double xMax = success.get(trials);
-    StdDraw.setXscale(-0.01 * xMax, 1.2 * xMax);
+    StdDraw.setXscale(-0.01 * trials, 1.2 * trials);
     StdDraw.setYscale(-0.01, 1.25); 
 
     // Draw title 
     StdDraw.setPenColor(cTitle);
     StdDraw.setFont(new Font("SansSerif", Font.BOLD, 24));
-    StdDraw.text(0.6 * xMax, 1.2, Title);
+    StdDraw.text(0.6 * trials, 1.2, Title);
 
     // Draw x-axis label
     StdDraw.setPenColor(cxLabel);
@@ -111,7 +110,7 @@ public class BinomialDist {
     // Draw Parameters 
     StdDraw.setPenColor(cParam);
     StdDraw.setFont(new Font("SansSerif", Font.BOLD, 16));
-    StdDraw.textRight(1.14 * xMax, 1.0, Parameters);
+    StdDraw.textRight(1.14 * trials, 0.7, Parameters);
   }
 
   /************************************************/
