@@ -99,7 +99,7 @@ public class BinomialDist {
       success.add(i);
       values.add(weights[i]);
     }
-    /*
+    
     // Set the scale 
     StdDraw.setXscale(-0.01 * trials, 1.2 * trials);
     StdDraw.setYscale(-0.01, 1.25); 
@@ -124,7 +124,7 @@ public class BinomialDist {
     StdDraw.setFont(new Font("", Font.PLAIN, 12));
     for (int s : success) {
       StdDraw.text(s, 1.02, String.format("%,d", s));
-    } */
+    } 
   }
 
   /************************************************/
