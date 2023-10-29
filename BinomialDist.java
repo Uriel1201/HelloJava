@@ -162,7 +162,7 @@ public class BinomialDist {
     }
     
     System.out.println("The cummulative value of all weights is: " + cumm);
-    // np.plotMass();
+    np.plotMass();
     double distX = np.getDistribution(x);
     System.out.println("Distribution Function in " + x + ": " + distX);
   }
