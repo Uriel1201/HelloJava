@@ -99,7 +99,7 @@ public class BinomialDist {
       success.add(i);
       values.add(weights[i]);
     }
-
+    /*
     // Set the scale 
     StdDraw.setXscale(-0.01 * trials, 1.2 * trials);
     StdDraw.setYscale(-0.01, 1.25); 
@@ -114,7 +114,7 @@ public class BinomialDist {
     StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 16));
     StdDraw.textLeft(0.0, 1.1, xLabel); 
 
-    // Draw Parameters 
+    // Draw parameters 
     StdDraw.setPenColor(cParam);
     StdDraw.setFont(new Font("SansSerif", Font.BOLD, 16));
     StdDraw.textRight(1.14 * trials, 0.7, Parameters);
@@ -124,7 +124,7 @@ public class BinomialDist {
     StdDraw.setFont(new Font("", Font.PLAIN, 12));
     for (int s : success) {
       StdDraw.text(s, 1.02, String.format("%,d", s));
-    }
+    } */
   }
 
   /************************************************/
@@ -133,9 +133,15 @@ public class BinomialDist {
     String xLabel = "Success (units):";
     String pToS = String.valueOf(param);
     String tToS = String.valueOf(trials);
-    String Param = "n: " + tToS + ",   p: " + pToS + ".";
-    chart(Title, xLabel, Param);
-  }
+    String Parameters = "n: " + tToS + ",   p: " + pToS + ".";
+    chart(Title, xLabel, Parameters);
+  }  
+
+  /************************************************/
+  public double getDistribution(int x) {
+    double d = dist[x];
+    return d;
+  } 
   
   /************************************************/
   public static void main(String[] args) {
@@ -156,6 +162,8 @@ public class BinomialDist {
     }
     
     System.out.println("The cummulative value of all weights is: " + cumm);
-    np.plotMass();
+    // np.plotMass();
+    double distX = np.getDistribution(x);
+    System.out.println("Distribution Function in " + x + ": " + distX);
   }
 }
