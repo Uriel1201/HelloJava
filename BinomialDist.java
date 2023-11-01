@@ -84,23 +84,27 @@ public class BinomialDist {
   }
 
   /************************************************/
-  private void chart(String Title, String xLabel, String Parameters) {
+  private void chart(String Title, String xLabel, String Parameters, double[] dots) {
     
     ArrayList<Integer> success = new ArrayList<Integer>();
     ArrayList<Double> values = new ArrayList<Double>();
 
     Color cTitle =  Color.decode("#000000");
-    Color cxLabel = Color.decode("#06400a");
+    Color cyLabel = Color.decode("#06400a");
     Color cParam = Color.decode("#ae0001");
     Color dots = Color.decode("#ae0001");
     Color lines = Color.decode("#d3a625");
 
     for (int i = 0; i < trials + 1; i++) {
-      success.add(i);
-      values.add(weights[i]);
+      success.add(i); 
+      values.add(dots[i]);
     }
     
-    // Set the scale 
+    // Set the scale
+    double yMax = Double.NEGATIVE_INFINITY;
+    for (int v:values) {
+      if (v > yMax) yMax = v;
+    }
     StdDraw.setXscale(-0.01 * trials, 1.2 * trials);
     StdDraw.setYscale(-0.01 * yMax, 1.25 * yMax); 
 
