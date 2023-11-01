@@ -86,7 +86,8 @@ public class BinomialDist {
   /************************************************/
   private void chart(String Title, String xLabel, String Parameters) {
     
-    ArrayList<Integer> success = new ArrayList<Integer>(); 
+    ArrayList<Integer> success = new ArrayList<Integer>();
+    ArrayList<Double> values = new ArrayList<Double>();
 
     Color cTitle =  Color.decode("#000000");
     Color cxLabel = Color.decode("#06400a");
@@ -96,21 +97,22 @@ public class BinomialDist {
 
     for (int i = 0; i < trials + 1; i++) {
       success.add(i);
+      values.add(weights[i]);
     }
     
     // Set the scale 
     StdDraw.setXscale(-0.01 * trials, 1.2 * trials);
-    StdDraw.setYscale(-0.01, 1.25); 
+    StdDraw.setYscale(-0.01 * yMax, 1.25 * yMax); 
 
     // Draw title 
     StdDraw.setPenColor(cTitle);
     StdDraw.setFont(new Font("SansSerif", Font.BOLD, 24));
     StdDraw.text(0.6 * trials, 1.2, Title);
 
-    // Draw x-axis label
-    StdDraw.setPenColor(cxLabel);
+    // Draw y-axis label
+    StdDraw.setPenColor(cyLabel);
     StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 16));
-    StdDraw.textLeft(0.0, 1.1, xLabel); 
+    StdDraw.textLeft(0.0, 1.1, yLabel); 
 
     // Draw parameters 
     StdDraw.setPenColor(cParam);
