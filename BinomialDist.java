@@ -84,7 +84,7 @@ public class BinomialDist {
   }
 
   /************************************************/
-  private void chart(String Title, String xLabel, String Parameters, double[] dots) {
+  private void chart(String Title, String yLabel, String Parameters, double[] dots) {
     
     ArrayList<Integer> success = new ArrayList<Integer>();
     ArrayList<Double> values = new ArrayList<Double>();
@@ -134,11 +134,11 @@ public class BinomialDist {
   /************************************************/
   public void plotMass() {
     String Title = "Probability Mass Function";
-    String xLabel = "Success (units):";
+    String yLabel = "Success (units):";
     String pToS = String.valueOf(param);
     String tToS = String.valueOf(trials);
     String Parameters = "n: " + tToS + ",   p: " + pToS + ".";
-    chart(Title, xLabel, Parameters);
+    chart(Title, yLabel, Parameters);
   }  
 
   /************************************************/
