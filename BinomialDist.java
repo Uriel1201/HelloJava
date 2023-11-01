@@ -111,20 +111,20 @@ public class BinomialDist {
     // Draw title 
     StdDraw.setPenColor(cTitle);
     StdDraw.setFont(new Font("SansSerif", Font.BOLD, 24));
-    StdDraw.text(0.6 * trials, 1.2, Title);
+    StdDraw.text(0.6 * trials, 1.2 * yMax, Title);
 
     // Draw y-axis label
     StdDraw.setPenColor(cyLabel);
     StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 16));
-    StdDraw.textLeft(0.0, 1.1, yLabel); 
+    StdDraw.textLeft(0.0, 1.1 * yMax, yLabel); 
 
     // Draw parameters 
     StdDraw.setPenColor(cParam);
     StdDraw.setFont(new Font("SansSerif", Font.BOLD, 18));
-    StdDraw.textRight(1.14 * trials, 0.7, Parameters);
+    StdDraw.textRight(1.14 * trials, 0.7 * yMax, Parameters);
 
     // Draw axes
-    StdDraw.setPenColor(cxLabel);
+    StdDraw.setPenColor(cyLabel);
     StdDraw.setFont(new Font("", Font.PLAIN, 12));
     for (int s : success) {
       StdDraw.text(s, 1.02, String.format("%,d", s));
