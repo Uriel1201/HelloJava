@@ -102,7 +102,7 @@ public class BinomialDist {
     
     // Set the scale
     double yMax = Double.NEGATIVE_INFINITY;
-    for (int v:values) {
+    for (double v : values) {
       if (v > yMax) yMax = v;
     }
     StdDraw.setXscale(-0.01 * trials, 1.2 * trials);
@@ -126,8 +126,8 @@ public class BinomialDist {
     // Draw axes
     StdDraw.setPenColor(cyLabel);
     StdDraw.setFont(new Font("", Font.PLAIN, 12));
-    for (int s : success) {
-      StdDraw.text(s, 1.02, String.format("%,d", s));
+    for (double v : values) {
+      StdDraw.text(-0.02 * trials, v, String.format("%,d", s));
     } 
   }
 
