@@ -84,10 +84,9 @@ public class BinomialDist {
   }
 
   /************************************************/
-  private void chart(String Title, String yLabel, String Parameters, double[] dots) {
+  private void chart(String Title, String yLabel, String Parameter, ArrayList<Double> values) {
     
     ArrayList<Integer> success = new ArrayList<Integer>();
-    ArrayList<Double> values = new ArrayList<Double>();
 
     Color cTitle =  Color.decode("#000000");
     Color cyLabel = Color.decode("#06400a");
@@ -97,7 +96,6 @@ public class BinomialDist {
 
     for (int i = 0; i < trials + 1; i++) {
       success.add(i);
-      values.add(dots[i]);
     }
     
     // Set the scale
@@ -126,7 +124,7 @@ public class BinomialDist {
     // Draw axes
     StdDraw.setPenColor(cyLabel);
     StdDraw.setFont(new Font("", Font.PLAIN, 12));
-    StdDraw.text(0.01 * trials, yMax, String.format("%,d", yMax));
+    StdDraw.textLeft(-0.005 * trials, yMax, String.format("%,d", yMax));
   }
 
   /************************************************/
@@ -136,11 +134,11 @@ public class BinomialDist {
     String pToS = String.valueOf(param);
     String tToS = String.valueOf(trials);
     String Parameters = "n: " + tToS + ",   p: " + pToS + ".";
-    double[] dots = new double[trials + 1];
+    ArrayList<Double> values = new ArrayList<Double>();
     for (int i = o; i < trials + 1; i++) {
-      dots[i] = weights[i];
+      values.add(weights[i]);
     }
-    chart(Title, yLabel, Parameters, dots);
+    chart(Title, yLabel, Parameters, values);
   }  
 
   /************************************************/
