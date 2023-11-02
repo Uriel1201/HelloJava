@@ -86,7 +86,7 @@ public class BinomialDist {
   /************************************************/
   private void chart(String Title, String yLabel, String Parameter, ArrayList<Double> values) {
     
-    ArrayList<Integer> success = new ArrayList<Integer>();
+    ArrayList<Double> success = new ArrayList<Double>();
 
     Color cTitle =  Color.decode("#000000");
     Color cyLabel = Color.decode("#06400a");
@@ -95,7 +95,8 @@ public class BinomialDist {
     Color lines = Color.decode("#d3a625");
 
     for (int i = 0; i < trials + 1; i++) {
-      success.add(i);
+      Double itoD = new Double(i); 
+      success.add(itoD);
     }
     
     // Set the scale
@@ -139,6 +140,7 @@ public class BinomialDist {
       values.add(weights[i]);
     }
     chart(Title, yLabel, Parameters, values);
+    
   }  
 
   /************************************************/
