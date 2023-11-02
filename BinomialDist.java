@@ -70,6 +70,9 @@ public class BinomialDist {
       } else {
         dist[x] = dist[x - 1] + w;
       }
+      if (dist[x] > 9999E-4) {
+        dist[x] = 1.0;
+      }
     }
   }
 
