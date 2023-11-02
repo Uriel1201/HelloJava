@@ -96,7 +96,7 @@ public class BinomialDist {
     Color lines = Color.decode("#d3a625");
 
     for (int i = 0; i < trials + 1; i++) {
-      success.add(i); 
+      success.add(i);
       values.add(dots[i]);
     }
     
@@ -126,19 +126,21 @@ public class BinomialDist {
     // Draw axes
     StdDraw.setPenColor(cyLabel);
     StdDraw.setFont(new Font("", Font.PLAIN, 12));
-    for (double v : values) {
-      StdDraw.text(-0.02 * trials, v, String.format("%,d", s));
-    } 
+    StdDraw.text(0.01 * trials, yMax, String.format("%,d", yMax));
   }
 
   /************************************************/
   public void plotMass() {
     String Title = "Probability Mass Function";
-    String yLabel = "Success (units):";
+    String yLabel = "Mass_Value:";
     String pToS = String.valueOf(param);
     String tToS = String.valueOf(trials);
     String Parameters = "n: " + tToS + ",   p: " + pToS + ".";
-    chart(Title, yLabel, Parameters);
+    double[] dots = new double[trials + 1];
+    for (int i = o; i < trials + 1; i++) {
+      dots[i] = weights[i];
+    }
+    chart(Title, yLabel, Parameters, dots);
   }  
 
   /************************************************/
