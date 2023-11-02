@@ -90,6 +90,7 @@ public class BinomialDist {
   /************************************************/
   private void chart(String Title, String yLabel, String Parameter, ArrayList<Double> values) {
     
+    StdDraw.title("Binomial Distribution")
     ArrayList<Double> success = new ArrayList<Double>();
 
     Color cTitle =  Color.decode("#000000");
@@ -143,7 +144,7 @@ public class BinomialDist {
     String Parameters = "n: " + tToS + ",   p: " + pToS + ".";
     
     ArrayList<Double> values = new ArrayList<Double>();
-    for (int i = o; i < trials + 1; i++) {
+    for (int i = 0; i < trials + 1; i++) {
       double mass = getProbability(i);
       values.add(mass);
     }
@@ -161,6 +162,8 @@ public class BinomialDist {
       StdDraw.setPenRadius(0.005);
       StdDraw.line(success.get(i), 0.0, success.get(i), values.get(i));
     }
+
+    StdDraw.show();
   }  
 
   /************************************************/
