@@ -12,7 +12,6 @@ public class BinomialDist {
 
   private final int trials;
   private final double param;
-  private final double[] weights;
   private final double[] dist;
 
   /************************************************/
@@ -37,9 +36,9 @@ public class BinomialDist {
 
   /************************************************/
   public BinomialDist(int n, double p) {
+    
     trials = n;
     param = p;
-    weights = new double[n + 1];
     dist = new double[n + 1];
     
     BigInteger[][] triangle = pascal(n);
@@ -64,9 +63,7 @@ public class BinomialDist {
       double comb = triangle[n][x + 1].doubleValue();
       double w = _p * _q * comb;
       if (w < 1.0E-6) {
-        weights[x] = 0.0;
-      } else {
-        weights[x] = w;
+        w = 0.0;
       }
       if (x == 0) {
         dist[x] = w;
@@ -78,9 +75,13 @@ public class BinomialDist {
 
   /************************************************/
   public double getProbability(int x) {
+    
     // x: number of successes '0<= x <=n'
-    double pX = weights[x];
-    return pX;
+    if (x == 0) {
+      return dist[x];
+    } else {
+      return dist[x] - dist[x - 1];
+    }
   }
 
   /************************************************/
@@ -130,17 +131,33 @@ public class BinomialDist {
 
   /************************************************/
   public void plotMass() {
+    
+    StdDraw.enableDoubleBuffering();
     String Title = "Probability Mass Function";
     String yLabel = "Mass_Value:";
     String pToS = String.valueOf(param);
     String tToS = String.valueOf(trials);
     String Parameters = "n: " + tToS + ",   p: " + pToS + ".";
+    
     ArrayList<Double> values = new ArrayList<Double>();
     for (int i = o; i < trials + 1; i++) {
-      values.add(weights[i]);
+      double mass = getProbability(i);
+      values.add(mass);
     }
-    chart(Title, yLabel, Parameters, values);
     
+    chart(Title, yLabel, Parameters, values);
+    Color points = Color.decode("#ae0001");
+    Color lines = Color.decode("#d3a625");
+    
+    for (int i = 0; i < values.size(); i++) {
+      
+      StdDraw.setPenColor(points);
+      StdDraw.setPenRadius(0.015);
+      StdDraw.point(success.get(i), values.get(i));
+      StdDraw.setPenColor(lines);
+      StdDraw.setPenRadius(0.005);
+      StdDraw.line(success.get(i), 0.0, success.get(i), values.get(i));
+    }
   }  
 
   /************************************************/
