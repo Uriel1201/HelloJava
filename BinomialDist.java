@@ -162,8 +162,8 @@ public class BinomialDist {
 
   /************************************************/
   public double getDistribution(int x) {
-    double d = dist[x];
-    return d;
+    
+    return dist[x];
   } 
   
   /************************************************/
@@ -175,18 +175,12 @@ public class BinomialDist {
 
     BinomialDist np = new BinomialDist(n, p);
 
-    double cumm = 0.0;
-    System.out.println("prob of x: " + np.getProbability(x));
-
-    for (int i = 0; i < n + 1; i++) {
-      double sProb = np.getProbability(i);
-      cumm += sProb;
-      // System.out.println(sProb);
-    }
+    System.out.println("Mass of x: " + np.getProbability(x));
+    System.out.println("Distribution of x: " + np.getDistribution(x));
     
-    System.out.println("The cummulative value of all weights is: " + cumm);
+    double cum = np.getDistribution(n);
+    System.out.println("The cumulative to n: " + cum);
+    
     np.plotMass();
-    double distX = np.getDistribution(x);
-    System.out.println("Distribution Function in " + x + ": " + distX);
   }
 }
