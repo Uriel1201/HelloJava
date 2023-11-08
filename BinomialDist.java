@@ -208,10 +208,11 @@ public class BinomialDist {
     System.out.println("The cumulative to n: " + cum);
     
     // np.plotMass();
-    
+
+    System.out.println("Printing a sample of size " + m + ":");
     for (int i = 0; i < m; i++) {
       int s = np.sampling();
-      System.out.println("Printing a sample of size 1: " + s + " successes");
+      System.out.println(s + " successes");
     }
   }
 }
