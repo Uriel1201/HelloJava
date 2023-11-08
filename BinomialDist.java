@@ -87,7 +87,7 @@ public class BinomialDist {
     }
   }
 
-  /************************************************/
+  /************************************************
   private void chart(String Title, String yLabel, String Parameter, ArrayList<Double> values) {
     
     StdDraw.title("Binomial Distribution")
@@ -131,9 +131,9 @@ public class BinomialDist {
     StdDraw.setPenColor(cyLabel);
     StdDraw.setFont(new Font("", Font.PLAIN, 12));
     StdDraw.textLeft(-0.005 * trials, yMax, String.format("%,d", yMax));
-  }
+  } */
 
-  /************************************************/
+  /************************************************
   public void plotMass() {
     
     StdDraw.enableDoubleBuffering();
@@ -164,7 +164,7 @@ public class BinomialDist {
     }
 
     StdDraw.show();
-  }  
+  } */
 
   /************************************************/
   public double getDistribution(int x) {
@@ -190,9 +190,14 @@ public class BinomialDist {
   /************************************************/
   public static void main(String[] args) {
   
+    // number of trials
     int n = Integer.parseInt(args[0]);
+    // number of successes 
     int x = Integer.parseInt(args[1]);
+    // success probability 
     double p = Double.parseDouble(args[2]);
+    // size of the sample 
+    int m = Integer.parseInt(args[3]);
 
     BinomialDist np = new BinomialDist(n, p);
 
@@ -202,9 +207,11 @@ public class BinomialDist {
     double cum = np.getDistribution(n);
     System.out.println("The cumulative to n: " + cum);
     
-    np.plotMass();
-
-    int s = np.sampling();
-    System.out.println("Printing a sample of size 1: " + s + " successes");
+    // np.plotMass();
+    
+    for (int i = 0; i < m; i++) {
+      int s = np.sampling();
+      System.out.println("Printing a sample of size 1: " + s + " successes");
+    }
   }
 }
