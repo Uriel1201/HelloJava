@@ -178,13 +178,13 @@ public class BinomialDist {
     double u = Math.random();
     if (u <= dist[0]) {
       return 0;
-    } else {
-      for (int i = 1; i < trials + 1; i++) {
-        if (u > dist[i - 1] && u <= dist[i]) {
-          return i;
-        }
+    }
+    for (int i = 1; i < trials; i++) {
+      if (u > dist[i - 1] && u <= dist[i]) {
+        return i;
       }
     }
+    return trials;
   }
   
   /************************************************/
