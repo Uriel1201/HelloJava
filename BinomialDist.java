@@ -170,7 +170,22 @@ public class BinomialDist {
   public double getDistribution(int x) {
     
     return dist[x];
-  } 
+  }
+
+  /************************************************/
+  public int sampling() {
+
+    double u = Math.random();
+    if (u <= dist[0]) {
+      return 0;
+    } else {
+      for (int i = 1; i < trials + 1; i++) {
+        if (u > dist[i - 1] && u <= dist[i]) {
+          return i;
+        }
+      }
+    }
+  }
   
   /************************************************/
   public static void main(String[] args) {
@@ -188,5 +203,8 @@ public class BinomialDist {
     System.out.println("The cumulative to n: " + cum);
     
     np.plotMass();
+
+    int s = np.sampling();
+    System.out.println("Printing a sample of size 1: " + s + " successes");
   }
 }
