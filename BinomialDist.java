@@ -289,13 +289,19 @@ public class BinomialDist {
         StdDraw.save("Mass_Plot.jpg");
         np.plotDist();
         StdDraw.save("Distribution_Plot.jpg"); */
-
-        double pASup = getNormalApprox(n, x, p);
-        double pAInf = getNormalApprox(n, x - 1, p);
-        double mA = pASup - pAInf;
-        System.out.println("Approximated Distribution in x using Normal: " + pASup);
-        System.out.printl("Approximated mass in x using Normal: " + mA);
-
+        
+        if (x > 0) {
+            double pASup = getNormalApprox(n, x, p);
+            double pAInf = getNormalApprox(n, x - 1, p);
+            double mA = pASup - pAInf;
+            System.out.println("Approximated Distribution in x using Normal: " + pASup);
+            System.out.println("Approximated mass in x using Normal: " + mA);
+        } else {
+            double pASup = getNormalApprox(n, x, p);
+            System.out.println("Approximated Distribution in x using Normal: " + pASup);
+            System.out.println("Approximated mass in x using Normal: " + pASup);
+        }
+        
         System.out.println("Printing a sample of size " + m + ":");
         for (int i = 0; i < m; i++) {
             int s = np.sampling();
