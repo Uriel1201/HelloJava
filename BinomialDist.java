@@ -293,7 +293,7 @@ public class BinomialDist {
         double pASup = getNormalApprox(n, x, p);
         double pAInf = getNormalApprox(n, x - 1, p);
         double mA = pASup - pAInf;
-        System.out.println("Approximated Distribution in x using Normal: " + pA);
+        System.out.println("Approximated Distribution in x using Normal: " + pASup);
         System.out.printl("Approximated mass in x using Normal: " + mA);
 
         System.out.println("Printing a sample of size " + m + ":");
