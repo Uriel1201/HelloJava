@@ -258,7 +258,7 @@ public class BinomialDist {
     }
 
     /************************************************/
-    public static double getNormalApprox(int n; int x; double p) {
+    public static double getNormalApprox(int n, int x, double p) {
 
         double mean = n * p;
         double sigma = Math.sqrt(n * p * (1 - p));
