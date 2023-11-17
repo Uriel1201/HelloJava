@@ -89,7 +89,7 @@ public class BinomialDist {
         }
     }
 
-    /************************************************/
+    /************************************************
     private void chart(String title, String yLabel, String parameters, ArrayList<Double> values) {
 
         StdDraw.setTitle("Binomial Distribution");
@@ -125,9 +125,9 @@ public class BinomialDist {
         StdDraw.setPenColor(cyLabel);
         StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 12));
         StdDraw.textLeft(0.0, yMax, Double.toString(yMax));
-    }
+    } */
 
-    /************************************************/
+    /************************************************
     public void plotMass() {
 
         StdDraw.enableDoubleBuffering();
@@ -166,7 +166,7 @@ public class BinomialDist {
 
         StdDraw.show();
         StdDraw.clear();
-    }
+    } */
 
     /************************************************/
     public double getDistribution(int x) {
@@ -189,7 +189,7 @@ public class BinomialDist {
         return trials;
     }
 
-    /************************************************/
+    /************************************************
     public void plotDist() {
 
         StdDraw.enableDoubleBuffering();
@@ -227,7 +227,7 @@ public class BinomialDist {
 
         StdDraw.show();
         StdDraw.clear();
-    }
+    } */
 
     /************************************************/
     public int getTrials() {
@@ -237,6 +237,32 @@ public class BinomialDist {
     /************************************************/
     public double getParam() {
         return param;
+    }
+
+    /************************************************/
+    private static double cdf(double z) {
+
+        if (z < -8.0) return 0.0;
+        if (z > 8.0) return 1.0;
+        
+        double g = Math.exp(-z * z / 2) / Math.sqrt(2 * Math.PI);
+        
+        double sum = 0.0;
+        double t = z;
+        
+        for (int i = 3; sum + t != sum; i += 2) {
+            sum = sum + t;
+            t = t * z * z / i;
+        }
+        return 0.5 + sum * g;
+    }
+
+    /************************************************/
+    public static double getNormalApprox(int n; int x; double p) {
+
+        double mean = n * p;
+        double sigma = Math.sqrt(n * p * (1 - p));
+        return cdf((x + 0.5 - mean) / sigma);
     }
 
     /************************************************/
@@ -258,11 +284,17 @@ public class BinomialDist {
 
         double cum = np.getDistribution(n);
         System.out.println("The cumulative to n: " + cum);
-
+        /*
         np.plotMass();
         StdDraw.save("Mass_Plot.jpg");
         np.plotDist();
-        StdDraw.save("Distribution_Plot.jpg");
+        StdDraw.save("Distribution_Plot.jpg"); */
+
+        double pASup = getNormalApprox(n, x, p);
+        double pAInf = getNormalApprox(n, x - 1, p);
+        double mA = pASup - pAInf;
+        System.out.println("Approximated Distribution in x using Normal: " + pA);
+        System.out.printl("Approximated mass in x using Normal: " + mA);
 
         System.out.println("Printing a sample of size " + m + ":");
         for (int i = 0; i < m; i++) {
