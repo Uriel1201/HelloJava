@@ -240,6 +240,18 @@ public class BinomialDist {
     }
 
     /************************************************/
+    public double getMean() {
+        
+        return trials * param;
+    }
+
+    /************************************************/
+    public double getVariance() {
+
+        return getMean() * (1 - param);
+    }
+
+    /************************************************/
     private static double cdf(double z) {
 
         if (z < -8.0) return 0.0;
@@ -279,8 +291,8 @@ public class BinomialDist {
 
         BinomialDist np = new BinomialDist(n, p);
 
-        System.out.println("Mass of x: " + np.getProbability(x));
-        System.out.println("Distribution of x: " + np.getDistribution(x));
+        System.out.println("Mass of x = " + x + ": " + np.getProbability(x));
+        System.out.println("Distribution of x = " + x + ": " + np.getDistribution(x));
 
         double cum = np.getDistribution(n);
         System.out.println("The cumulative to n: " + cum);
@@ -294,18 +306,26 @@ public class BinomialDist {
             double pASup = getNormalApprox(n, x, p);
             double pAInf = getNormalApprox(n, x - 1, p);
             double mA = pASup - pAInf;
-            System.out.println("Approximated Distribution in x using Normal: " + pASup);
-            System.out.println("Approximated mass in x using Normal: " + mA);
+            System.out.println("Approximated Distribution in x using Normalization: " + pASup);
+            System.out.println("Approximated mass in x using Normalization: " + mA);
         } else {
             double pASup = getNormalApprox(n, 0, p);
             System.out.println("Approximated Distribution in x using Normalization: " + pASup);
             System.out.println("Approximated mass in x using Normalization: " + pASup);
         }
-        
-        System.out.println("Printing a sample of size " + m + ":");
+        System.out.println("Mean: " + np.getMean());
+        System.out.println("Variance: " + np.getVariance());
+
+        // Suppose you don't know the number of trials
+        System.out.println("Simulating a sample of size m = " + m "to estimate their mean and variance");
+        int sum = 0;
         for (int i = 0; i < m; i++) {
             int s = np.sampling();
-            System.out.println(s + " successes");
+            sum += s;   
         }
+        
+        double estP = (1.0) * sum / (m * n);
+        System.out.println("Numerical Mean: " + estP * n);
+        System.out.println("Numerical Variance: " + n * estP *(1 - estP));
     }
 }
