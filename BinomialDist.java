@@ -316,7 +316,7 @@ public class BinomialDist {
         System.out.println("Mean: " + np.getMean());
         System.out.println("Variance: " + np.getVariance());
 
-        // Suppose for a moment you don't know the success probability
+        System.out.println("Suppose for a moment you don't know the success probability");
         System.out.println("Simulating a sample of size m = " + m + " to estimate their mean and variance");
         int sum = 0;
         for (int i = 0; i < m; i++) {
