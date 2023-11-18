@@ -317,7 +317,7 @@ public class BinomialDist {
         System.out.println("Variance: " + np.getVariance());
 
         // Suppose you don't know the number of trials
-        System.out.println("Simulating a sample of size m = " + m "to estimate their mean and variance");
+        System.out.println("Simulating a sample of size m = " + m + " to estimate their mean and variance");
         int sum = 0;
         for (int i = 0; i < m; i++) {
             int s = np.sampling();
