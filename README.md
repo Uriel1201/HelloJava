@@ -102,6 +102,7 @@ The purpose of this assignment is to give you practice using objects and data ty
 
 [**KernelFilter**](https://github.com/Uriel1201/HelloJAVA/blob/main/KernelFilter.java)
 > [Kernel filters](https://setosa.io/ev/image-kernels/) are widely used for image processing in applications such as Photoshop or GIMP. They are also used in convolutional neural networks to extract features from an image and in digital cameras to remove camera shake.
+> ![alt text](https://github.com/Uriel1201/HelloJava/blob/main/emboss_monkey.jpg?raw=true)
 
 ## Creating Data Types
 The purpose of this assignment is to give you practice creating data types. [Specifications](https://coursera.cs.princeton.edu/introcs/assignments/oop2/specification.php).
