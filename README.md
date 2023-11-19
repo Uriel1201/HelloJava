@@ -2,6 +2,8 @@
  This repository represents the assignment project [Intellij IDEA](https://lift.cs.princeton.edu/java/windows/) of
 [Computer Science: Programming with a Purpose](https://www.coursera.org/learn/cs-programming-java) course
  offered by Princeton University, along with their weekly assignments.
+
+ ![alt text](https://github.com/Uriel1201/HelloJava/blob/main/Distribution_Plot.jpg?raw=true)
  
 # Assignments:
 ## [Data Types](https://coursera.cs.princeton.edu/introcs/assignments/hello/specification.php)
