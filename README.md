@@ -2,8 +2,6 @@
  This repository represents the assignment project [Intellij IDEA](https://lift.cs.princeton.edu/java/windows/) of
 [Computer Science: Programming with a Purpose](https://www.coursera.org/learn/cs-programming-java) course
  offered by Princeton University, along with their weekly assignments.
-
- ![alt text](https://github.com/Uriel1201/HelloJava/blob/main/Distribution_Plot.jpg?raw=true)
  
 # Assignments:
 ## [Data Types](https://coursera.cs.princeton.edu/introcs/assignments/hello/specification.php)
@@ -115,4 +113,10 @@ The purpose of this assignment is to give you practice creating data types. [Spe
 > Defining a variable that embodies a real clock. 
 
 ## Programming Languages 
+
+## Extra
+**BinomialDistribution**
+![alt text](https://github.com/Uriel1201/HelloJava/blob/main/Distribution_Plot.jpg?raw=true)
+![alt text](https://github.com/Uriel1201/HelloJava/blob/main/Mass_Plot.jpg?raw=true)
+
 
