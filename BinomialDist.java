@@ -17,15 +17,15 @@ public class BinomialDist {
     /************************************************/
     public BinomialDist(int n, double p) {
 
-        trials = n;
-        param = p;
-        dist = new double[n + 1];
         if (n < 0) {
             throw new IllegalArgumentException("Doesn't exist samples with negative size");
         }
         if (p < 0.0 || p > 1.0) {
             throw new IllegalArgumentException("p must to be a measure of probability");
         }
+        trials = n;
+        param = p;
+        dist = new double[n + 1];
 
         BigInteger[][] triangle = pascal(n);
 
