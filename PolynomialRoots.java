@@ -1,6 +1,6 @@
 public class PolynomialRoots {
 
-  public DMatrixRmaj getcompanionM(double[] coefficients) {
+  private static DMatrixRmaj getCompanionM(double[] coefficients) {
 
     int n = coefficients.length - 1;
     DMatrixRmaj comp = new DMatrixRmaj(n, n);
@@ -16,12 +16,23 @@ public class PolynomialRoots {
     return comp;
   }
 
-  public static Complex_F64[] getRoots(DMatrixRmaj companion) {
+  public static Complex_F64[] getRoots(double[] coefficients) {
 
-    DMatrixRmaj copy = companion.copy();
-    int n = companion.getNumRows();
+    DMatrixRmaj companion = getCompanionM(coefficients);
+    int n = coefficients.length - 1;
 
-    QRDecomposition<DMatrixRmaj> qr = DecompositionFactory_DDRM.qr(n, n);
-    
+    int maxIterations = 100000;
+    double eps = 1e-10;
+
+    for (int i = 0; i < maxIterations; i++) {
+      
+      QRDecomposition<DMatrixRmaj> qr = DecompositionFactory_DDRM.qr(n, n);
+      qr.decompose(companion);
+      DMatrixRmaj q = qr.getQ(null, false);
+      DMatrixRmaj r = qr.getR(null, false);
+      companion = CommonOps_DDRM.mult(r, q, companion);
+
+      if () 
+    }
   }
 }
