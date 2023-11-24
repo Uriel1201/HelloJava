@@ -27,9 +27,9 @@ public class PolynomialRoots {
   /*******************************************************************/
   private static boolean isUpperTriangular(DMatrixRmaj matrix, double error) {
 
-    for () {
-      for () {
-        if (Math.abs() > error) {
+    for (int i = 0; i < matrix.getNumRows(); i++) {
+      for (j = 0; j < i; j++) {
+        if (Math.abs(matrix.get(i, j)) > error) {
           return false
         }
       }
