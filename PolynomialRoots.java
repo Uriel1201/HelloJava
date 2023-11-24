@@ -2,12 +2,12 @@ import org.ejml.data.Complex_F64;
 import org.ejml.data.DMatrixRMaj;
 import org.ejml.dense.row.factory.DecompositionFactory_DDRM;
 import org.ejml.dense.row.CommonOps_DDRM;
-import org.ejml.interfaces.decomposition.QRDecomposition;
+import org.ejml.interfaces.decomposition.QRDecomposition_F64;
   
 public class PolynomialRoots {
 
   /*******************************************************************/
-  private static DMatrixRmaj getCompanionM(double[] coefficients) {
+  private static DMatrixRMaj getCompanionM(double[] coefficients) {
 
     int n = coefficients.length - 1;
     DMatrixRmaj comp = new DMatrixRmaj(n, n);
