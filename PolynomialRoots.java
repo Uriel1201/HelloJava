@@ -10,7 +10,7 @@ public class PolynomialRoots {
   private static DMatrixRMaj getCompanionM(double[] coefficients) {
 
     int n = coefficients.length - 1;
-    DMatrixRmaj comp = new DMatrixRmaj(n, n);
+    DMatrixRMaj comp = new DMatrixRMaj(n, n);
     double monic = coefficients[n];
     
     for (int i = 0; i < n; i++) {
@@ -25,7 +25,7 @@ public class PolynomialRoots {
   
   
   /*******************************************************************/
-  private static boolean isUpperTriangular(DMatrixRmaj matrix, double error) {
+  private static boolean isUpperTriangular(DMatrixRMaj matrix, double error) {
 
     for (int i = 0; i < matrix.getNumRows(); i++) {
       for (int j = 0; j < i; j++) {
@@ -41,7 +41,7 @@ public class PolynomialRoots {
   /*******************************************************************/
   public static Complex_F64[] getRoots(double[] coefficients) {
 
-    DMatrixRmaj companion = getCompanionM(coefficients);
+    DMatrixRMaj companion = getCompanionM(coefficients);
     int n = coefficients.length - 1;
 
     int maxIterations = 10000;
@@ -49,10 +49,10 @@ public class PolynomialRoots {
 
     for (int i = 0; i < maxIterations; i++) {
       
-      QRDecomposition_F64<DMatrixRmaj> qr = DecompositionFactory_DDRM.qrp(n, n);
+      QRDecomposition_F64<DMatrixRMaj> qr = DecompositionFactory_DDRM.qrp(n, n);
       qr.decompose(companion);
-      DMatrixRmaj q = qr.getQ(null, false);
-      DMatrixRmaj r = qr.getR(null, false);
+      DMatrixRMaj q = qr.getQ(null, false);
+      DMatrixRMaj r = qr.getR(null, false);
       companion = CommonOps_DDRM.mult(r, q, companion);
 
       if (isUpperTriangular(companion, eps)) {
