@@ -16,5 +16,12 @@ public class PolynomialRoots {
     return comp;
   }
 
-  
+  public static Complex_F64[] getRoots(DMatrixRmaj companion) {
+
+    DMatrixRmaj copy = companion.copy();
+    int n = companion.getNumRows();
+
+    QRDecomposition<DMatrixRmaj> qr = DecompositionFactory_DDRM.qr(n, n);
+    
+  }
 }
