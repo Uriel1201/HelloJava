@@ -7,8 +7,6 @@ import java.awt.Color;
 import java.awt.Font;
 import java.math.BigInteger;
 import java.util.ArrayList;
-import package org.apache.commons.math3.linear;
-import org.apache.commons.math3.linear.QRDecomposition
 
 public class BinomialDist {
 
