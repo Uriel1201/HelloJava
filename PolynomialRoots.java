@@ -21,8 +21,8 @@ public class PolynomialRoots {
     DMatrixRmaj companion = getCompanionM(coefficients);
     int n = coefficients.length - 1;
 
-    int maxIterations = 100000;
-    double eps = 1e-10;
+    int maxIterations = 10000;
+    double eps = 1.0E-10;
 
     for (int i = 0; i < maxIterations; i++) {
       
@@ -32,7 +32,16 @@ public class PolynomialRoots {
       DMatrixRmaj r = qr.getR(null, false);
       companion = CommonOps_DDRM.mult(r, q, companion);
 
-      if () 
+      if (isUpperTriangular(companion, eps)) {
+        break;
+      }
     }
+
+    Complex_F64[] roots = new Complex_F64[n];
+    for (int i = 0; i < n; i++) {
+      roots[i] = companion.get(i, i);
+    }
+
+    return roots;
   }
 }
