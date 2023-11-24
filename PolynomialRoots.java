@@ -25,7 +25,7 @@ public class PolynomialRoots {
 
 
   /*******************************************************************/
-  private static double innerProd() {
+  private static double innerProd(double[] a, double[] b) {
 
     if (a.length < b.length || a.length > b.length) {
       throw new IllegalArgumentException("Vectors must have the same dimension");
@@ -71,8 +71,10 @@ public class PolynomialRoots {
     DMatrixRMaj id_n = CommonOps_DDRM.identity(n);
     DMatrixRMaj house= new DMatrixRMaj(n, n);
 
-    CommonOps_DDRM.multtransB();
-    CommonOps_DDR
+    CommonOps_DDRM.multTransB(-2.0 / nW, wW, wW, house);
+    CommonOps_DDR.add(id_n, house, house);
+
+    return house;
   }
   
   
