@@ -1,5 +1,12 @@
+import org.ejml.data.Complex_F64;
+import org.ejml.data.DMatrixRMaj;
+import org.ejml.dense.row.factory.DecompositionFactory_DDRM;
+import org.ejml.dense.row.CommonOps_DDRM;
+import org.ejml.interfaces.decomposition.QRDecomposition;
+  
 public class PolynomialRoots {
 
+  /*******************************************************************/
   private static DMatrixRmaj getCompanionM(double[] coefficients) {
 
     int n = coefficients.length - 1;
@@ -15,7 +22,23 @@ public class PolynomialRoots {
 
     return comp;
   }
+  
+  
+  /*******************************************************************/
+  private static boolean isUpperTriangular(DMatrixRmaj matrix, double error) {
 
+    for () {
+      for () {
+        if (Math.abs() > error) {
+          return false
+        }
+      }
+    }
+    return true;
+  }
+
+  
+  /*******************************************************************/
   public static Complex_F64[] getRoots(double[] coefficients) {
 
     DMatrixRmaj companion = getCompanionM(coefficients);
