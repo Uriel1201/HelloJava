@@ -49,7 +49,7 @@ public class PolynomialRoots {
 
     for (int i = 0; i < maxIterations; i++) {
       
-      QRDecomposition<DMatrixRmaj> qr = DecompositionFactory_DDRM.qr(n, n);
+      QRDecomposition_F64<DMatrixRmaj> qr = DecompositionFactory_DDRM.qrp(n, n);
       qr.decompose(companion);
       DMatrixRmaj q = qr.getQ(null, false);
       DMatrixRmaj r = qr.getR(null, false);
