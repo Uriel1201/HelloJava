@@ -24,6 +24,24 @@ public class PolynomialRoots {
     }
 
 
+
+/*******************************************************************/
+  private static double innerProd(double[] a, double[] b) {
+
+    if (a.length < b.length || a.length > b.length) {
+      throw new IllegalArgumentException("Vectors must have the same dimension");
+    }
+
+    double sum = 0.0;
+    for (int i = 0; i < a.length; i++) {
+      sum += a[i] * b[i];
+    }
+
+    return sum;
+  }
+
+
+
     /*******************************************************************/
     private static boolean isUpperTriangular(DMatrixRMaj matrix, double error) {
 
