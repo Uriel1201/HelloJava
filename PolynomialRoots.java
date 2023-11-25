@@ -24,58 +24,58 @@ public class PolynomialRoots {
     }
 
 
-/*******************************************************************/
-  private static double innerProd(double[] a, double[] b) {
+    /*******************************************************************/
+    private static double innerProd(double[] a, double[] b) {
+        
+        if (a.length < b.length || a.length > b.length) {
+            throw new IllegalArgumentException("Vectors must have the same dimension");
+        }
 
-    if (a.length < b.length || a.length > b.length) {
-      throw new IllegalArgumentException("Vectors must have the same dimension");
-    }
-
-    double sum = 0.0;
-    for (int i = 0; i < a.length; i++) {
-      sum += a[i] * b[i];
-    }
-
-    return sum;
-  }
+        double sum = 0.0;
+        for (int i = 0; i < a.length; i++) {
+            sum += a[i] * b[i];
+        }
+        
+        return sum;
+     }
 
 
-/*******************************************************************/
-  private static DMatrixRMaj HouseholderPr(DMatrixRMaj matrix) {
+     /*******************************************************************/
+     private static DMatrixRMaj HouseholderPr(DMatrixRMaj matrix) {
+         
+         int n = matrix.getNumRows();
+         double[] w = new double[n];
+         double[] e = new double[n];
+         double[] a = new double[n];
 
-    int n = matrix.getNumRows();
-    double[] w = new double[n];
-    double[] e = new double[n];
-    double[] a = new double[n];
-
-    e[0] = 1.0;
+         e[0] = 1.0;
   
-    for (int i = 0; i < n; i++) {
-      a[i] = matrix.get(i, 0);
+         for (int i = 0; i < n; i++) {
+             a[i] = matrix.get(i, 0);
+         }
+         
+         double b = Math.sqrt(innerProd(a, a));
+         if (a[0] == 0.0) {
+             for (int i = 0; i < n; i++) {
+                 w[i] = (b * e[i]) - a[i];
+             }
+         } else {
+             double c = -1.0 * a[0] / Math.abs(a[0]);
+             for (int i = 0; i < n; i++) {
+                 w[i] = (b * e[i]) + (c * a[i]);
+             }
+         }
+
+         DMatrixRMaj wW = new DMatrixRMaj(w); 
+         double nW = innerProd(w, w);
+         DMatrixRMaj id_n = CommonOps_DDRM.identity(n);
+         DMatrixRMaj house = new DMatrixRMaj(n, n);
+
+         CommonOps_DDRM.multTransB(-2.0 / nW, wW, wW, house);
+         CommonOps_DDR.add(id_n, house, house);
+
+         return house;
     }
-    double b = Math.sqrt(innerProd(a, a));
-    if (a[0] == 0.0) {
-      for (int i = 0; i < n; i++) {
-        w[i] = (b * e[i]) - a[i];
-      }
-    } else {
-      double c = -1.0 * a[0] / Math.abs(a[0]);
-      
-      for (int i = 0; i < n; i++) {
-        w[i] = (b * e[i]) + (c * a[i]);
-      }
-    }
-
-    DMatrixRMaj wW = new DMatrixRMaj(w); 
-    double nW = innerProd(w, w);
-    DMatrixRMaj id_n = CommonOps_DDRM.identity(n);
-    DMatrixRMaj house= new DMatrixRMaj(n, n);
-
-    CommonOps_DDRM.multTransB(-2.0 / nW, wW, wW, house);
-    CommonOps_DDR.add(id_n, house, house);
-
-    return house;
-  }
 
 
     /*******************************************************************/
