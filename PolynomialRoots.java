@@ -64,7 +64,7 @@ public class PolynomialRoots {
     for (int i = 0; i < n; i++) {
       roots[i] = companion.get(i, i);
     }
-
+    
     return roots;
   }
 }
