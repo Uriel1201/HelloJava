@@ -41,6 +41,43 @@ public class PolynomialRoots {
   }
 
 
+/*******************************************************************/
+  private static DMatrixRMaj HouseholderPr(DMatrixRMaj matrix) {
+
+    int n = matrix.getNumRows();
+    double[] w = new double[n];
+    double[] e = new double[n];
+    double[] a = new double[n];
+
+    e[0] = 1.0;
+  
+    for (int i = 0; i < n; i++) {
+      a[i] = matrix.get(i, 0);
+    }
+    double b = Math.sqrt(innerProd(a, a));
+    if (a[0] == 0.0) {
+      for (int i = 0; i < n; i++) {
+        w[i] = (b * e[i]) - a[i];
+      }
+    } else {
+      double c = -1.0 * a[0] / Math.abs(a[0]);
+      
+      for (int i = 0; i < n; i++) {
+        w[i] = (b * e[i]) + (c * a[i]);
+      }
+    }
+
+    DMatrixRMaj wW = new DMatrixRMaj(w); 
+    double nW = innerProd(w, w);
+    DMatrixRMaj id_n = CommonOps_DDRM.identity(n);
+    DMatrixRMaj house= new DMatrixRMaj(n, n);
+
+    CommonOps_DDRM.multTransB(-2.0 / nW, wW, wW, house);
+    CommonOps_DDR.add(id_n, house, house);
+
+    return house;
+  }
+
 
     /*******************************************************************/
     private static boolean isUpperTriangular(DMatrixRMaj matrix, double error) {
