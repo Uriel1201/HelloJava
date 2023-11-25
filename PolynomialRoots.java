@@ -8,7 +8,7 @@ public class PolynomialRoots {
 
     /*******************************************************************/
     // Returns the Companion Matrix of a polynomial whose coefficients 
-    // are ordered from least to most significant in an array
+    // are ordered from least to most significant
     private static DMatrixRMaj getCompanionM(double[] coefficients) {
 
         int n = coefficients.length - 1;
@@ -44,7 +44,7 @@ public class PolynomialRoots {
 
 
      /*******************************************************************/
-     // Returns a matrix projected under householder's method
+     // Returns a matrix reflected under householder's method
      private static DMatrixRMaj HouseholderPr(DMatrixRMaj matrix) {
          
          int n = matrix.getNumRows();
@@ -83,7 +83,7 @@ public class PolynomialRoots {
 
 
     /*******************************************************************/
-    // Returns a boolean respond related to an upper triangular matrix 
+    // Is this matrix an upper triangular matrix 
     private static boolean isUpperTriangular(DMatrixRMaj matrix, double error) {
 
         for (int i = 0; i < matrix.getNumRows(); i++) {
@@ -127,6 +127,8 @@ public class PolynomialRoots {
         return roots;
     }
 
+
+    /*******************************************************************/
     public static void main(String[] args) {
         double[] coef = new double[4];
         coef[0] = 1.0;
