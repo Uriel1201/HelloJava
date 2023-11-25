@@ -7,7 +7,8 @@ import org.ejml.interfaces.decomposition.QRDecomposition;
 public class PolynomialRoots {
 
     /*******************************************************************/
-    // Returns the Companion Matrix of a polynomial 
+    // Returns the Companion Matrix of a polynomial whose coefficients 
+    // are ordered from least to most significant in an array
     private static DMatrixRMaj getCompanionM(double[] coefficients) {
 
         int n = coefficients.length - 1;
@@ -26,6 +27,7 @@ public class PolynomialRoots {
 
 
     /*******************************************************************/
+    // Returns the inner product of to vectors
     private static double innerProd(double[] a, double[] b) {
         
         if (a.length < b.length || a.length > b.length) {
@@ -42,6 +44,7 @@ public class PolynomialRoots {
 
 
      /*******************************************************************/
+     // Returns a matrix projected under householder's method
      private static DMatrixRMaj HouseholderPr(DMatrixRMaj matrix) {
          
          int n = matrix.getNumRows();
@@ -80,6 +83,7 @@ public class PolynomialRoots {
 
 
     /*******************************************************************/
+    // Returns a boolean respond related to an upper triangular matrix 
     private static boolean isUpperTriangular(DMatrixRMaj matrix, double error) {
 
         for (int i = 0; i < matrix.getNumRows(); i++) {
