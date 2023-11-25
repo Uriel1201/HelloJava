@@ -2,6 +2,7 @@
  This repository represents the assignment project [Intellij IDEA](https://lift.cs.princeton.edu/java/windows/) of
 [Computer Science: Programming with a Purpose](https://www.coursera.org/learn/cs-programming-java) course
  offered by Princeton University, along with their weekly assignments.
+ I´have agregated the EJML library to resolve problems related to Linear Algebra
  
 # Assignments:
 ## [Data Types](https://coursera.cs.princeton.edu/introcs/assignments/hello/specification.php)
