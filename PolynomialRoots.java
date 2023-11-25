@@ -24,7 +24,6 @@ public class PolynomialRoots {
     }
 
 
-
 /*******************************************************************/
   private static double innerProd(double[] a, double[] b) {
 
