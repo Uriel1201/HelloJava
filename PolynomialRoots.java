@@ -7,6 +7,7 @@ import org.ejml.interfaces.decomposition.QRDecomposition;
 public class PolynomialRoots {
 
     /*******************************************************************/
+    // Returns the Companion Matrix of a polynomial 
     private static DMatrixRMaj getCompanionM(double[] coefficients) {
 
         int n = coefficients.length - 1;
