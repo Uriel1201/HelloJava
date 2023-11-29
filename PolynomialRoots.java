@@ -64,7 +64,7 @@ public class PolynomialRoots {
                  w[i] = (b * e[i]) - a[i];
              }
          } else {
-             double c = -1.0 * a[0] / Math.abs(a[0]);
+             double c = 1.0 * a[0] / Math.abs(a[0]);
              for (int i = 0; i < n; i++) {
                  w[i] = (b * e[i]) + (c * a[i]);
              }
