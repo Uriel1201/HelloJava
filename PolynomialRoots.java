@@ -45,9 +45,9 @@ public class PolynomialRoots {
 
      /*******************************************************************/
      // Returns a matrix reflected under householder's method
-     private static DMatrixRMaj householderPr(DMatrixRMaj matrix) {
+     private static DMatrixRMaj householderPr(double[] column) {
          
-         int n = matrix.getNumRows();
+         int n = column.length;
          double[] w = new double[n];
          double[] e = new double[n];
          double[] a = new double[n];
@@ -55,7 +55,7 @@ public class PolynomialRoots {
          e[0] = 1.0;
   
          for (int i = 0; i < n; i++) {
-             a[i] = matrix.get(i, 0);
+             a[i] = column[i];
          }
          
          double b = Math.sqrt(innerProd(a, a));
