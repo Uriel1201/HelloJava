@@ -18,7 +18,7 @@ public class PolynomialRoots {
         for (int i = 0; i < n; i++) {
             comp.set(i, n - 1, -1.0 * coefficients[i] / monic);
         }
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n - 1; i++) {
             comp.set(i + 1, i, 1.0);
         }
 
