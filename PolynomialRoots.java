@@ -30,7 +30,7 @@ public class PolynomialRoots {
     // Returns the inner product of two vectors
     private static double innerProd(double[] a, double[] b) {
         
-        if (a.length < b.length || a.length > b.length) {
+        if (a.length != b.length) {
             throw new IllegalArgumentException("Vectors must have the same dimension");
         }
 
