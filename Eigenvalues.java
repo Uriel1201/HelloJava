@@ -9,7 +9,7 @@ public class Eigenvalues {
     /*******************************************************************/
     // Returns the Companion Matrix of a polynomial whose coefficients 
     // are ordered from least to most significant
-    private static DMatrixRMaj getCompanionM(double[] coefficients) {
+    public static DMatrixRMaj getCompanionM(double[] coefficients) {
 
         int n = coefficients.length - 1;
         DMatrixRMaj comp = new DMatrixRMaj(n, n);
@@ -45,7 +45,7 @@ public class Eigenvalues {
 
      /*******************************************************************/
      // Returns a matrix reflected under householder's method
-     private static DMatrixRMaj householderPr(double[] column) {
+     public static DMatrixRMaj getHouseholder(double[] column) {
          
          int n = column.length;
          double[] w = new double[n];
@@ -98,7 +98,7 @@ public class Eigenvalues {
 
 
     /*******************************************************************/
-    public static double[] getRoots(double[] coefficients) {
+    public static double[] getQR(double[] coefficients) {
 
         DMatrixRMaj companion = getCompanionM(coefficients);
         int n = coefficients.length - 1;
