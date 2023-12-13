@@ -44,7 +44,7 @@ public class Eigenvalues {
 
 
      /*******************************************************************/
-     // Returns a matrix reflected under householder's method
+     // Returns a Householder matrix projection 
      public static DMatrixRMaj getHouseholder(double[] column) {
          
          int n = column.length;
@@ -53,21 +53,12 @@ public class Eigenvalues {
          double[] a = new double[n];
 
          e[0] = 1.0;
-  
-         for (int i = 0; i < n; i++) {
-             a[i] = column[i];
-         }
-         
+         System.arraycopy(column, 0, a, 0, n);
          double b = Math.sqrt(innerProd(a, a));
-         if (a[0] == 0.0) {
-             for (int i = 0; i < n; i++) {
-                 w[i] = (b * e[i]) - a[i];
-             }
-         } else {
-             double c = 1.0 * a[0] / Math.abs(a[0]);
-             for (int i = 0; i < n; i++) {
-                 w[i] = (b * e[i]) + (c * a[i]);
-             }
+         double c = (a[0] >= 0) ? -1.0 : 1.0;
+
+         for (int i = 0; i < n; i++) {
+             w[i] = (b * e[i]) + (c * a[i]);
          }
 
          DMatrixRMaj wW = new DMatrixRMaj(w); 
