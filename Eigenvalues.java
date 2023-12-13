@@ -4,7 +4,7 @@ import org.ejml.dense.row.factory.DecompositionFactory_DDRM;
 import org.ejml.interfaces.decomposition.QRDecomposition;
 
 
-public class PolynomialRoots {
+public class Eigenvalues {
 
     /*******************************************************************/
     // Returns the Companion Matrix of a polynomial whose coefficients 
