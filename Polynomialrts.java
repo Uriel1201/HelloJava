@@ -1,5 +1,4 @@
 import org.ejml.data.DMatrixRMaj;
-import org.ejml.dense.row.CommonOps_DDRM;
 import org.ejml.dense.row.factory.DecompositionFactory_DDRM;
 import org.ejml.interfaces.decomposition.QRDecomposition;
 
@@ -24,53 +23,6 @@ public class Polynomialrts {
 
         return comp;
     }
-
-
-    /*******************************************************************
-    // Returns the inner product of two vectors
-    private static double innerProd(double[] a, double[] b) {
-        
-        if (a.length != b.length) {
-            throw new IllegalArgumentException("Vectors must have the same dimension");
-        }
-
-        double sum = 0.0;
-        for (int i = 0; i < a.length; i++) {
-            sum += a[i] * b[i];
-        }
-        
-        return sum;
-     } */
-
-
-     /*******************************************************************
-     // Returns a Householder matrix projection 
-     public static DMatrixRMaj getHouseholder(double[] column) {
-         
-         int n = column.length;
-         double[] w = new double[n];
-         double[] e = new double[n];
-         double[] a = new double[n];
-
-         e[0] = 1.0;
-         System.arraycopy(column, 0, a, 0, n);
-         double b = Math.sqrt(innerProd(a, a));
-         double c = (a[0] >= 0) ? -1.0 : 1.0;
-
-         for (int i = 0; i < n; i++) {
-             w[i] = (b * e[i]) + (c * a[i]);
-         }
-
-         DMatrixRMaj wW = new DMatrixRMaj(w); 
-         double nW = innerProd(w, w);
-         DMatrixRMaj id_n = CommonOps_DDRM.identity(n);
-         DMatrixRMaj house = new DMatrixRMaj(n, n);
-
-         CommonOps_DDRM.multTransB(-2.0 / nW, wW, wW, house);
-         CommonOps_DDR.add(id_n, house, house);
-
-         return house;
-    } */
 
 
     /*******************************************************************/
@@ -127,7 +79,7 @@ public class Polynomialrts {
         coef[2] = 0.0;
         coef[3] = 1.0;
         double[] r = getRoots(coef);
-        for (int i = 0; i < coef.length; i++)
+        for (int i = 0; i < r.length; i++)
             System.out.println(r[i]);
     }
 }
