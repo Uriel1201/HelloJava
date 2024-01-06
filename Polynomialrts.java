@@ -4,12 +4,12 @@ import org.ejml.dense.row.factory.DecompositionFactory_DDRM;
 import org.ejml.interfaces.decomposition.QRDecomposition;
 
 
-public class Eigenvalues {
+public class Polynomialrts {
 
     /*******************************************************************/
     // Returns the Companion Matrix of a polynomial whose coefficients 
     // are ordered from least to most significant
-    public static DMatrixRMaj getCompanionM(double[] coefficients) {
+    private static DMatrixRMaj getCompanionM(double[] coefficients) {
 
         int n = coefficients.length - 1;
         DMatrixRMaj comp = new DMatrixRMaj(n, n);
@@ -26,7 +26,7 @@ public class Eigenvalues {
     }
 
 
-    /*******************************************************************/
+    /*******************************************************************
     // Returns the inner product of two vectors
     private static double innerProd(double[] a, double[] b) {
         
@@ -40,10 +40,10 @@ public class Eigenvalues {
         }
         
         return sum;
-     }
+     } */
 
 
-     /*******************************************************************/
+     /*******************************************************************
      // Returns a Householder matrix projection 
      public static DMatrixRMaj getHouseholder(double[] column) {
          
@@ -70,7 +70,7 @@ public class Eigenvalues {
          CommonOps_DDR.add(id_n, house, house);
 
          return house;
-    }
+    } */
 
 
     /*******************************************************************/
@@ -89,7 +89,7 @@ public class Eigenvalues {
 
 
     /*******************************************************************/
-    public static double[] getQR(double[] coefficients) {
+    public static double[] getRoots(double[] coefficients) {
 
         DMatrixRMaj companion = getCompanionM(coefficients);
         int n = coefficients.length - 1;
