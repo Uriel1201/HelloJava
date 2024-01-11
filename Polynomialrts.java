@@ -7,7 +7,7 @@ import org.ejml.interfaces.decomposition.QRDecomposition;
 /******************************************************************
 * This class is intended to define a polynomial as an object for 
 * applying the fundamental arithmetic operations on it and 
-* determining his root solutions.
+* determining his root solutions using the QR_Algorithm.
 *******************************************************************/
 
 public class Polynomialrts {
