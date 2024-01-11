@@ -4,7 +4,11 @@ import org.ejml.dense.row.factory.DecompositionFactory_DDRM;
 import org.ejml.dense.row.CommonOps_DDRM;
 import org.ejml.interfaces.decomposition.QRDecomposition;
 
-/*******************************************************************/
+/******************************************************************
+* This class is intended to define a polynomial as an object for 
+* applying the fundamental arithmetic operations on it and 
+* determining his root solutions.
+*******************************************************************/
 
 public class Polynomialrts {
 
