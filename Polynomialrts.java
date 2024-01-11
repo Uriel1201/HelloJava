@@ -6,6 +6,35 @@ import org.ejml.interfaces.decomposition.QRDecomposition;
 
 public class Polynomialrts {
 
+    private double[] coef;
+    private int degree;
+    
+    /*******************************************************************/
+    public Polynomialrts(double a, int b) {
+
+        if (b < 0) {
+            throw new IllegalArgumentException("Exponents must be no negative");
+        }
+
+        coef = new double[b + 1];
+        coef[b] = a;
+        reduce();
+    }
+
+
+    /*******************************************************************/
+    private void reduce() {
+
+        degree = -1;
+        for (int i = coef.length - 1; i >= 0; i--) {
+            if (coef[i] != 0) {
+                degree = i;
+                return;
+            }
+        }
+    }
+    
+
     /*******************************************************************/
     // Returns the Companion Matrix of a polynomial whose coefficients 
     // are ordered from least to most significant
