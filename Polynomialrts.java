@@ -36,6 +36,45 @@ public class Polynomialrts {
     
 
     /*******************************************************************/
+    public Polynomialrts plus(Polynomialrts that) {
+
+        Polynomialrts p = new Polynomialrts(0.0, Math.max(degree, that.degree));
+
+        for (int i = 0; i <= degree; i++) {
+            p.coef[i] += coef[i];
+        }
+        for (int i = 0; i <= that.degree; i++) {
+            p.coef[i] += that.coef[i];
+        }
+
+        p.reduce();
+        return p;
+    }
+
+
+    /*******************************************************************/
+    public Polynomialrts times(Polynomialrts that) {
+
+        Polynomialrts p = new Polynomialrts(0.0, degree + that.degree);
+
+        for (int i = 0; i < degree + 1; i++) {
+            for (int j = 0; j < that.degree + 1; j++) {
+                p.coef[i + j] += (coef[i] * that.coef[j]);
+            }
+        }
+
+        p.reduce();
+        return p;
+    }
+
+
+    /*******************************************************************/
+    public double[] getCoefficients() {
+        return coef;
+    }
+
+
+    /*******************************************************************/
     // Returns the Companion Matrix of a polynomial whose coefficients 
     // are ordered from least to most significant
     private static DMatrixRMaj getCompanionM(double[] coefficients) {
