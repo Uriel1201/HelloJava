@@ -1,4 +1,5 @@
 import org.ejml.data.DMatrixRMaj;
+import org.ejml.data.Complex_F64;
 import org.ejml.dense.row.factory.DecompositionFactory_DDRM;
 import org.ejml.dense.row.CommonOps_DDRM;
 import org.ejml.interfaces.decomposition.QRDecomposition;
@@ -110,7 +111,7 @@ public class Polynomialrts {
 
 
     /*******************************************************************/
-    public static double[] getRoots(double[] coefficients) {
+    public static Complex_F64[] getRoots(double[] coefficients) {
 
         DMatrixRMaj companion = getCompanionM(coefficients);
         int n = coefficients.length - 1;
@@ -131,9 +132,9 @@ public class Polynomialrts {
             }
         }
 
-        double[] roots = new double[n];
+        Complex_F64[] roots = new Complex_F64[n];
         for (int i = 0; i < n; i++) {
-            roots[i] = companion.get(i, i);
+            roots[i] = new Complex_F64(companion.get(i, i), 0);
         }
 
         return roots;
