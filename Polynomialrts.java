@@ -139,7 +139,11 @@ public class Polynomialrts {
 
     /*******************************************************************/
     public static Complex_F64[] getRoots(double[] coefficients) {
-
+        
+        if (coefficients == null || coefficients.length < 2 ) {
+            throw new IllegalArgumentException("Invalid Coefficients");
+        }
+        
         DMatrixRMaj companion = getCompanionM(coefficients);
         int n = coefficients.length - 1;
 
