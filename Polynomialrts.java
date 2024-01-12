@@ -170,13 +170,13 @@ public class Polynomialrts {
 
     /*******************************************************************/
     public static void main(String[] args) {
-        double[] coef = new double[4];
-        coef[0] = 1.0;
-        coef[1] = -5.0;
-        coef[2] = 0.0;
-        coef[3] = 1.0;
-        double[] r = getRoots(coef);
-        for (int i = 0; i < r.length; i++)
-            System.out.println(r[i]);
+
+        Polynomialrts p1 = new Polynomialrts(1.0, 3);
+        Polynomialrts p2 = new Polynomialrts(-4.0, 2);
+        Polynomialrts p3 = new Polynomialrts(6.0, 1);
+        Polynomialrts p4 = new Polynomialrts(-24.0, 0);
+
+        Polynomialrts p = p1.plus(p2).plus(p3).plus(p4);
+        System.out.Println("p(x) = " + p);
     }
 }
