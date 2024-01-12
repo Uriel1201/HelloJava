@@ -175,8 +175,13 @@ public class Polynomialrts {
         Polynomialrts p2 = new Polynomialrts(-4.0, 2);
         Polynomialrts p3 = new Polynomialrts(6.0, 1);
         Polynomialrts p4 = new Polynomialrts(-24.0, 0);
-
+        
         Polynomialrts p = p1.plus(p2).plus(p3).plus(p4);
-        System.out.Println("p(x) = " + p);
+        System.out.println("p(x) = " + p);
+        double[] c = p.getCoefficients();
+        Complex_F64[] r = getRoots(c);
+        
+        for (int i = 0; i < r.length; i++) 
+            System.out.println("root " + i + " = " + r[i]);
     }
 }
