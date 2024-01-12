@@ -21,7 +21,7 @@ public class BinomialDist {
             throw new IllegalArgumentException("Doesn't exist samples with negative size");
         }
         if (p < 0.0 || p > 1.0) {
-            throw new IllegalArgumentException("p must to be a measure of probability");
+            throw new IllegalArgumentException("p must be a measure of probability");
         }
         trials = n;
         param = p;
