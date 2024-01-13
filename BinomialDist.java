@@ -283,6 +283,28 @@ public class BinomialDist {
         return cdf((x + 0.5 - mean) / sigma);
     }
 
+
+    /************************************************/
+    public static int getMax(int[] sample) {
+
+        int n = sample.length;
+        for (int i = 0; i < n; i++) {
+            if (sample[i] < 0) {
+                throw new IllegalArgumentException("this sample array must content no negative values");
+            }
+        }
+
+        int max = sample[0];
+        for (int i = 1; i < n; i++) {
+            if (sample[i] > max) {
+                max = sample[i];
+            }
+        }
+
+        return max;
+    }
+
+    
     /************************************************/
     public static int getMLTrials(int[] sample, double p) {
 
