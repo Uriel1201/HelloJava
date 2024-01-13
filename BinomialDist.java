@@ -299,8 +299,29 @@ public class BinomialDist {
         ArrayList<Polynomialrts> b = new ArrayList<Polynomialrts>();
 
         for (int i = 0; i < n; i++) {
-            Polynomialrts binomial = new Polynomialrts();
+            double s = sample[i].doubleValue();
+            Polynomialrts binomial = new Polynomialrts(1.0, 0).plus(new Polynomialrts(-1.0 * s, 1));
+            b.add(binomial);
         }
+
+        Polynomialrts poly = b.get(0);
+        for (int i = 1; i < b.size(); i++) {
+            poly = poly.times(b.get(i));
+        }
+
+        double q = 1 - p;
+        int j = 0;
+        double c = 1;
+        while (j < n) {
+            c = c * q;
+            j++;
+        }
+
+        Polynomialrts const = new Polynomialrts(-1.0 * c, 0);
+        poly = poly.plus(const);
+
+        double[] coefficients = poly.getCoefficients();
+        Complex_F64[] r = Polynomialrts.getRoots(coefficients);
     }
 
 
