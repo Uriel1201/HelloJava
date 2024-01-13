@@ -284,6 +284,27 @@ public class BinomialDist {
     }
 
     /************************************************/
+    public static int getMLTrials(int[] sample, double p) {
+
+        for (int i = 0; i < sample.length; i++) {
+            if (sample[i] < 0) {
+                throw new IllegalArgumentException("this sample array must content no negative values");
+            }
+        }
+        if (p < 0.0 || p > 1.0) {
+            throw new IllegalArgumentException("p must represent a measure of probability");
+        }
+
+        int n = sample.length;
+        ArrayList<Polynomialrts> b = new ArrayList<Polynomialrts>();
+
+        for (int i = 0; i < n; i++) {
+            Polynomialrts binomial = new Polynomialrts();
+        }
+    }
+
+
+    /************************************************/
     public static void main(String[] args) {
 
         // number of trials
