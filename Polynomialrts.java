@@ -99,7 +99,7 @@ public class Polynomialrts {
         for (int i = degree - 1; i >= 0; i--) {
             if (coef[i] == 0) continue;
             else if (coef[i] > 0.0) s = s + " + " + coef[i];
-            else if (coef[i] < 0.0) s = s + " + " + (-1.0 * coef[i]);
+            else if (coef[i] < 0.0) s = s + " - " + (-1.0 * coef[i]);
             if (i == 1) s = s + "x";
             else if (i > 1) s = s + "x^" + i;
         }
