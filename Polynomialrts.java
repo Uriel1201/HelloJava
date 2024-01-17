@@ -91,20 +91,21 @@ public class Polynomialrts {
     public String toString() {
 
         if (degree == -1) return "0";
-        else if (degree == 0) return "" + coef[0];
+        else if (degree == 0) return Double.toString(coef[0]);
         else if (degree == 1) return coef[1] + "x + " + coef[0];
-        
-        String s = coef[degree] + "x^" + degree;
+
+        StringBuilder s = new StringBuilder();
+        s.append(coef[degree]).append("x^").append(degree);
         
         for (int i = degree - 1; i >= 0; i--) {
             if (coef[i] == 0) continue;
-            else if (coef[i] > 0.0) s = s + " + " + coef[i];
-            else if (coef[i] < 0.0) s = s + " - " + (-1.0 * coef[i]);
-            if (i == 1) s = s + "x";
-            else if (i > 1) s = s + "x^" + i;
+            else if (coef[i] > 0.0) s.append(" + ").append(coef[i]);
+            else if (coef[i] < 0.0) s.append(" - ").append(-1.0 * coef[i]);
+            if (i == 1) s.append("x");
+            else if (i > 1) s.append("x^").append(i);
         }
 
-        return s;
+        return s.toString();
     }
 
 
