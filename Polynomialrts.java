@@ -172,7 +172,7 @@ public class Polynomialrts {
 
         Complex_F64[] roots = new Complex_F64[n];
         for (int i = 0; i < n; i++) {
-            roots[i] = new Complex_F64(companion.get(i, i), 0);
+            roots[i] = new Complex_F64(companion.get(i, i), companion.getImag(i, i));
         }
 
         return roots;
