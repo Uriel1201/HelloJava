@@ -77,7 +77,13 @@ public class Polynomialrts {
 
     /*******************************************************************/
     public double[] getCoefficients() {
-        return coef;
+        
+        double[] copy = new double[coef.length];
+        for (int i = 0; i < coef.length; i++) {
+            copy[i] = coef[i]
+        }
+
+        return copy;
     }
 
 
