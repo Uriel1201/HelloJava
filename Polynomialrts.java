@@ -80,7 +80,7 @@ public class Polynomialrts {
         
         double[] copy = new double[coef.length];
         for (int i = 0; i < coef.length; i++) {
-            copy[i] = coef[i]
+            copy[i] = coef[i];
         }
 
         return copy;
