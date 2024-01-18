@@ -231,8 +231,7 @@ public class Polynomial {
         
         Polynomial p = p1.plus(p2).plus(p3).plus(p4);
         System.out.println("p(x) = " + p);
-        double[] c = p.getCoefficients();
-        double r = getRealRoots(c);
+        double r = p.getRealRoots();
         
         for (int i = 0; i < r.length; i++) 
             System.out.println("Realroot " + i + " = " + r[i]);
