@@ -3,6 +3,7 @@ import org.ejml.data.Complex_F64;
 import org.ejml.dense.row.factory.DecompositionFactory_DDRM;
 import org.ejml.dense.row.CommonOps_DDRM;
 import org.ejml.interfaces.decomposition.QRDecomposition;
+import java.util.ArrayList;
 
 /******************************************************************
 * This class is intended to define a polynomial as an object for 
@@ -160,7 +161,7 @@ public class Polynomial {
     /*******************************************************************/
     public double[] getRealRoots() {
         
-        double[] coefficients = 
+        double[] coefficients = this.getCoefficients();
         if (coefficients == null || coefficients.length < 2 ) {
             throw new IllegalArgumentException("Invalid Coefficients");
         }
