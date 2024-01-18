@@ -207,8 +207,9 @@ public class Polynomial {
             }
         }
 
-        if () {
-            
+        if (rot.length == 0) {
+
+            throw new CustomException("There are not real roots");
         } else {
             double[] roots = new double[rot.length];
             for (int i = 0; i < rot.length; i++) {
