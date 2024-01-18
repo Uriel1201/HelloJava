@@ -354,8 +354,8 @@ public class BinomialDist {
         int k = 1;
         double recipK = 0.0;
         while (recipK < zlimit) {
-            recipK = 1.0 / k;
             k++;
+            recipK = 1.0 / k;
         }
 
         return k;
