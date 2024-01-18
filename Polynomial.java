@@ -190,7 +190,7 @@ public class Polynomial {
             r[i] = companion.get(i, i);
         }
 
-        ArrayLis<Double> rot = new ArrayList<Double>();
+        ArrayList<Double> rot = new ArrayList<Double>();
         for (int i = 0; i < n; i++) {
     
             if (this.evaluate(Math.floor(r[i])) == 0.0) {
@@ -234,9 +234,9 @@ public class Polynomial {
         
         Polynomial p = p1.plus(p2).plus(p3).plus(p4);
         System.out.println("p(x) = " + p);
-        double[] r = p.getRealRoots();
         
-        for (int i = 0; i < r.length; i++) 
+        double[] r = p.getRealRoots();
+        for (int i = 0; i < r.length; i++)
             System.out.println("Realroot " + i + " = " + r[i]);
     }
 }
