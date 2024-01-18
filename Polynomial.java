@@ -158,8 +158,9 @@ public class Polynomial {
 
 
     /*******************************************************************/
-    public static double[] getRealRoots(double[] coefficients) {
+    public double[] getRealRoots() {
         
+        double[] coefficients = 
         if (coefficients == null || coefficients.length < 2 ) {
             throw new IllegalArgumentException("Invalid Coefficients");
         }
