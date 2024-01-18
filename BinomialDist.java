@@ -318,15 +318,16 @@ public class BinomialDist {
         }
 
         int n = sample.length;
-        ArrayList<Polynomialrts> b = new ArrayList<Polynomialrts>();
+        int sMax = getMax(sample);
+        ArrayList<Polynomial> b = new ArrayList<Polynomial>();
 
         for (int i = 0; i < n; i++) {
             double s = sample[i];
-            Polynomialrts binomial = new Polynomialrts(1.0, 0).plus(new Polynomialrts(-1.0 * s, 1));
+            Polynomial binomial = new Polynomial(1.0, 0).plus(new Polynomial(-1.0 * s, 1));
             b.add(binomial);
         }
 
-        Polynomialrts poly = b.get(0);
+        Polynomial poly = b.get(0);
         for (int i = 1; i < b.size(); i++) {
             poly = poly.times(b.get(i));
         }
@@ -339,11 +340,25 @@ public class BinomialDist {
             j++;
         }
 
-        Polynomialrts cx = new Polynomialrts(-1.0 * c, 0);
+        Polynomial cx = new Polynomialrts(-1.0 * c, 0);
         poly = poly.plus(cx);
 
-        double[] coefficients = poly.getCoefficients();
-        double[] r = Polynomialrts.getRealRoots(coefficients);
+        double[] roots = poly.getRealRoots();
+        double z = 1.0 / sMax;
+        for (int i = 0; i < roots.length; i++) {
+            if (roots[i] > 0.0 && roots[i] <= sMax) {
+                double zlimit = roots[i];
+                break;
+            }
+        }
+        int k = 1;
+        double recipK = 0.0;
+        while (recipK < zlimit) {
+            recipK = 1.0 / k;
+            k++;
+        }
+
+        return k;
     }
 
 
