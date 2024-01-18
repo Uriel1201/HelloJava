@@ -48,7 +48,7 @@ public class BinomialDist {
             }
             double comb = triangle[n][x + 1].doubleValue();
             double w = p2 * q2 * comb;
-            if (w < 1.0E-6) {
+            if (w < 1.0E-7) {
                 w = 0.0;
             }
             if (x == 0) {
@@ -57,7 +57,7 @@ public class BinomialDist {
             else {
                 dist[x] = dist[x - 1] + w;
             }
-            if (dist[x] > 9999E-4) {
+            if (dist[x] > 99999E-5) {
                 dist[x] = 1.0;
             }
         }
