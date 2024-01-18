@@ -95,7 +95,7 @@ public class BinomialDist {
         }
     }
 
-    /************************************************
+    /************************************************/
     private void chart(String title, String yLabel, String parameters, ArrayList<Double> values) {
 
         StdDraw.setTitle("Binomial Distribution");
@@ -131,9 +131,9 @@ public class BinomialDist {
         StdDraw.setPenColor(cyLabel);
         StdDraw.setFont(new Font("SansSerif", Font.PLAIN, 12));
         StdDraw.textLeft(0.0, yMax, Double.toString(yMax));
-    } */
+    } 
 
-    /************************************************
+    /************************************************/
     public void plotMass() {
 
         StdDraw.enableDoubleBuffering();
@@ -153,8 +153,8 @@ public class BinomialDist {
         chart(title, yLabel, parameters, values);
         ArrayList<Double> success = new ArrayList<Double>();
         for (int i = 0; i < trials + 1; i++) {
-            double itoD = i;
-            success.add(itoD);
+            double toD = i;
+            success.add(toD);
         }
 
         Color points = Color.decode("#ae0001");
@@ -172,7 +172,7 @@ public class BinomialDist {
 
         StdDraw.show();
         StdDraw.clear();
-    } */
+    } 
 
     /************************************************/
     public double getDistribution(int x) {
@@ -195,7 +195,7 @@ public class BinomialDist {
         return trials;
     }
 
-    /************************************************
+    /************************************************/
     public void plotDist() {
 
         StdDraw.enableDoubleBuffering();
@@ -233,7 +233,7 @@ public class BinomialDist {
 
         StdDraw.show();
         StdDraw.clear();
-    } */
+    } 
 
     /************************************************/
     public int getTrials() {
@@ -321,7 +321,7 @@ public class BinomialDist {
         ArrayList<Polynomialrts> b = new ArrayList<Polynomialrts>();
 
         for (int i = 0; i < n; i++) {
-            double s = sample[i].doubleValue();
+            double s = sample[i];
             Polynomialrts binomial = new Polynomialrts(1.0, 0).plus(new Polynomialrts(-1.0 * s, 1));
             b.add(binomial);
         }
@@ -339,11 +339,11 @@ public class BinomialDist {
             j++;
         }
 
-        Polynomialrts const = new Polynomialrts(-1.0 * c, 0);
-        poly = poly.plus(const);
+        Polynomialrts cx = new Polynomialrts(-1.0 * c, 0);
+        poly = poly.plus(cx);
 
         double[] coefficients = poly.getCoefficients();
-        Complex_F64[] r = Polynomialrts.getRoots(coefficients);
+        double[] r = Polynomialrts.getRealRoots(coefficients);
     }
 
 
