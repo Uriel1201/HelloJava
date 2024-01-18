@@ -11,13 +11,13 @@ import org.ejml.interfaces.decomposition.QRDecomposition;
 * utilized for finding eigenvalues of a matrix.
 *******************************************************************/
 
-public class Polynomialrts {
+public class Polynomial {
 
     private double[] coef;
     private int degree;
     
     /*******************************************************************/
-    public Polynomialrts(double a, int b) {
+    public Polynomial(double a, int b) {
 
         if (b < 0) {
             throw new IllegalArgumentException("Exponents must be no negative");
@@ -43,9 +43,9 @@ public class Polynomialrts {
     
 
     /*******************************************************************/
-    public Polynomialrts plus(Polynomialrts that) {
+    public Polynomial plus(Polynomial that) {
 
-        Polynomialrts p = new Polynomialrts(0.0, Math.max(degree, that.degree));
+        Polynomial p = new Polynomial(0.0, Math.max(degree, that.degree));
 
         for (int i = 0; i <= degree; i++) {
             p.coef[i] += coef[i];
@@ -60,9 +60,9 @@ public class Polynomialrts {
 
 
     /*******************************************************************/
-    public Polynomialrts times(Polynomialrts that) {
+    public Polynomial times(Polynomial that) {
 
-        Polynomialrts p = new Polynomialrts(0.0, degree + that.degree);
+        Polynomial p = new Polynomial(0.0, degree + that.degree);
 
         for (int i = 0; i < degree + 1; i++) {
             for (int j = 0; j < that.degree + 1; j++) {
@@ -110,6 +110,19 @@ public class Polynomialrts {
 
 
     /*******************************************************************/
+    public double evaluate(double x) {
+        
+        double p = coef[degree];
+        
+        for (int i = degree - 1; i >= 0; i--) {
+            p = coef[i] + (x * p);
+        }
+
+        return p;
+    }
+
+
+    /*******************************************************************/
     // Returns the Companion Matrix of a polynomial whose coefficients 
     // are ordered from least to most significant
     private static DMatrixRMaj getCompanionM(double[] coefficients) {
@@ -145,7 +158,7 @@ public class Polynomialrts {
 
 
     /*******************************************************************/
-    public static Complex_F64[] getRoots(double[] coefficients) {
+    public static double[] getRealRoots(double[] coefficients) {
         
         if (coefficients == null || coefficients.length < 2 ) {
             throw new IllegalArgumentException("Invalid Coefficients");
@@ -154,8 +167,8 @@ public class Polynomialrts {
         DMatrixRMaj companion = getCompanionM(coefficients);
         int n = coefficients.length - 1;
 
-        int maxIterations = 10000;
-        double eps = 1.0E-10;
+        int maxIterations = 100000;
+        double eps = 1.0E-12;
 
         for (int i = 0; i < maxIterations; i++) {
 
@@ -170,9 +183,9 @@ public class Polynomialrts {
             }
         }
 
-        Complex_F64[] roots = new Complex_F64[n];
+        double[] r = new double[n];
         for (int i = 0; i < n; i++) {
-            roots[i] = new Complex_F64(companion.get(i, i), companion.getImag(i, i));
+            r[i] = companion.get(i, i);
         }
 
         return roots;
@@ -182,17 +195,17 @@ public class Polynomialrts {
     /*******************************************************************/
     public static void main(String[] args) {
 
-        Polynomialrts p1 = new Polynomialrts(1.0, 3);
-        Polynomialrts p2 = new Polynomialrts(-4.0, 2);
-        Polynomialrts p3 = new Polynomialrts(6.0, 1);
-        Polynomialrts p4 = new Polynomialrts(-24.0, 0);
+        Polynomial p1 = new Polynomial(1.0, 3);
+        Polynomial p2 = new Polynomial(-4.0, 2);
+        Polynomial p3 = new Polynomial(6.0, 1);
+        Polynomial p4 = new Polynomial(-24.0, 0);
         
-        Polynomialrts p = p1.plus(p2).plus(p3).plus(p4);
+        Polynomial p = p1.plus(p2).plus(p3).plus(p4);
         System.out.println("p(x) = " + p);
         double[] c = p.getCoefficients();
-        Complex_F64[] r = getRoots(c);
+        double r = getRealRoots(c);
         
         for (int i = 0; i < r.length; i++) 
-            System.out.println("root " + i + " = " + r[i]);
+            System.out.println("Realroot " + i + " = " + r[i]);
     }
 }
