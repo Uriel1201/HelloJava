@@ -170,7 +170,7 @@ public class Polynomial {
         int n = coefficients.length - 1;
 
         int maxIterations = 100000;
-        double eps = 1.0E-12;
+        double eps = 1.0E-10;
 
         for (int i = 0; i < maxIterations; i++) {
 
@@ -188,6 +188,32 @@ public class Polynomial {
         double[] r = new double[n];
         for (int i = 0; i < n; i++) {
             r[i] = companion.get(i, i);
+        }
+
+        ArrayLis<double> rot = new ArrayList<double>();
+        for (int i = 0; i < n; i++) {
+    
+            if (this.evaluate(Math.floor(r[i])) == 0.0) {
+                
+                rot.add(Math.floor(r[i]));
+                
+            } else if (this.evaluate(Math.ceil(r[i])) == 0.0)) {
+                
+                rot.add(Math.ceil(r[i]));
+                
+            } else if (this.evaluate(r[i]) < 1.0E-7) {
+                
+                rot.add(r[i]);
+            }
+        }
+
+        if () {
+            
+        } else {
+            double[] roots = new double[rot.length];
+            for (int i = 0; i < rot.length; i++) {
+                roots[i] = rot.get(i);
+            }
         }
 
         return roots;
