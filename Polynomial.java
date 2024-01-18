@@ -197,7 +197,7 @@ public class Polynomial {
                 
                 rot.add(Math.floor(r[i]));
                 
-            } else if (this.evaluate(Math.ceil(r[i])) == 0.0)) {
+            } else if (this.evaluate(Math.ceil(r[i])) == 0.0) {
                 
                 rot.add(Math.ceil(r[i]));
                 
@@ -209,11 +209,11 @@ public class Polynomial {
 
         if (rot.size() == 0) {
 
-            throw new CustomException("There are not real roots");
+            throw new RuntimeException("There are not real roots");
             
         } else {
             
-            double[] roots = new double[rot.length];
+            double[] roots = new double[rot.size()];
             
             for (int i = 0; i < rot.size(); i++) {
                 roots[i] = rot.get(i);
