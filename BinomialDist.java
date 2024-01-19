@@ -306,6 +306,29 @@ public class BinomialDist {
 
     
     /************************************************/
+    public static double getMLParam(int[] sample, int n) {
+
+        for (int i = 0; i < sample.length; i++) {
+            if (sample[i] < 0) {
+                throw new IllegalArgumentException("this sample array must content no negative values");
+            }
+        }
+        
+        if (n <= 0) {
+            throw new IllegalArgumentException("n must represent the number of trials on a Binomial distribution");
+        }
+        
+        int sum = 0;
+        for (int i = 0; i < sample.length; i++) {
+            sum += sample[i];
+        }
+
+        double p = 1.0 * sum / (n * sample.length);
+        return p;
+    }
+
+
+    /************************************************/
     public static int getMLTrials(int[] sample, double p) {
 
         for (int i = 0; i < sample.length; i++) {
@@ -383,7 +406,8 @@ public class BinomialDist {
         StdDraw.save("Mass_Plot.jpg");
         np.plotDist();
         StdDraw.save("Distribution_Plot.jpg");
-        
+
+        // When the number of trials is very huge a good idea is to implement an approximation using the Normal
         if (x > 0) {
             double pASup = getNormalApprox(n, x, p);
             double pAInf = getNormalApprox(n, x - 1, p);
@@ -398,16 +422,20 @@ public class BinomialDist {
         System.out.println("Mean: " + np.getMean());
         System.out.println("Variance: " + np.getVariance());
 
-        System.out.println("Suppose for a moment you don't know the success probability");
-        System.out.println("Simulating a sample of size m = " + m + " to estimate their mean and variance");
-        int sum = 0;
+        // simulating a sample for this binomial distribution 
+        int[] sample = new int[m];
         for (int i = 0; i < m; i++) {
-            int s = np.sampling();
-            sum += s;   
+            sample[i] = np.sampling();
         }
         
-        double estP = (1.0) * sum / (m * n);
-        System.out.println("Numerical Mean: " + estP * n);
-        System.out.println("Numerical Variance: " + n * estP *(1 - estP));
+        System.out.println("Suppose for a moment you know the trials but you don't know the success probability");
+        double mlP = getMLParam(sample, n);
+        System.out.println("MLE for the parameter p: " + mlP);
+        System.out.println("Estimated Mean: " + n * mlP);
+        System.out.println("Estimated Variance: " + n * mlP *(1 - mlP));
+
+        System.out.println("Suppose for a moment you know the success probability but you don't know the trials");
+        int mlTrials = getMLTrials(sample, p);
+        System.out.println("MLE for the parameter trials: " + mlTrials);
     }
 }
