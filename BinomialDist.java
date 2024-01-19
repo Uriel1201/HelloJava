@@ -348,8 +348,9 @@ public class BinomialDist {
         
         for (int i = 0; i < roots.length; i++) {
             
-            if (1.0 / roots[i] >= sMax) {
-                opZ = 1.0 / roots[i];
+            opZ = 1.0 / roots[i];
+            
+            if (opZ >= sMax) {
                 break;
             }
         }
