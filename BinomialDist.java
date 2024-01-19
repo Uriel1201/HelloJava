@@ -358,7 +358,7 @@ public class BinomialDist {
             recipK = 1.0 / k;
         }
 
-        return k;
+        return k - 1;
     }
 
 
