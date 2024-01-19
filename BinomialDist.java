@@ -342,17 +342,20 @@ public class BinomialDist {
 
         Polynomial cx = new Polynomial(-1.0 * c, 0);
         poly = poly.plus(cx);
-
         double[] roots = poly.getRealRoots();
-        double z = 1.0 / sMax;
+        
+        double recipMax = 1.0 / sMax;
+        double zlimit = 0.0;
+        
         for (int i = 0; i < roots.length; i++) {
-            if (roots[i] > 0.0 && roots[i] <= z) {
+            
+            if (roots[i] > 0.0 && roots[i] <= recipMax) {
                 double zlimit = roots[i];
                 break;
             }
         }
-        int k = 1;
-        double recipK = 1.0;
+        int k = sMax;
+        double recipK = 1.0 / k;
         while (recipK >= zlimit) {
             k++;
             recipK = 1.0 / k;
