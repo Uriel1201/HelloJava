@@ -420,7 +420,7 @@ public class BinomialDist {
         StdDraw.save("Distribution_Plot.jpg");
         
         System.out.println("***************************************");
-        System.out.println("When the number of trials is very huge may you want to implement an alternative");
+        System.out.println("When the number of trials is very huge you may want to implement an alternative");
         if (x > 0) {
             double pASup = getNormalApprox(n, x, p);
             double pAInf = getNormalApprox(n, x - 1, p);
