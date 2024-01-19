@@ -344,7 +344,7 @@ public class BinomialDist {
         poly = poly.plus(cx);
         double[] roots = poly.getRealRoots();
         
-        double double opZ = 0.0;
+        double opZ = 0.0;
         
         for (int i = 0; i < roots.length; i++) {
             
