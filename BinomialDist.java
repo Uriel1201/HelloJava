@@ -344,9 +344,9 @@ public class BinomialDist {
         poly = poly.plus(cx);
 
         double[] roots = poly.getRealRoots();
-        double z = 1.0 / recipMax;
+        double z = 1.0 / sMax;
         for (int i = 0; i < roots.length; i++) {
-            if (roots[i] > 0.0 && roots[i] <= recipeMax) {
+            if (roots[i] > 0.0 && roots[i] <= z) {
                 double zlimit = roots[i];
                 break;
             }
@@ -381,11 +381,11 @@ public class BinomialDist {
 
         double cum = np.getDistribution(n);
         System.out.println("The cumulative to n: " + cum);
-        /*
+        
         np.plotMass();
         StdDraw.save("Mass_Plot.jpg");
         np.plotDist();
-        StdDraw.save("Distribution_Plot.jpg"); */
+        StdDraw.save("Distribution_Plot.jpg");
         
         if (x > 0) {
             double pASup = getNormalApprox(n, x, p);
