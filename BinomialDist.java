@@ -441,6 +441,12 @@ public class BinomialDist {
             sample[i] = np.sampling();
         }
 
+        for (int i = 0; i < 10; i ++) {
+            System.out.println("" + sample[i] + "successes");
+        }
+        System.out.println("......");
+        System.out.println("......");
+
         System.out.println("The maximum value for this simulation: " + getMax(sample));
         System.out.println("Suppose for a moment you know the trials but you don't know the success probability");
         double mlP = getMLParam(sample, n);
