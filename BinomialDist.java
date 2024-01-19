@@ -407,7 +407,7 @@ public class BinomialDist {
         System.out.println("Mean: " + np.getMean());
         System.out.println("Variance: " + np.getVariance());
 
-        System.out.println("***************************************");
+        System.out.println();
         System.out.println("Mass of x = " + x + ": " + np.getProbability(x));
         System.out.println("Distribution of x = " + x + ": " + np.getDistribution(x));
 
