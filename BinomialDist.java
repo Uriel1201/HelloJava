@@ -447,7 +447,9 @@ public class BinomialDist {
         System.out.println("......");
         System.out.println("......");
 
-        System.out.println("The maximum value for this simulation: x = " + getMax(sample) + " successes");
+        int y = getMax(sample);
+        System.out.println("The maximum value for this simulation: x = " + y + " successes");
+        System.out.println("Mass of x = " + y + ": " + np.getProbability(y));
         System.out.println("Suppose for a moment you know the trials but you don't know the success probability");
         double mlP = getMLParam(sample, n);
         System.out.println("MLE for the parameter p: " + mlP);
