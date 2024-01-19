@@ -442,7 +442,7 @@ public class BinomialDist {
         }
 
         for (int i = 0; i < 10; i ++) {
-            System.out.println("" + sample[i] + "successes");
+            System.out.println("x = " + sample[i] + "successes");
         }
         System.out.println("......");
         System.out.println("......");
