@@ -65,18 +65,6 @@ public class BinomialDist {
     
 
     /************************************************/
-    public double getProbability(int x) {
-
-        // x: number of successes '0<= x <=n'
-        if (x == 0) {
-            return dist[x];
-        }
-        else {
-            return dist[x] - dist[x - 1];
-        }
-    }
-
-    /************************************************/
     private void chart(String title, String yLabel, String parameters, ArrayList<Double> values) {
 
         StdDraw.setTitle("Binomial Distribution");
@@ -155,26 +143,6 @@ public class BinomialDist {
         StdDraw.clear();
     } 
 
-    /************************************************/
-    public double getDistribution(int x) {
-
-        return dist[x];
-    }
-
-    /************************************************/
-    public int sampling() {
-
-        double u = Math.random();
-        if (u <= dist[0]) {
-            return 0;
-        }
-        for (int i = 1; i < trials; i++) {
-            if (u > dist[i - 1] && u <= dist[i]) {
-                return i;
-            }
-        }
-        return trials;
-    }
 
     /************************************************/
     public void plotDist() {
@@ -215,6 +183,42 @@ public class BinomialDist {
         StdDraw.show();
         StdDraw.clear();
     } 
+
+
+    /************************************************/
+    public double getProbability(int x) {
+
+        // x: number of successes '0<= x <=n'
+        if (x == 0) {
+            return dist[x];
+        }
+        else {
+            return dist[x] - dist[x - 1];
+        }
+    }
+    
+
+    /************************************************/
+    public double getDistribution(int x) {
+
+        return dist[x];
+    }
+
+    /************************************************/
+    public int sampling() {
+
+        double u = Math.random();
+        if (u <= dist[0]) {
+            return 0;
+        }
+        for (int i = 1; i < trials; i++) {
+            if (u > dist[i - 1] && u <= dist[i]) {
+                return i;
+            }
+        }
+        return trials;
+    }
+
 
     /************************************************/
     public int getTrials() {
