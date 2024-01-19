@@ -435,7 +435,7 @@ public class BinomialDist {
 
         
         System.out.println("***************************************");
-        System.out.println("Generating a sample for this Binomial Distribution Model");
+        System.out.println("Generating a sample of size " + m + " for this Binomial Distribution Model");
         int[] sample = new int[m];
         for (int i = 0; i < m; i++) {
             sample[i] = np.sampling();
