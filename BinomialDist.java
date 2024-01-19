@@ -441,7 +441,7 @@ public class BinomialDist {
             sample[i] = np.sampling();
         }
 
-        for (int i = 0; i < 10; i ++) {
+        for (int i = 0; i < 5; i ++) {
             System.out.println("x = " + sample[i] + "successes");
         }
         System.out.println("......");
