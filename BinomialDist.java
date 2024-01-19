@@ -18,10 +18,10 @@ public class BinomialDist {
     public BinomialDist(int n, double p) {
 
         if (n < 0) {
-            throw new IllegalArgumentException("Doesn't exist samples with negative size");
+            throw new IllegalArgumentException("Does not exist Binomial distributions with negative trials");
         }
         if (p < 0.0 || p > 1.0) {
-            throw new IllegalArgumentException("p must to be a measure of probability");
+            throw new IllegalArgumentException("p must represent a measure of probability");
         }
         trials = n;
         param = p;
