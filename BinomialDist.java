@@ -401,7 +401,13 @@ public class BinomialDist {
         int m = Integer.parseInt(args[3]);
 
         BinomialDist np = new BinomialDist(n, p);
+        System.out.println("DEFINING A BINOMIAL DISTRIBUTION MODEL:");
+        System.out.println("***************************************");
+        System.out.println("Binomial(" + np.getTrials() + ", " + np.getParam() + ")");
+        System.out.println("Mean: " + np.getMean());
+        System.out.println("Variance: " + np.getVariance());
 
+        System.out.println("***************************************");
         System.out.println("Mass of x = " + x + ": " + np.getProbability(x));
         System.out.println("Distribution of x = " + x + ": " + np.getDistribution(x));
 
@@ -412,8 +418,9 @@ public class BinomialDist {
         StdDraw.save("Mass_Plot.jpg");
         np.plotDist();
         StdDraw.save("Distribution_Plot.jpg");
-
-        // When the number of trials is very huge a good idea is to implement an approximation using the Normal
+        
+        System.out.println("***************************************");
+        System.out.println("When the number of trials is very huge may you want to implement an alternative");
         if (x > 0) {
             double pASup = getNormalApprox(n, x, p);
             double pAInf = getNormalApprox(n, x - 1, p);
@@ -425,15 +432,16 @@ public class BinomialDist {
             System.out.println("Approximated Distribution in x using Normalization: " + pASup);
             System.out.println("Approximated mass in x using Normalization: " + pASup);
         }
-        System.out.println("Mean: " + np.getMean());
-        System.out.println("Variance: " + np.getVariance());
 
-        // simulating a sample for this binomial distribution 
+        
+        System.out.println("***************************************");
+        System.out.println("Generating a sample for this Binomial Distribution Model");
         int[] sample = new int[m];
         for (int i = 0; i < m; i++) {
             sample[i] = np.sampling();
         }
-        
+
+        System.out.println("The maximum value for this simulation: " + getMax(sample));
         System.out.println("Suppose for a moment you know the trials but you don't know the success probability");
         double mlP = getMLParam(sample, n);
         System.out.println("MLE for the parameter p: " + mlP);
