@@ -62,26 +62,7 @@ public class BinomialDist {
             }
         }
     }
-
-    /************************************************/
-    private static BigInteger[][] pascal(int n) {
-
-        BigInteger[][] triangle = new BigInteger[n + 1][n + 2];
-
-        for (int i = 0; i < n + 1; i++)
-            for (int j = 0; j < n + 2; j++)
-                triangle[i][j] = BigInteger.ZERO;
-
-        triangle[0][1] = BigInteger.ONE;
-
-        for (int i = 1; i < n + 1; i++) {
-            for (int j = 1; j < i + 2; j++) {
-                triangle[i][j] = triangle[i - 1][j - 1].add(triangle[i - 1][j]);
-            }
-        }
-
-        return triangle;
-    }
+    
 
     /************************************************/
     public double getProbability(int x) {
@@ -255,6 +236,27 @@ public class BinomialDist {
     public double getVariance() {
 
         return getMean() * (1 - param);
+    }
+
+
+    /************************************************/
+    private static BigInteger[][] pascal(int n) {
+
+        BigInteger[][] triangle = new BigInteger[n + 1][n + 2];
+
+        for (int i = 0; i < n + 1; i++)
+            for (int j = 0; j < n + 2; j++)
+                triangle[i][j] = BigInteger.ZERO;
+
+        triangle[0][1] = BigInteger.ONE;
+
+        for (int i = 1; i < n + 1; i++) {
+            for (int j = 1; j < i + 2; j++) {
+                triangle[i][j] = triangle[i - 1][j - 1].add(triangle[i - 1][j]);
+            }
+        }
+
+        return triangle;
     }
 
     /************************************************/
