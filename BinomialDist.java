@@ -340,20 +340,20 @@ public class BinomialDist {
             j++;
         }
 
-        Polynomial cx = new Polynomialrts(-1.0 * c, 0);
+        Polynomial cx = new Polynomial(-1.0 * c, 0);
         poly = poly.plus(cx);
 
         double[] roots = poly.getRealRoots();
-        double z = 1.0 / sMax;
+        double z = 1.0 / recipMax;
         for (int i = 0; i < roots.length; i++) {
-            if (roots[i] > 0.0 && roots[i] <= sMax) {
+            if (roots[i] > 0.0 && roots[i] <= recipeMax) {
                 double zlimit = roots[i];
                 break;
             }
         }
         int k = 1;
-        double recipK = 0.0;
-        while (recipK < zlimit) {
+        double recipK = 1.0;
+        while (recipK >= zlimit) {
             k++;
             recipK = 1.0 / k;
         }
