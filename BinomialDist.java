@@ -262,6 +262,7 @@ public class BinomialDist {
 
         return triangle;
     }
+    
 
     /************************************************/
     private static double cdf(double z) {
@@ -280,6 +281,7 @@ public class BinomialDist {
         }
         return 0.5 + sum * g;
     }
+    
 
     /************************************************/
     public static double getNormalApprox(int n, int x, double p) {
