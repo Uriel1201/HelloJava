@@ -201,7 +201,7 @@ public class Polynomial {
                 
                 rot.add(Math.ceil(r[i]));
                 
-            } else if (this.evaluate(r[i]) < 1.0E-7) {
+            } else if (Math.abs(this.evaluate(r[i])) < 1.0E-7) {
                 
                 rot.add(r[i]);
             }
