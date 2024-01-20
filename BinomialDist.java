@@ -405,7 +405,8 @@ public class BinomialDist {
         BinomialDist np = new BinomialDist(n, p);
         System.out.println("DEFINING A BINOMIAL DISTRIBUTION MODEL:");
         System.out.println("***************************************");
-        System.out.println("Binomial(" + np.getTrials() + ", " + np.getParam() + ")");
+        int mTrials = np.getTrials();
+        System.out.println("Binomial(" + mTrials + ", " + np.getParam() + ")");
         System.out.println("Mean: " + np.getMean());
         System.out.println("Variance: " + np.getVariance());
 
@@ -444,7 +445,7 @@ public class BinomialDist {
         }
 
         for (int i = 0; i < 5; i ++) {
-            System.out.println("x = " + sample[i] + "successes");
+            System.out.println("" + sample[i] + " successes for " + mTrials + " trials");
         }
         System.out.println("......");
         System.out.println("......");
