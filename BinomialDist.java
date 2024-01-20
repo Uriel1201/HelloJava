@@ -421,9 +421,10 @@ public class BinomialDist {
         StdDraw.save("Mass_Plot.jpg");
         np.plotDist();
         StdDraw.save("Distribution_Plot.jpg");
-        
+
+        System.out.println();
         System.out.println("***************************************");
-        System.out.println("When the number of trials is very huge you may want to implement an alternative");
+        System.out.println("When the number of trials is very huge you may want to implement an approximation");
         if (x > 0) {
             double pASup = getNormalApprox(n, x, p);
             double pAInf = getNormalApprox(n, x - 1, p);
@@ -435,6 +436,8 @@ public class BinomialDist {
             System.out.println("Approximated Distribution in x using Normalization: " + pASup);
             System.out.println("Approximated mass in x using Normalization: " + pASup);
         }
+        
+        System.out.println();
 
         
         System.out.println("***************************************");
@@ -453,13 +456,13 @@ public class BinomialDist {
         int y = getMax(sample);
         System.out.println("The maximum value of this simulation: x = " + y + " successes");
         System.out.println("Mass of x = " + y + ": " + np.getProbability(y));
-        System.out.println("Suppose for a moment you know the trials but you don't know the success probability");
+        System.out.println("Using this sample and supposing are only known the trials");
         double mlP = getMLParam(sample, n);
         System.out.println("MLE for the parameter p: " + mlP);
         System.out.println("Estimated Mean: " + n * mlP);
         System.out.println("Estimated Variance: " + n * mlP *(1 - mlP));
 
-        System.out.println("Suppose for a moment you know the success probability but you don't know the trials");
+        System.out.println("Using this sample and supposing is only known the success probability");
         int mlTrials = getMLTrials(sample, p);
         System.out.println("MLE for the parameter trials: " + mlTrials);
     }
