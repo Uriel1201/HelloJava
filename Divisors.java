@@ -59,7 +59,7 @@ public class Divisors {
     public static int totient(int n) {
 
         if (n < 0) {
-            throw new IllegalArgumentException("n must be positive")
+            throw new IllegalArgumentException("n must be positive");
         }
         int phi = n;
         for (int i = 2; i * i <= n; i++) {
