@@ -46,15 +46,21 @@ public class Divisors {
     }
 
     public static int totient(int n) {
-        int t = 0;
-        int m = 1;
-        
-        while (m <= n) {
-            if (areRelativelyPrime(m, n)) t++;
-            m++;
+
+        int phi = n;
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                while (n % i == 0) {
+                    n /= i;
+                }
+                phi -= phi/i;
+            }
+            if (n > 1) {
+                phi -= phi / n;
+            }
         }
-        
-        return t;
+
+        return phi;
     }
 
     public static void main(String[] args) {
