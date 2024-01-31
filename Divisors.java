@@ -56,7 +56,7 @@ public class Divisors {
 
 
     /************************************************/
-    private static void phiDynamic(int n) {
+    private static int[] dynamicPhi(int n) {
 
         if (n < 0) {
             throw new IllegalArgumentException("n must be positive");
@@ -79,14 +79,14 @@ public class Divisors {
             }
         }
 
-        return;
+        return phi;
     }
 
 
     /************************************************/
     public static int totient(int n) {
 
-        phiDynamic(n);
+        int[] phi = dynamicPhi(n);
         
         return phi[n];
     }
@@ -97,12 +97,16 @@ public class Divisors {
        
         int x = Integer.parseInt(args[0]);
         int y = Integer.parseInt(args[1]);
-        
+
+        int[] phi = dynamicPhi(y);
         System.out.println("gcd(" + x + "," + y + ") = " + gcd(x, y));
         System.out.println("lcm(" + x + "," + y + ") = " + lcm(x, y));
         System.out.println("areRelativelyPrime(" + x + "," + y + ") = " + areRelativelyPrime(x, y));
         System.out.println("totient(" + x + ") = " + totient(x));
         System.out.println("totient(" + y + ") = " + totient(y));
+        
+        for (int i = 0; i < y + 1; i++) {
+            System.out.println("totient(" + i + ") = " + phi[i]);
+        }
     }
 }
-
