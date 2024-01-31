@@ -5,8 +5,10 @@
 
 public class Divisors {
 
+    
     /************************************************/
     public static int gcd(int a, int b) {
+        
         if (b < 0) b = -b;
         if (a < 0) a = -a;
         
@@ -34,6 +36,7 @@ public class Divisors {
 
     /************************************************/
     public static int lcm(int a, int b) {
+        
         if (a == 0 || b == 0) 
             return 0;
         else {
@@ -44,6 +47,7 @@ public class Divisors {
 
     /************************************************/
     public static boolean areRelativelyPrime(int a, int b) {
+        
         int g = gcd(a, b);
         boolean rp = (g == 1);
        
@@ -54,6 +58,9 @@ public class Divisors {
     /************************************************/
     public static int totient(int n) {
 
+        if (n < 0) {
+            throw new IllegalArgumentException("n must be positive")
+        }
         int phi = n;
         for (int i = 2; i * i <= n; i++) {
             if (n % i == 0) {
