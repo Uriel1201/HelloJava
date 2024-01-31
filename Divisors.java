@@ -88,7 +88,7 @@ public class Divisors {
 
         phiDynamic(n);
         
-        return phi[n + 1];
+        return phi[n];
     }
 
 
