@@ -56,30 +56,39 @@ public class Divisors {
 
 
     /************************************************/
-    public static int totient(int n) {
+    private static void phiDynamic(int n) {
 
         if (n < 0) {
             throw new IllegalArgumentException("n must be positive");
         }
         
-        int phi = n;
-        for (int i = 2; i * i <= n; i++) {
+        int[] phi = new int[n + 1];
+
+        for (int i = 0; i < n + 1; i++) {
+            phi[i] = i;
+        }
+        
+        for (int i = 2; i < n + 1; i++) {
             
-            if (n % i == 0) {
+            if (phi[i] == i) {
                 
-                while (n % i == 0) {
-                    n /= i;
+                for (int j = i; j < n + 1; j += i) {
+                    
+                    phi[j] -= phi[j] / i;
                 }
-                
-                phi -= phi/i;
             }
         }
 
-        if (n > 1) {
-            phi -= phi/n;
-        }
+        return;
+    }
 
-        return phi;
+
+    /************************************************/
+    public static int totient(int n) {
+
+        phiDynamic(n);
+        
+        return phi[n + 1];
     }
 
 
