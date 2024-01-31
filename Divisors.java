@@ -99,7 +99,7 @@ public class Divisors {
         int y = Integer.parseInt(args[1]);
         int z = Math.max(x, y);
 
-        int[] totients = dynamicPhi(z)
+        int[] totients = dynamicPhi(z);
         System.out.println("gcd(" + x + "," + y + ") = " + gcd(x, y));
         System.out.println("lcm(" + x + "," + y + ") = " + lcm(x, y));
         System.out.println("areRelativelyPrime(" + x + "," + y + ") = " + areRelativelyPrime(x, y));
