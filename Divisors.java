@@ -5,6 +5,7 @@
 
 public class Divisors {
 
+    /************************************************/
     public static int gcd(int a, int b) {
         if (b < 0) b = -b;
         if (a < 0) a = -a;
@@ -30,6 +31,8 @@ public class Divisors {
         }
     }
 
+
+    /************************************************/
     public static int lcm(int a, int b) {
         if (a == 0 || b == 0) 
             return 0;
@@ -38,6 +41,8 @@ public class Divisors {
         }
     }
 
+
+    /************************************************/
     public static boolean areRelativelyPrime(int a, int b) {
         int g = gcd(a, b);
         boolean rp = (g == 1);
@@ -45,6 +50,8 @@ public class Divisors {
         return rp;
     }
 
+
+    /************************************************/
     public static int totient(int n) {
 
         int phi = n;
@@ -63,6 +70,8 @@ public class Divisors {
         return phi;
     }
 
+
+    /************************************************/
     public static void main(String[] args) {
        
         int x = Integer.parseInt(args[0]);
