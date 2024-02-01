@@ -24,7 +24,7 @@ public class BandMatrix {
             }
 
         } else {
-            System.out.println("n an w must to be no negative.");
+            System.out.println("n an w must be no negative.");
         }
     }
 }
