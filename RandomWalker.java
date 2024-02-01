@@ -43,7 +43,7 @@ public class RandomWalker {
             System.out.println("Steps = " + steps);
         }
         else {
-            System.out.println("r must to be no negative");
+            System.out.println("r must be no negative");
         }
     }
 }
