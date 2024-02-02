@@ -11,6 +11,10 @@
 
 public class RandomWalker {
     
+    // Takes an integer r and simulates the motion of a random walk 
+    // until the random walker is at Manhattan distance r 
+    // from the starting point
+    
     public static void main(String[] args) {
 
         int r = Integer.parseInt(args[0]);
