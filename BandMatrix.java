@@ -3,7 +3,7 @@
  *  Id:                1201
  **************************************************************************** */
 
-// # Band Matrices
+// # BAND MATRICES 
 // Band Matrices are matrices whose non zero entries are restricted to a diagonal band. 
 // They arise in numerical linear algebra.
 
