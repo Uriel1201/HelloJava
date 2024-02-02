@@ -9,8 +9,8 @@
  *  a countably finite set.
  *  In probability theory, this is known as sampling from a 
  *  discrete distribution.
- *  First define the values in the range of a discrete random 
- *  variable named X, and then assigne to this values a 
+ *  First define the indexes in the range of a discrete random 
+ *  variable, and then assigne to this index a 
  *  weight of frequency.
  *  *************************************************************************** */
 
