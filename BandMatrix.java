@@ -1,17 +1,20 @@
-/* *****************************************************************************
+/*  *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
- **************************************************************************** */
-
-// # BAND MATRICES 
-// Band Matrices are matrices whose non zero entries are restricted to a diagonal band. 
-// They arise in numerical linear algebra.
+ *
+ *  # BAND MATRICES
+ *  ***************
+ *  Band Matrices are matrices whose non zero entries are restricted to a diagonal 
+ *  band. 
+ *  They arise in numerical linear algebra.
+ *  *************************************************************************** */
 
 public class BandMatrix {
 
     // A zero (0) for each element whose distance from the main diagonal 
     // is strictly more than width (w), and an asterisk (*) 
     // for each entry that is not.
+    
     public static void main(String[] args) {
 
         int n = Integer.parseInt(args[0]);
