@@ -28,11 +28,12 @@ public class DiscreteDistribution {
       int[] a = new int[n - 1];
       for (int i = 0; i < n - 1; i++) {
          
-         if (args[i + 1] < 0) {
+         int d = Integer.parseInt(args[i + 1]);
+         if (d < 0) {
             throw new IllegalArgumentException("This value must represent a measure");
          }
          else {
-            a[i] = Integer.parseInt(args[i + 1]);
+            a[i] = d;
          }
       }
 
