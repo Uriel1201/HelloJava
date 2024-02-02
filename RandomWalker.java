@@ -1,7 +1,13 @@
-/* *****************************************************************************
+/*  *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
- **************************************************************************** */
+ *  
+ *  # RANDOM WALKER
+ *  ***************
+ *  This process is known as a two-dimensional random walk. 
+ *  This process is a discrete version of a natural phenomenon
+ *  known as Brownian motion.
+ *  *************************************************************************** */
 
 public class RandomWalker {
     
