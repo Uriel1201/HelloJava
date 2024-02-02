@@ -1,7 +1,18 @@
-/* *****************************************************************************
+/*  *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
- **************************************************************************** */
+ *
+ *  # DISCRETE DISTRIBUTION SIMULATION 
+ *  **********************************
+ *  This script presents a simple algorithm for sampling
+ *  from a discrete probability distribution p(x) defined over 
+ *  a countably finite set.
+ *  In probability theory, this is known as sampling from a 
+ *  discrete distribution.
+ *  First define the values in the range of a discrete random 
+ *  variable named X, and then assigne to this values a 
+ *  weight of frequency.
+ *  *************************************************************************** */
 
 public class DiscreteDistribution {
    
