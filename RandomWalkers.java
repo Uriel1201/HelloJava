@@ -1,7 +1,24 @@
-/* *****************************************************************************
+/*  *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
- **************************************************************************** */
+ *
+ *  # RANDOM WALKERS
+ *  ****************
+ *
+ *  ## The Weak Law of Large Numbers
+ *  ********************************
+ *  The weak law of large numbers states that the average of 
+ *  the results obtained from a large number of independent 
+ *  and identical random samples converges in probability to 
+ *  the constant mu, where mu also represents the theoretical 
+ *  mean from each sample.
+
+ *  ## Monte Carlo Simulation
+ *  *************************
+ *  Estimating an unknown quantity by generating random samples 
+ *  and aggregating the results is an example of a 
+ *  Monte Carlo Simulation.
+ *  *************************************************************************** */
 
 public class RandomWalkers {
 
