@@ -25,7 +25,7 @@ public class RandomWalkers {
     // Taking two integer r and trials. In each of trials independent 
     // experiments, simulate a random walk until the random walker is 
     // at Manhattan distance r from the starting point and generate a 
-    //sample for the variable Steps.
+    // sample for the variable Steps.
     
     public static void main(String[] args) {
 
