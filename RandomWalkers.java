@@ -12,7 +12,7 @@
  *  and identical random samples converges in probability to 
  *  the constant mu, where mu also represents the theoretical 
  *  mean from each sample.
-
+ *
  *  ## Monte Carlo Simulation
  *  *************************
  *  Estimating an unknown quantity by generating random samples 
