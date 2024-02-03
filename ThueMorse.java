@@ -12,7 +12,7 @@
 public class ThueMorse {
     
     // For visualizing this sequence, create an n-by-n pattern 
-    // printing black for 0 and white for 1.
+    // printing '+' for 0 and '-' for 1.
     
     public static void main(String[] args) {
         
