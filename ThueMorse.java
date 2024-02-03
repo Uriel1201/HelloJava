@@ -2,15 +2,17 @@
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
  *
- *
  *  # THUE-MORSE SEQUENCE
  *  *********************
  *  The Thue-Morse Sequence is an infinite sequence of 0s and 1s 
  *  that is constructed by starting with 0 and successively appending 
  *  the bitwise negation of the existing sequence.
- **************************************************************************** */
+ *  *************************************************************************** */
 
 public class ThueMorse {
+    
+    // For visualizing this sequence, create an n-by-n pattern 
+    // printing black for 0 and white for 1.
     
     public static void main(String[] args) {
         
