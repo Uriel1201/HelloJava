@@ -21,7 +21,7 @@ public class Minesweeper {
     //      uniformly at random.
     // > 2. For each cell not containing a mine, count the number of neighboring mines 
     //      (above, below, left, right, or diagonal).
-    // > 3. Black for the cells containing a mine.
+    // > 3. '*' for the cells containing a mine.
     
     public static void main(String[] args) {
         
