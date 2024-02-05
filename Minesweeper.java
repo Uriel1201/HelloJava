@@ -7,7 +7,7 @@ public class Minesweeper {
     
     public static void main(String[] args) {
         
-        int m = Integer.parseInt(args[0]);
+        int m = Integer.parseInt(args[0]); // Number of Rows 
         int n = Integer.parseInt(args[1]);
         int k = Integer.parseInt(args[2]);
         int t = m * n;
