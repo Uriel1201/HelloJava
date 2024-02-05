@@ -6,11 +6,22 @@
 public class Minesweeper {
     
     public static void main(String[] args) {
+
+        int m = Integer.parseInt(args[0]); // Number of rows
+        if (m <= 0) {
+            throw new IllegalArgumentException("m must be positive'");
+        }
         
-        int m = Integer.parseInt(args[0]);
-        int n = Integer.parseInt(args[1]);
-        int k = Integer.parseInt(args[2]);
+        int n = Integer.parseInt(args[1]); // Number of columns
+        if (n <= 0) {
+            throw new IllegalArgumentException("n must be positive");
+        }
+        
+        int k = Integer.parseInt(args[2]); // Number of mines
         int t = m * n;
+        if (k > t) {
+            throw new IllegalArgumentException("The number of mines surpassed the max of " + t);
+        }
         
         boolean[] shuffle = new boolean[t];
         for (int h = 0; h < k; h++)
