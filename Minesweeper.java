@@ -8,9 +8,21 @@ public class Minesweeper {
     public static void main(String[] args) {
         
         int m = Integer.parseInt(args[0]); // Number of Rows 
-        int n = Integer.parseInt(args[1]);
-        int k = Integer.parseInt(args[2]);
-        int t = m * n;
+        if (m <= 0) {
+            throw new IllegalArgumentException("m must be positive");
+        }
+        int n = Integer.parseInt(args[1]); // Number of Columns 
+        if (n <= 0) {
+            throw new IllegalArgumentException("n must be positive");
+        }
+        int k = Integer.parseInt(args[2]); // Number of Mines 
+        if (k <= 0) {
+            throw new IllegalArgumentException("k must be positive");
+        }
+        int t = m * n; // Maximum Capacity 
+        if (k > t) {
+            throw new IllegalArgumentException("the number of mines surpassed the max capacity");
+        }
         
         boolean[] shuffle = new boolean[t];
         for (int h = 0; h < k; h++)
