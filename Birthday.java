@@ -16,8 +16,14 @@
 
 public class Birthday {
 
+    
+    // This simulation shows off the amazing result that, 
+    // among 't' number of trials, the fraction in which 
+    // the first duplicate birthday happens before the 24th person enters 
+    // surpasses 50%.
+
     public static void main(String[] args) {
-       
+        
         int n = Integer.parseInt(args[0]);
         int trials = Integer.parseInt(args[1]);
         int m = n + 2;
