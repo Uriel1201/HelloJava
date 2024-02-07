@@ -68,12 +68,9 @@ public class DiscreteShannon {
       if (sample[i] < 0) {
 
         throw new IllegalArgumentException("For practical reasons the sample must contain no negative integers");
-      } else if (sample[i] == 0) {
-
-        freq[0] ++;
       } else {
 
-        freq[sample[i]] ++;
+        freq[sample[i]]++;
       }
     }
 
