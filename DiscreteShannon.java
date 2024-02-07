@@ -21,7 +21,7 @@
  *  *************************************************************************** */
 
 public class DiscreteShannon {
-
+  
   /****************************************************************************/
   public static distBer(double p) {
 
@@ -36,8 +36,8 @@ public class DiscreteShannon {
     return ber;
   }
 
-
-  /************************************************/
+  
+  /**********************************************************************/
   public static int sampling(double[] dist) {
 
     double u = Math.random();
@@ -53,7 +53,7 @@ public class DiscreteShannon {
   }
 
 
-  /************************************************/
+  /**********************************************************************/
   public static discreteShannon(double[] sample, int m) {
 
     if (m < 0) {
@@ -88,6 +88,17 @@ public class DiscreteShannon {
     return h;
   }
 
+
+  /**********************************************************************/
+  public static double[] linspace(double start, double end, int numPoints) {
+        double[] linspaceArray = new double[numPoints];
+        double step = (end - start) / (numPoints - 1);
+        for (int i = 0; i < numPoints; i++) {
+            linspaceArray[i] = start + i * step;
+        }
+        return linspaceArray;
+  }
+  
 
   /************************************************/
   public static void main(String[] args) {
