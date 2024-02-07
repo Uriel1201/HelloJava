@@ -4,11 +4,10 @@
  *  
  *  # THE DISCRETE SHANNON ENTROPY
  *  ******************************
- *  The qualities of this formula "H" play a central role 
- *  in information theory as measure of information, 
+ *  The qualities of this formula "H" play a central role in information theory as 
+ *  measure of information, 
  *  choice and uncertainty. 
- *  This measure for example is the H in 
- *  Boltzmann's famous H Theorem.
+ *  This measure for example is the H in Boltzmann's famous H Theorem.
  *
  *  This quantity has some interesting properties:
  *  > 1. When we are certain of the outcomes in a set of observations 
