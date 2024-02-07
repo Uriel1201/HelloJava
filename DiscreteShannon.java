@@ -38,7 +38,20 @@ public class DiscreteShannon {
 
 
   /************************************************/
-    public static int sampling(double[] dist) {
+  public static int sampling(double[] dist) {
+
+    double u = Math.random();
+    if (u <= dist[0]) {
+
+      return 0;
+    }
+
+    for (int i = 1; i < dist.length; i++) {
+
+      if (u <= dist[i] && u > dist[i - 1]) return i;
+    }
+  }
+  public static int sampling(double[] dist) {
 
         double u = Math.random();
         if (u <= dist[0]) {
