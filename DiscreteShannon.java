@@ -35,17 +35,25 @@ public class DiscreteShannon {
 
     return ber;
   }
+
+
+  /************************************************/
+    public static int sampling(double[] dist) {
+
+        double u = Math.random();
+        if (u <= dist[0]) {
+            return 0;
+        }
+        for (int i = 1; i < trials; i++) {
+            if (u > dist[i - 1] && u <= dist[i]) {
+                return i;
+            }
+        }
+        return trials;
+    }
 }
 
-def sampling(dist):
-    u = np.random.rand()
-    n = len(dist)
-    if u <= dist[0]:
-        return 0
-    for i in range(1, n):
-        if u > dist[i - 1] and u <= dist[i]:
-            return i
-    return n
+
 
 
 #----------------------------------------------------
