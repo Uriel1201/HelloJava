@@ -91,14 +91,18 @@ public class DiscreteShannon {
 
   /**********************************************************************/
   public static double[] linspace(double start, double end, int numPoints) {
-        double[] linspaceArray = new double[numPoints];
-        double step = (end - start) / (numPoints - 1);
-        for (int i = 0; i < numPoints; i++) {
-            linspaceArray[i] = start + i * step;
-        }
-        return linspaceArray;
+
+    double[] linArray = new double[numPoints];
+    double step = (end - start) / (numPoints - 1);
+
+    for (int i = 0; i < numPoints; i++) {
+
+      linArray[i] = start + i * step;
+    }
+
+    return linArray;
   }
-  
+    
 
   /************************************************/
   public static void main(String[] args) {
