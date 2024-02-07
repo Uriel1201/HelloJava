@@ -51,44 +51,58 @@ public class DiscreteShannon {
       if (u <= dist[i] && u > dist[i - 1]) return i;
     }
   }
-  public static int sampling(double[] dist) {
 
-        double u = Math.random();
-        if (u <= dist[0]) {
-            return 0;
-        }
-        for (int i = 1; i < trials; i++) {
-            if (u > dist[i - 1] && u <= dist[i]) {
-                return i;
-            }
-        }
-        return trials;
+
+  /************************************************/
+  public static discreteShannon(double[] sample, int m) {
+
+    if (m < 0) {
+
+      throw new IllegalArgumentException("m must represent the cardinal of the sample set");
     }
+
+    int[] freq = new int[m];
+    int n = sample.length;
+    for (int i = 0; i < n; i++) {
+
+      if (sample[i] < 0) {
+
+        throw new IllegalArgumentException("For practical reasons the sample must contain no negative integers");
+      } else if (sample[i] == 0) {
+
+        freq[0] ++;
+      } else {
+
+        freq[sample[i]] ++;
+      }
+    }
+
+    double h = 0.0;
+    for (int i = 0; i < m; i++) {
+      
+      if (freq[i] > 0) {
+
+        double p = 1.0 * freq[i] / n;
+        double arg = -1.0 * p * Math.log(p) / Math.log(2);
+        h += arg;
+      }
+    }
+
+    return h;
+  }
+
+
+  /************************************************/
+  public static void main(String[] args) {
+    
+  }
 }
+  
 
 
 
 
-#----------------------------------------------------
-def discreteShannon(array, m):
-    if m < 0:
-        raise ValueError(f'm must be a cardinal')
-    f = np.zeros(m, dtype = int)
-    n = len(array)
-    for i in range(n):
-        if array[i] < 0:
-            raise ValueError(f'The entries must be no negative')
-        elif array[i] == 0:
-            f[0] += 1
-        elif array[i] < m:
-            f[array[i]] += 1
-    h = 0.0
-    for i in range(m):
-        if f[i] > 0:
-            p = 1.0 * f[i] / n
-            arg = -1.0 * p * np.log(p) / np.log(2)
-            h += arg
-    return h
+
 
 
 #----------------------------------------------------
