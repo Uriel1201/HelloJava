@@ -163,7 +163,7 @@ public class DiscreteShannon {
       }
 
       shannon = discreteShannon(sample, 2);
-      System.out.println("success probability: " + points[i] + "-> uncertainty: " + shannon);
+      System.out.println("success probability: " + points[i] + "; uncertainty: " + shannon);
     }
   }
 }
