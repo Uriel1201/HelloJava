@@ -21,7 +21,7 @@
 
 public class DiscreteShannon {
   
-  /* ************************************************************************** */
+  /****************************************************************************/
   public static double[] distBer(double p) {
 
     /**
@@ -84,13 +84,13 @@ public class DiscreteShannon {
   /**********************************************************************/
   public static double discreteShannon(int[] sample, int m) {
     
-    /*
-       The Shannon Entropy contained in a set of discrete data
-       args:
-             int[] sample -> An array containing random integers
-             int m -> The total possibilities integers can take 
-       return: 
-             The grade of uncertainty the data presents*/
+    /**
+      *  The Shannon Entropy measured in a set of discrete data.
+      *  @param sample is an array containing random integers.
+      *  @param m must represent the total possibilities the integers can take. 
+      *  In the same way the method assumes this possibilities are in {0, 1, 2, ...., m - 1}
+      *  @return the grade of uncertainty the data presents.
+      *  @throws IllegalArgumentException if m does not represent the cardinal of the sample*/
 
     if (m < 0) {
 
@@ -99,15 +99,10 @@ public class DiscreteShannon {
 
     int[] freq = new int[m];
     int n = sample.length;
+    
     for (int i = 0; i < n; i++) {
-
-      if (sample[i] < 0) {
-
-        throw new IllegalArgumentException("For practical reasons the sample must contain no negative integers");
-      } else {
-
-        freq[sample[i]]++;
-      }
+      
+      freq[sample[i]]++;
     }
 
     double h = 0.0;
