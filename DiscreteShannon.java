@@ -121,37 +121,9 @@ public class DiscreteShannon {
 
         sample[j] = sampling(dist);
       }
+
+      shannon = discreteShannon(sample, 2);
+      System.out.println("success probability: " + points[i] + "-> uncertainty: " + shannon);
     }
   }
 }
-  
-
-
-
-
-
-
-
-#----------------------------------------------------
-def main():
-    lz = 50
-    x = np.linspace(0, 1, lz, dtype = float)
-    y = []
-    for i in range(len(x)):
-        dist = distBer(x[i])
-        a = []
-        t = 1000
-        for j in range(t):
-            a.append(sampling(dist))
-        a_array = np.array(a)
-        y.append(discreteShannon(a_array, 2))
-    y_array = np.array(y)
-    plt.figure(figsize = (8, 9))
-    sns.set(style = 'darkgrid')
-    plt.title(f'{lz} SAMPLES OF SIZE {t}')
-    plt.ylabel(f'Estimated Uncertainty')
-    plt.xlabel(f'sample with ~ Ber(p)')
-    sns.scatterplot(x = x, y = y_array, color = '#088F8F')
-    plt.tight_layout()
-    plt.show()
-  
