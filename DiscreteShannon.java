@@ -47,15 +47,20 @@ public class DiscreteShannon {
   /**********************************************************************/
   public static int sampling(double[] dist) {
 
-    /*
-       An index sampled from a set Ran(X) = {0, 1, 2, ..., dist.length - 1}
-       args: 
-             double[] dist -> An array representing a distribution
-                              of a discrete random variable X.
-                              dist[i] represents F_X(i) or 
-                              in other wordsP(X <= i)
-      return:
-              An index following the distribution of a discrete random variable X*/
+    /**
+      *  An index sampled from a set Ran(X) = {0, 1, 2, ..., dist.length - 1}
+      *  @param dist The distribution of a discrete random variable X.
+      *              For example dist[i] represents F_X(i) or in other words P(X <= i)
+      *  @return An index following the distribution of a discrete random variable X
+      *  @throws IllegalArgumentException if dist does not represent a probability distribution
+      */
+
+    for (int i = 0; i < dist.length; i++) {
+
+      if (dist[i] < 0 || dist[i] > 1) {
+        throw new IllegalArgumentException("This array must represent a probability distribution");
+      }
+    }
 
     double u = Math.random();
     if (u <= dist[0]) {
