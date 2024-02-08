@@ -59,10 +59,13 @@ public class DiscreteShannon {
       throw new IllegalArgumentException("This array must represent a probability distribution");
     }
 
-    for (int i = 0; i < n - 1; i++) {
+    for (int i = 1; i < n; i++) {
 
-      if (dist[i] < 0 || dist[i] > 1) {
+      if (dist[i - 1] < 0 || dist[i - 1] > 1) {
         
+        throw new IllegalArgumentException("This array must represent a probability distribution");
+      }
+      if (dist[i] < dist[i - 1]) {
         throw new IllegalArgumentException("This array must represent a probability distribution");
       }
     }
