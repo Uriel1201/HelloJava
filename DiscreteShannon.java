@@ -27,8 +27,10 @@ public class DiscreteShannon {
      
     /*
        A Bernoulli Distribution 
-       return: A Probability Distribution Array 
-       args: p -> Success Probability parameter of a Bernoulli Model */
+       args: 
+             p -> Success Probability parameter of a Bernoulli Model 
+       return: 
+             A Probability Distribution Array */
 
     if (p > 1 || p < 0) {
       throw new IllegalArgumentException("p must represent a probability measure");
