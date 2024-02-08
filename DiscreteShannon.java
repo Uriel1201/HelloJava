@@ -150,7 +150,7 @@ public class DiscreteShannon {
     int numPoints = Integer.parseInt(args[0]);
     int sampleSize = Integer.parseInt(args[1]);
     
-    int[] points = linspace(0, 1, numPoints);
+    double[] points = linspace(0, 1, numPoints);
 
     for (int i = 0; i < numPoints; i++) {
 
@@ -162,7 +162,7 @@ public class DiscreteShannon {
         sample[j] = sampling(dist);
       }
 
-      shannon = discreteShannon(sample, 2);
+      double = discreteShannon(sample, 2);
       System.out.println("success probability: " + points[i] + "; uncertainty: " + shannon);
     }
   }
