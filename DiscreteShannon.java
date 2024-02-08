@@ -90,7 +90,8 @@ public class DiscreteShannon {
       *  @param m must represent the total possibilities the integers can take. 
       *  In the same way the method assumes this possibilities are in {0, 1, 2, ...., m - 1}
       *  @return the grade of uncertainty the data presents.
-      *  @throws IllegalArgumentException if m does not represent the cardinal of the sample*/
+      *  @throws IllegalArgumentException if m does not represent the cardinal of the sample.
+      */
 
     if (m < 0) {
 
