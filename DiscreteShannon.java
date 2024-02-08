@@ -26,7 +26,7 @@ public class DiscreteShannon {
   public static double[] distBer(double p) {
      
     /*
-       Generates a Bernoulli Distribution 
+       A Bernoulli Distribution 
        return: A Probability Distribution Array 
        args: p -> Success Probability parameter of a Bernoulli Model */
 
