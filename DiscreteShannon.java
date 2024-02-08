@@ -22,16 +22,16 @@
 
 public class DiscreteShannon {
   
-  /****************************************************************************/
+  /* ************************************************************************** */
   public static double[] distBer(double p) {
-     
-    /*
-       A Bernoulli Distribution 
-       args: 
-             p -> Success Probability parameter of a Bernoulli Model 
-       return: 
-             A Probability Distribution Array */
 
+    /**
+      *  Calculates the Bernoulli distribution for a given success probability parameter
+      *  @param p The success probability parameter of a Bernoulli model
+      *  @return An array representing the Bernoulli distribution
+      *  @throws IllegalArgumentException if p is not a valid probability measure
+      */
+    
     if (p > 1 || p < 0) {
       throw new IllegalArgumentException("p must represent a probability measure");
     }
