@@ -23,6 +23,7 @@
 public class DiscreteShannon {
   
   /****************************************************************************/
+  // Generates a Bernoulli Distribution Array with 
   public static double[] distBer(double p) {
 
     if (p > 1 || p < 0) {
