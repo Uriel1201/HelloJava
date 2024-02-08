@@ -107,6 +107,13 @@ public class DiscreteShannon {
   /************************************************/
   public static void main(String[] args) {
     
+    int numPoints = Integer.parseInt(args[0]);
+    int[] points = linspace(0, 1, numPoints);
+
+    for (int i = 0; i < numPoints; i++) {
+
+      
+    }
   }
 }
   
