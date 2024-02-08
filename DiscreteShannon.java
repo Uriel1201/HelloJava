@@ -23,7 +23,7 @@
 public class DiscreteShannon {
   
   /****************************************************************************/
-  public static distBer(double p) {
+  public static double[] distBer(double p) {
 
     if (p > 1 || p < 0) {
       throw new IllegalArgumentException("p must represent a probability measure");
@@ -54,7 +54,7 @@ public class DiscreteShannon {
 
 
   /**********************************************************************/
-  public static discreteShannon(double[] sample, int m) {
+  public static double discreteShannon(double[] sample, int m) {
 
     if (m < 0) {
 
@@ -108,11 +108,19 @@ public class DiscreteShannon {
   public static void main(String[] args) {
     
     int numPoints = Integer.parseInt(args[0]);
+    int sampleSize = Integer.parseInt(args[1]);
+    
     int[] points = linspace(0, 1, numPoints);
 
     for (int i = 0; i < numPoints; i++) {
 
+      double[] dist = distBer(points[i]);
+      int[] sample = new int[sampleSize];
       
+      for (int j = 0; j < sampleSize; j++) {
+
+        sample[j] = sampling(dist);
+      }
     }
   }
 }
