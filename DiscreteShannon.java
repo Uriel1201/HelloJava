@@ -47,14 +47,18 @@ public class DiscreteShannon {
   public static int sampling(double[] dist) {
 
     /**
-      *  An index sampled from a set Ran(X) = {0, 1, 2, ..., dist.length - 1}
-      *  @param dist The distribution of a discrete random variable X.
-      *              For example dist[i] represents F_X(i) or in other words P(X <= i)
-      *  @return An index following the distribution of a discrete random variable X
+      *  An index sampled from a set Ran(X) = {0, 1, 2, ..., dist.length - 1}.
+      *  @param dist The Cumulative Distribution Function of a discrete variable X.
+      *              For example dist[i] represents F_X(i).
+      *  @return An index following the distribution of a discrete random variable X.
       *  @throws IllegalArgumentException if dist does not represent a probability distribution
       */
+    int n = dist.length;
+    if (dist[n - 1] != 1) {
+      throw new IllegalArgumentException("This array must represent a probability distribution");
+    }
 
-    for (int i = 0; i < dist.length; i++) {
+    for (int i = 0; i < n - 1; i++) {
 
       if (dist[i] < 0 || dist[i] > 1) {
         throw new IllegalArgumentException("This array must represent a probability distribution");
@@ -62,14 +66,12 @@ public class DiscreteShannon {
     }
 
     double u = Math.random();
-    if (u <= dist[0]) {
+    for (int i = 0; i < n; i++) {
 
-      return 0;
-    }
+      if (u <= dist[i]) {
 
-    for (int i = 1; i < dist.length; i++) {
-
-      if (u <= dist[i] && u > dist[i - 1]) return i;
+        return i;
+      }
     }
   }
 
