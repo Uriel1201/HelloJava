@@ -124,12 +124,13 @@ public class DiscreteShannon {
   /**********************************************************************/
   public static double[] linspace(double start, double end, int numPoints) {
 
-    /*
-       A discrete set of values in an numerical interval (start, end)
-       args:
-             double start -> The lower bound of the numerical interval
-             double end ->   The upper bound of the numerical interval
-             int numPoints -> The elements tou want to generate */
+    /**
+      *  A discrete set of values in an numerical interval (start, end).
+      *  @param start is the lower bound of the numerical interval.
+      *  @param end is the upper bound of the numerical interval.
+      *  @param numPoints  are the elements you want to generate 
+      *  @return a set of n = numPoints values
+      */
 
     double[] linArray = new double[numPoints];
     double step = (end - start) / (numPoints - 1);
