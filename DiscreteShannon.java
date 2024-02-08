@@ -71,13 +71,14 @@ public class DiscreteShannon {
     }
 
     double u = Math.random();
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n - 1; i++) {
 
       if (u <= dist[i]) {
 
         return i;
       }
     }
+    return n - 1;
   }
 
 
@@ -162,8 +163,8 @@ public class DiscreteShannon {
         sample[j] = sampling(dist);
       }
 
-      double = discreteShannon(sample, 2);
-      System.out.println("success probability: " + points[i] + "; uncertainty: " + shannon);
+      double h = discreteShannon(sample, 2);
+      System.out.println("success probability: " + points[i] + "; uncertainty: " + h);
     }
   }
 }
