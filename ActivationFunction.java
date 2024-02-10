@@ -1,7 +1,20 @@
 /* *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
- **************************************************************************** */
+ *
+ *  #ACTIVATION FUNCTIONS
+ *  *********************
+ *  When working with artificial neural network models, we need a training phase 
+ *  to enhance their predictive ability. Input-output pairs are presented to the model, 
+ *  and weights are adjusted to minimize the error between the network output 
+ *  and the real values. 
+ *  There are many techniques to adjust these weights, such as the feedforward 
+ *  backpropagation algorithm, which is currently one of the most commonly used. 
+ *  This algorithm is an iterative gradient algorithm designed to minimize 
+ *  the mean square error between the predictive output and the desired output. 
+ *  It requires continuously differentiable nonlinearities, and activation 
+ *  functions are mainly used to generate nonlinear variations.
+ *  *************************************************************************** */
 
 public class ActivationFunction {
 
