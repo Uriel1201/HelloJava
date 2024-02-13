@@ -72,6 +72,14 @@ public class Divisors {
 
     /************************************************/
     public static boolean areRelativelyPrime(int a, int b) {
+
+        /**
+          *  A question about if two positive integers are coprime
+          *  @param a The first integer
+          *  @param b The second integer
+          *  @return TRUE if they share no common positive factors
+          *          except one and FALSE otherwise
+          */
         
         int g = gcd(a, b);
         boolean rp = (g == 1);
