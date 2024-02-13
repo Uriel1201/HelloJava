@@ -103,7 +103,7 @@ public class Divisors {
           *  @throws an IllegalArgumentException if n is not positive 
           */
 
-        if (n <= 0) {
+        if (n < 0) {
             throw new IllegalArgumentException("n must be positive");
         }
         
@@ -130,6 +130,17 @@ public class Divisors {
 
     /************************************************/
     public static int totient(int n) {
+
+        /**
+          *  The totient function phi(n)
+          *  @param n A positive integer
+          *  @return the number of positive integers <=n 
+          *          that are relatively prime to,
+          *          where 1 is counted as being relatively prime to all numbers. 
+          *          if n is <= 0 @return zero
+          */
+
+        if (n <= 0) return 0;
 
         int[] phi = dynamicPhi(n);
         
