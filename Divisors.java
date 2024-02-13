@@ -53,6 +53,15 @@ public class Divisors {
     /************************************************/
     public static int lcm(int a, int b) {
         
+        /**
+          *  The least common multiple m of two integers a and b
+          *  @param a The first integer
+          *  @param b The second integer
+          *  @return The smallest positive number for which
+          *          there exist positive integers n_a and n_b
+          *          such that n_a*a = n_b*b = m
+          */
+        
         if (a == 0 || b == 0) 
             return 0;
         else {
