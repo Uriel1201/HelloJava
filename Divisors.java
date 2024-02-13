@@ -1,7 +1,15 @@
-/* *****************************************************************************
+/*  *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
- **************************************************************************** */
+ *  
+ *  #DIVISORS METHODS
+ *  *****************
+ *  Euler's Totient function plays a crucial role in various areas of mathematics 
+ *  including number theory, cryptography, and algorithms. 
+ *  For instance the security of RSA encryption relies on the difficulty of 
+ *  factoring large numbers, which is facilitated by the use of this function 
+ *  in generating public and private keys.
+ *  *************************************************************************** */
 
 public class Divisors {
 
