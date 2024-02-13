@@ -91,7 +91,19 @@ public class Divisors {
     /************************************************/
     private static int[] dynamicPhi(int n) {
 
-        if (n < 0) {
+        /**
+          *  A method that dynamically updates the Euler’s totient 
+          *  function ϕ(i) for each i less than n.
+          *  @param n A positive integer
+          *  @return an array containing the function ϕ(i) for
+          *          i positive and less than n.This approach is 
+          *          based on the Euler's product representation, 
+          *          where the product is taken over the distinct 
+          *          prime numbers that divide n.
+          *  @throws an IllegalArgumentException if n is not positive 
+          */
+
+        if (n <= 0) {
             throw new IllegalArgumentException("n must be positive");
         }
         
