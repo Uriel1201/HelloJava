@@ -16,6 +16,12 @@ public class Divisors {
     
     /************************************************/
     public static int gcd(int a, int b) {
+        /**
+      *  Calculates the Bernoulli distribution for a given success probability parameter
+      *  @param p The success probability parameter of a Bernoulli model
+      *  @return An array representing the Bernoulli distribution
+      *  @throws IllegalArgumentException if p is not a valid probability measure
+      */
         
         if (b < 0) b = -b;
         if (a < 0) a = -a;
