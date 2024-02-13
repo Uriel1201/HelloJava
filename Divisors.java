@@ -13,7 +13,6 @@
 
 public class Divisors {
 
-    
     /************************************************/
     public static int gcd(int a, int b) {
         
