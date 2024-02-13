@@ -77,7 +77,7 @@ public class Divisors {
           *  A question about if two positive integers are coprime
           *  @param a The first integer
           *  @param b The second integer
-          *  @return TRUE if they share no common positive factors
+          *  @return TRUE if they share no common positive divisors
           *          except one and FALSE otherwise
           */
         
