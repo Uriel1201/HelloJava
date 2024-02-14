@@ -18,18 +18,34 @@ public class TrinomialBrute {
         /**
           *  The trinomial coefficient for the integers n, k
           *  @param n The exponent integer in the expansion of (1+x+x^2)^n
-          *  @param k The corresponding integer in the corresponding term x^n+k
+          *  @param k The integer in the corresponding term x^n+k
           *  @return the trinomial coefficient utilizing their corresponding recurrence relation 
           *  @throws IllegalArgumentException if n is negative 
           */
-        if (n == 0 && k == 0) return 1;
-        else if (k < -n || n < k) return 0;
-        else return trinomial(n - 1, k - 1) + trinomial(n - 1, k) + trinomial(n - 1, k + 1);
+
+        if (n < 0) {
+
+            throw new IllegalArgumentException("n must be non-negative");
+        }
+        
+        if (n == 0 && k == 0) 
+            
+            return 1;
+            
+        else if (k < -n || n < k) 
+            
+            return 0;
+            
+        else 
+            
+            return trinomial(n - 1, k - 1) + trinomial(n - 1, k) + trinomial(n - 1, k + 1);
     }
 
     public static void main(String[] args) {
+        
         int n = Integer.parseInt(args[0]);
         int k = Integer.parseInt(args[1]);
+        
         System.out.println(trinomial(n, k));
     }
 }
