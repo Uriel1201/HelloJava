@@ -1,4 +1,4 @@
-/* *****************************************************************************
+/*  *****************************************************************************
  *  Name:              Dante1201 (Carlos Uriel García)
  *  Id:                1201
  * 
@@ -14,9 +14,14 @@
 public class TrinomialBrute {
 
     public static long trinomial(int n, int k) {
-
+        
         /**
-          **/
+          *  The trinomial coefficient for the integers n, k
+          *  @param n The exponent integer in the expansion of (1+x+x^2)^n
+          *  @param k The corresponding integer in the corresponding term x^n+k
+          *  @return the trinomial coefficient utilizing their corresponding recurrence relation 
+          *  @throws IllegalArgumentException if n is negative 
+          */
         if (n == 0 && k == 0) return 1;
         else if (k < -n || n < k) return 0;
         else return trinomial(n - 1, k - 1) + trinomial(n - 1, k) + trinomial(n - 1, k + 1);
