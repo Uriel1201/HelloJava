@@ -12,7 +12,8 @@
  *  *************************************************************************** */
 
 public class TrinomialBrute {
-
+    
+    /************************************************/
     public static long trinomial(int n, int k) {
         
         /**
@@ -40,7 +41,9 @@ public class TrinomialBrute {
             
             return trinomial(n - 1, k - 1) + trinomial(n - 1, k) + trinomial(n - 1, k + 1);
     }
+    
 
+    /************************************************/
     public static void main(String[] args) {
         
         int n = Integer.parseInt(args[0]);
